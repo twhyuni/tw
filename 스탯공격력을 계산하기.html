@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>스탯공격력을 계산하기</title>
+	<meta charset="utf-8" />
+		<style type="text/css">
+		td{border: 1px solid;padding: 0px;}
+	</style>
+</head>
+<body>
+	<h1>스탯공격력을 계산하기</h1>
+	<ul>
+		<li>
+			<label>STAB</label>
+			<input type="number" id="input_stab">
+		<li>
+			<label>HACK</label>
+			<input type="number" id="input_hack">
+		<li>
+			<label>INT</label>
+			<input type="number" id="input_int" value=0>
+		<li>
+			<label>MR</label>
+			<input type="number" id="input_mr" value=0>
+		<li>
+			<label>DEX</label>
+			<input type="number" id="input_dex" value=0>
+	</ul>
+	<ul>
+		<li>
+			찌르기 계열 : <span id="output_stab">0</span>
+		<li>
+			베기 계열 : <span id="output_hack">0</span>
+		<li>
+			찌르기+베기 계열 : <span id="output_stabhack">0</span>
+		<li>
+			베기+마법공격 계열 : <span id="output_hackint">0</span>
+		<li>
+			찌르기+마법공격 계열 : <span id="output_stabint">0</span>
+		<li>
+			마법공격 계열 : <span id="output_int">0</span>
+		<li>
+			신성마법 계열 : <span id="output_mr">0</span>
+	</ul>
+
+
+<table>
+  <thead>
+    <tr>
+      <th class="캐릭터-cell">캐릭터</th>
+      <th class="스킬명-cell">스킬명</th>
+      <th class="공격력-cell">공격력</th>
+      <th class="타수-cell">타수</th>
+      <th class="타수-cell">곱</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  <script>
+  	var skilllist = [{"캐릭터":"보리스","스킬명":"연","공격력":300,"타수":3},
+{"캐릭터":"루시안","스킬명":"살","공격력":333,"타수":3}];
+
+	for(var i=0; i<skilllist.length; i++){
+		document.write("<tr><td>",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬명,"</td><td>",skilllist[i].공격력,"</td><td>",skilllist[i].타수,"</td><td>",skilllist[i].공격력 + 1,"</td></tr>");
+	}
+</script>
+
+  </tbody>
+</table>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+
+	var output_s = (input_stab.value*2.1)+(input_hack.value*1.08);
+
+
+
+
+
+	
+
+/*
+		  document.getElementById("output_stab").innerHTML=(input_stab.value*2.1)+(input_hack.value*1.08);
+		  document.getElementById("output_hack").innerHTML=(input_stab.value*1.08)+(input_hack.value*2.1);
+		  document.getElementById("output_stabhack").innerHTML=(input_stab.value*1.8)+(input_hack.value*1.8);
+		  document.getElementById("output_hackint").innerHTML=(input_hack.value*1.8)+(input_int.value*1.5);
+		  document.getElementById("output_stabint").innerHTML=(input_stab.value*1.8)+(input_int.value*1.5);
+		  document.getElementById("output_int").innerHTML=(input_int.value*2.4)+(input_mr.value*0.6);
+		  document.getElementById("output_mr").innerHTML=(input_int.value*0.45)+(input_mr.value*2.55);
+		}
+		
+		$("input").on("keyup change", factor_stat);
+		*/
+	</script>
+</body>
+</html>
