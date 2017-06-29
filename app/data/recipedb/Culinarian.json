@@ -1,0 +1,4563 @@
+[
+  {
+    "baseLevel": 1,
+    "difficulty": 19,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Ballonhüllen-Bauteil",
+      "en": "Bladder Component",
+      "fr": "Composant de ballon",
+      "ja": "気嚢部材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 28,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 234,
+    "name": {
+      "de": "Hüllenverstärkungs-Bauteil",
+      "en": "Bladder Lining Component",
+      "fr": "Composant de finition de ballon",
+      "ja": "気嚢補強材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 19,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Kanzelinnenraum-Bauteil",
+      "en": "Hull Interior Component",
+      "fr": "Composant de coque",
+      "ja": "エカトルの船体部材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 9,
+    "durability": 40,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Backbordrumpf-Bauteil",
+      "en": "Larboard Hull Component",
+      "fr": "Comp. de partie gauche de nacelle",
+      "ja": "左舷船体部材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 9,
+    "durability": 40,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Ahornsirup",
+      "en": "Maple Syrup",
+      "fr": "Sirop d'érable",
+      "ja": "メープルシロップ"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 19,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Steuerbordrumpf-Bauteil",
+      "en": "Starboard Hull Component",
+      "fr": "Comp. de partie droite de nacelle",
+      "ja": "右舷船体部材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 9,
+    "durability": 40,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Speisesalz",
+      "en": "Table Salt",
+      "fr": "Sel de table",
+      "ja": "食塩"
+    }
+  },
+  {
+    "baseLevel": 2,
+    "difficulty": 10,
+    "durability": 40,
+    "level": 2,
+    "maxQuality": 325,
+    "name": {
+      "de": "Ahornzucker",
+      "en": "Maple Sugar",
+      "fr": "Sucre d'érable",
+      "ja": "メープルシュガー"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 20,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Gekochtes Ei",
+      "en": "Boiled Egg",
+      "fr": "Œuf à la coque",
+      "ja": "ボイルドエッグ"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Werkzeug-Bauteil",
+      "en": "Crafting Tool Component",
+      "fr": "Nécessaire de fabrication",
+      "ja": "加工道具"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Deck-Bauteil",
+      "en": "Deck Component",
+      "fr": "Composant de pont",
+      "ja": "甲板部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 10,
+    "durability": 40,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Motorgehäuse-Bauteil",
+      "en": "Engine Casing Component",
+      "fr": "Composant de protection de moteur",
+      "ja": "機関外装部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 20,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Gyroantriebs-Bauteil",
+      "en": "Gyrodrive Component",
+      "fr": "Composant d'unité motrice",
+      "ja": "動力輪部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Erdseim-Motor-Bauteil",
+      "en": "Propulsion Engine Component",
+      "fr": "Composant de moteur",
+      "ja": "エカトルの機関部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 10,
+    "durability": 40,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Rosinen",
+      "en": "Raisins",
+      "fr": "Raisins secs",
+      "ja": "レーズン"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 169,
+    "name": {
+      "de": "Takelagen-Bauteil",
+      "en": "Rigging Component",
+      "fr": "Composant d'attache",
+      "ja": "索具部材"
+    }
+  },
+  {
+    "baseLevel": 4,
+    "difficulty": 21,
+    "durability": 60,
+    "level": 4,
+    "maxQuality": 352,
+    "name": {
+      "de": "Frumenty",
+      "en": "Frumenty",
+      "fr": "Fromentée",
+      "ja": "フルメンティ"
+    }
+  },
+  {
+    "baseLevel": 4,
+    "difficulty": 10,
+    "durability": 40,
+    "level": 4,
+    "maxQuality": 352,
+    "name": {
+      "de": "Honig",
+      "en": "Honey",
+      "fr": "Miel",
+      "ja": "蜂蜜"
+    }
+  },
+  {
+    "baseLevel": 4,
+    "difficulty": 10,
+    "durability": 40,
+    "level": 4,
+    "maxQuality": 352,
+    "name": {
+      "de": "Roggenmehl",
+      "en": "Rye Flour",
+      "fr": "Farine de seigle",
+      "ja": "ライ麦粉"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Fisch im Teigmantel",
+      "en": "Battered Fish",
+      "fr": "Poisson pané",
+      "ja": "バタードフィッシュ"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Krebsfleischball",
+      "en": "Crayfish Ball",
+      "fr": "Boulette d'écrevisse",
+      "ja": "ザリガニボール"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 16,
+    "durability": 40,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Fischmehl",
+      "en": "Fishmeal",
+      "fr": "Farine de poisson",
+      "ja": "魚粉"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Fladenbrot",
+      "en": "Flatbread",
+      "fr": "Pain plat",
+      "ja": "フラットブレッド"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Gegrillte Forelle",
+      "en": "Grilled Trout",
+      "fr": "Truite grillée",
+      "ja": "グリルドトラウト"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Murmelhörnchen-Steak",
+      "en": "Marmot Steak",
+      "fr": "Steak de marmotte",
+      "ja": "マーモットステーキ"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Rolanbeeren-Wassereis",
+      "en": "Rolanberry Shaved Ice",
+      "fr": "Glace pilée à la rolanbaie",
+      "ja": "ロランベリーシェイブドアイス"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Aerodynamo-Bauteil",
+      "en": "Aerodynamo Component",
+      "fr": "Composant de nez profilé",
+      "ja": "空力部材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Ballast-Bauteil",
+      "en": "Ballast Component",
+      "fr": "Composant de lest",
+      "ja": "バラスト部材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Kanzelaußenwand-Bauteil",
+      "en": "Cockpit Exterior Component",
+      "fr": "Composant extérieur de cockpit",
+      "ja": "操縦席外装材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Kanzelinnenwand-Bauteil",
+      "en": "Cockpit Interior Component",
+      "fr": "Composant intérieur de cockpit",
+      "ja": "操縦席内装材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Motorverstrebungs-Bauteil",
+      "en": "Engine Jointing Component",
+      "fr": "Composant de jonction de moteur",
+      "ja": "エカトルの機関部接合材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 115,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 237,
+    "name": {
+      "de": "Steuerpult-Bauteil",
+      "en": "Instrument Panel Component",
+      "fr": "Composant d'instrumentation",
+      "ja": "計器部材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Orangensaft",
+      "en": "Orange Juice",
+      "fr": "Jus d'orange",
+      "ja": "オレンジジュース"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Schlagsahne",
+      "en": "Sweet Cream",
+      "fr": "Crème grumeleuse",
+      "ja": "クリーム"
+    }
+  },
+  {
+    "baseLevel": 7,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Gesalzene Butter",
+      "en": "Smooth Butter",
+      "fr": "Beurre",
+      "ja": "バター"
+    }
+  },
+  {
+    "baseLevel": 7,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Sonnenweizenmehl",
+      "en": "Sunset Wheat Flour",
+      "fr": "Farine",
+      "ja": "小麦粉"
+    }
+  },
+  {
+    "baseLevel": 7,
+    "difficulty": 37,
+    "durability": 60,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Baumkrötenschenkel",
+      "en": "Tree Toad Legs",
+      "fr": "Cuisses de crapaud arboricole",
+      "ja": "ツリートードレッグズ"
+    }
+  },
+  {
+    "baseLevel": 8,
+    "difficulty": 41,
+    "durability": 60,
+    "level": 8,
+    "maxQuality": 526,
+    "name": {
+      "de": "Gebratener Pipira",
+      "en": "Braised Pipira",
+      "fr": "Pipira à l'étuvée",
+      "ja": "ベイクドピピラ"
+    }
+  },
+  {
+    "baseLevel": 8,
+    "difficulty": 41,
+    "durability": 60,
+    "level": 8,
+    "maxQuality": 526,
+    "name": {
+      "de": "Sautierte Pfifferlinge",
+      "en": "Chanterelle Saute",
+      "fr": "Sauté de chanterelles",
+      "ja": "キノコのソテー"
+    }
+  },
+  {
+    "baseLevel": 9,
+    "difficulty": 42,
+    "durability": 60,
+    "level": 9,
+    "maxQuality": 545,
+    "name": {
+      "de": "Gekochter Krebs",
+      "en": "Boiled Crayfish",
+      "fr": "Écrevisse bouillie",
+      "ja": "ボイルドクレイフィッシュ"
+    }
+  },
+  {
+    "baseLevel": 9,
+    "difficulty": 42,
+    "durability": 60,
+    "level": 9,
+    "maxQuality": 545,
+    "name": {
+      "de": "Lammtopf",
+      "en": "Mutton Stew",
+      "fr": "Ragoût de mouton",
+      "ja": "マトンシチュー"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Grundelball",
+      "en": "Goby Ball",
+      "fr": "Boulette de gobie",
+      "ja": "ゴビーボール"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 144,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 314,
+    "name": {
+      "de": "Kühler-Bauteil",
+      "en": "Heat Vent Component",
+      "fr": "Composant de ventilation",
+      "ja": "排熱部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Halloween-Kürbis",
+      "en": "Jack-o'-lantern",
+      "fr": "Jack-la-citrouille",
+      "ja": "ジャック・オ・ランタン"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Kukuru-Butter",
+      "en": "Kukuru Butter",
+      "fr": "Beurre kukuru",
+      "ja": "ククルバター"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Backbordtragflächen-Bauteil",
+      "en": "Larboard Wing Component",
+      "fr": "Composant d'aile gauche",
+      "ja": "左翼部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 67,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 471,
+    "name": {
+      "de": "Backbord-Tragflächengelenk-Bauteil",
+      "en": "Larboard Wing Control Component",
+      "fr": "Comp. d'articulation d'aile gauche",
+      "ja": "左翼可動部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Minz-Lassi",
+      "en": "Mint Lassi",
+      "fr": "Lassi à la menthe",
+      "ja": "ミントラッシー"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Steuerbordtragflächen-Bauteil",
+      "en": "Starboard Wing Component",
+      "fr": "Composant d'aile droite",
+      "ja": "右翼部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 67,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 471,
+    "name": {
+      "de": "Steuerbord-Tragflächengelenk-Bauteil",
+      "en": "Starboard Wing Control Component",
+      "fr": "Comp. d'articulation d'aile droite",
+      "ja": "右翼可動部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 144,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 314,
+    "name": {
+      "de": "Sprechanlagen-Bauteil",
+      "en": "Transmission Component",
+      "fr": "Composant de transmission",
+      "ja": "伝達系部材"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 48,
+    "durability": 60,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Grill-Dodo",
+      "en": "Grilled Dodo",
+      "fr": "Tranche de dodo grillée",
+      "ja": "ドードーのグリル"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 24,
+    "durability": 40,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Kukuru-Pulver",
+      "en": "Kukuru Powder",
+      "fr": "Poudre kukuru",
+      "ja": "ククルマス"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 24,
+    "durability": 40,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Olivenöl",
+      "en": "Olive Oil",
+      "fr": "Huile d'olive",
+      "ja": "オリーヴオイル"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Luftschokolade",
+      "en": "Bubble Chocolate",
+      "fr": "Choco-bulle",
+      "ja": "バブルチョコ"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Perlenschokolade",
+      "en": "Pearl Chocolate",
+      "fr": "Choco-perle",
+      "ja": "パールチョコ"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 26,
+    "durability": 40,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Tomatensoße",
+      "en": "Tomato Sauce",
+      "fr": "Sauce tomate",
+      "ja": "ポモドーロソース"
+    }
+  },
+  {
+    "baseLevel": 13,
+    "difficulty": 54,
+    "durability": 60,
+    "level": 13,
+    "maxQuality": 726,
+    "name": {
+      "de": "Mullpastete",
+      "en": "Mole Loaf",
+      "fr": "Pain de taupe",
+      "ja": "モールローフ"
+    }
+  },
+  {
+    "baseLevel": 13,
+    "difficulty": 54,
+    "durability": 60,
+    "level": 13,
+    "maxQuality": 726,
+    "name": {
+      "de": "Pastinaksalat",
+      "en": "Parsnip Salad",
+      "fr": "Salade de panais",
+      "ja": "パースニップサラダ"
+    }
+  },
+  {
+    "baseLevel": 14,
+    "difficulty": 27,
+    "durability": 40,
+    "level": 14,
+    "maxQuality": 751,
+    "name": {
+      "de": "Gelatine",
+      "en": "Gelatin",
+      "fr": "Gélatine",
+      "ja": "ゼラチン"
+    }
+  },
+  {
+    "baseLevel": 14,
+    "difficulty": 27,
+    "durability": 40,
+    "level": 14,
+    "maxQuality": 751,
+    "name": {
+      "de": "Blätterteig",
+      "en": "Pie Dough",
+      "fr": "Pâte à tarte",
+      "ja": "パイ生地"
+    }
+  },
+  {
+    "baseLevel": 14,
+    "difficulty": 54,
+    "durability": 60,
+    "level": 14,
+    "maxQuality": 751,
+    "name": {
+      "de": "Hasenpastete",
+      "en": "Rabbit Pie",
+      "fr": "Tourte lapin",
+      "ja": "ラビットパイ"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 176,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 403,
+    "name": {
+      "de": "Erdseim-Tank-Bauteil",
+      "en": "Ceruleum Tank Component",
+      "fr": "Composant de réservoir",
+      "ja": "青燐タンク部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 176,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 403,
+    "name": {
+      "de": "Entsorgungssystem-Bauteil",
+      "en": "Disposal Unit Component",
+      "fr": "Composant de système d'évacuation",
+      "ja": "緊急廃棄部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 99,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 1452,
+    "name": {
+      "de": "Schornstein-Bauteil",
+      "en": "Exhaust Outlet Component",
+      "fr": "Composant d'échappement",
+      "ja": "排気系部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 55,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Gegrillter Karpfen",
+      "en": "Grilled Carp",
+      "fr": "Carpe grillée",
+      "ja": "グリルドカープ"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 99,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 1452,
+    "name": {
+      "de": "Steuereinheits-Bauteil",
+      "en": "Helm Component",
+      "fr": "Composant de gouvernail",
+      "ja": "エカトルの操舵装置部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 40,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Beleuchtungs-Bauteil",
+      "en": "Lamp Component",
+      "fr": "Composant d'éclairage",
+      "ja": "ランプ部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 55,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Salzdorsch",
+      "en": "Salt Cod",
+      "fr": "Morue salée",
+      "ja": "ソルトコッド"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 82,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 605,
+    "name": {
+      "de": "Kommunikationsrohr-Bauteil",
+      "en": "Speaking Tube Component",
+      "fr": "Composant de tuyau acoustique",
+      "ja": "伝声系部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 82,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 605,
+    "name": {
+      "de": "Steuermechanismus-Bauteil",
+      "en": "Steering Mechanism Component",
+      "fr": "Composant de module de pilotage",
+      "ja": "操縦機具部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 176,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 403,
+    "name": {
+      "de": "Wachsgemüse",
+      "en": "Wax Vegetables",
+      "fr": "Caisse de légumes",
+      "ja": "ベジタブルアソート"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Aerodynamik-Verbesserer-Bauteil",
+      "en": "Auxiliary Aerodynamo Component",
+      "fr": "Composant d'aileron",
+      "ja": "補助空力部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Apfelessig",
+      "en": "Cider Vinegar",
+      "fr": "Vinaigre de cidre",
+      "ja": "サイダービネガー"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
+    "name": {
+      "de": "Zierplatten-Bauteil",
+      "en": "Decorative Plating Component",
+      "fr": "Composant d'ornementation",
+      "ja": "装飾部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Dodo-Omelett",
+      "en": "Dodo Omelette",
+      "fr": "Omelette aux œufs de dodo",
+      "ja": "ドードーオムレツ"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 113,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 1558,
+    "name": {
+      "de": "Rettungsboots-Bauteil",
+      "en": "Escape Flyer Component",
+      "fr": "Composant de système d'éjection",
+      "ja": "緊急脱出用具"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
+    "name": {
+      "de": "Hyperleiter-Bauteil",
+      "en": "Hyperconductor Component",
+      "fr": "Composant d'hyperconducteur",
+      "ja": "高伝導率部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Isolations-Bauteil",
+      "en": "Isolator Component",
+      "fr": "Composant de système antivibration",
+      "ja": "免震部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Lavendelöl",
+      "en": "Lavender Oil",
+      "fr": "Essence de lavande",
+      "ja": "ラベンダーオイル"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Fleisch-Miqo'Kebab",
+      "en": "Meat Miq'abob",
+      "fr": "Miqo-brochette de viande",
+      "ja": "ミコッテ風山の幸串焼"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Gewichtsreduktions-Bauteil",
+      "en": "Refabrication Component",
+      "fr": "Composant d'allégement",
+      "ja": "軽量化部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
+    "name": {
+      "de": "Reservetank-Bauteil",
+      "en": "Spare Tank Component",
+      "fr": "Composant de réservoir de secours",
+      "ja": "予備タンク部材"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 33,
+    "durability": 40,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Hüttenkäse",
+      "en": "Cottage Cheese",
+      "fr": "Fromage blanc",
+      "ja": "コテージチーズ"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Linsen-Maronen-Eintopf",
+      "en": "Lentils and Chestnuts",
+      "fr": "Lentilles aux châtaignes",
+      "ja": "レンティル&チェスナット"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Kaktus-Steak",
+      "en": "Roasted Nopales",
+      "fr": "Figues de barbarie grillées",
+      "ja": "ローストノパル"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Steinsuppe",
+      "en": "Stone Soup",
+      "fr": "Soupe de pierre",
+      "ja": "ストーンスープ"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 67,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Apfeltörtchen",
+      "en": "Apple Tart",
+      "fr": "Tarte aux pommes",
+      "ja": "アップルタルト"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 214,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 469,
+    "name": {
+      "de": "Bugschmuck-Bauteil",
+      "en": "Figurehead Component",
+      "fr": "Aile d'Ehcatl",
+      "ja": "エカトルの羽根飾り"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 120,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 1690,
+    "name": {
+      "de": "Endstück-Bauteil",
+      "en": "Finishing Component",
+      "fr": "Composant final",
+      "ja": "エカトルの重要部材"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 67,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Walnussbrot",
+      "en": "Walnut Bread",
+      "fr": "Pain aux noix",
+      "ja": "ウォルナットブレッド"
+    }
+  },
+  {
+    "baseLevel": 19,
+    "difficulty": 68,
+    "durability": 70,
+    "level": 19,
+    "maxQuality": 982,
+    "name": {
+      "de": "Rohe Auster",
+      "en": "Raw Oyster",
+      "fr": "Huître crue",
+      "ja": "ローオイスター"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Antilopen-Gulasch",
+      "en": "Antelope Stew",
+      "fr": "Ragoût de cerf",
+      "ja": "アンテロープシチュー"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Hähnchen-Pilzpfanne",
+      "en": "Chicken and Mushrooms",
+      "fr": "Fricassée de poulet aux champignons",
+      "ja": "鶏肉キノコ炒め"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Krabbenfleischball",
+      "en": "Crab Ball",
+      "fr": "Boulette de crabe",
+      "ja": "クラブボール"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Gegrillte Warmblut-Forelle",
+      "en": "Grilled Warmwater Trout",
+      "fr": "Truite thermophile grillée",
+      "ja": "グリルドウォームトラウト"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 236,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 526,
+    "name": {
+      "de": "Sternenlichtdodo",
+      "en": "Starlight Dodo",
+      "fr": "Dodo de la fête des étoiles",
+      "ja": "スターライト・ローストドードー"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Grill-Antilope",
+      "en": "Antelope Steak",
+      "fr": "Steak de cerf",
+      "ja": "アンテロープステーキ"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Traubensaft",
+      "en": "Grape Juice",
+      "fr": "Jus de raisin",
+      "ja": "グレープジュース"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Honigmuffin",
+      "en": "Honey Muffin",
+      "fr": "Muffin au miel",
+      "ja": "ハニーマフィン"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Toffelbrei",
+      "en": "Mashed Popotoes",
+      "fr": "Purée de popotos",
+      "ja": "マッシュポポト"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Getrocknete Pflaumen",
+      "en": "Dried Plums",
+      "fr": "Pruneaux",
+      "ja": "ドライプルーン"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Saure Eier",
+      "en": "Mustard Eggs",
+      "fr": "Œufs à la moutarde",
+      "ja": "マスタードエッグズ"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Sautierter Spinat",
+      "en": "Spinach Saute",
+      "fr": "Sauté d'épinards",
+      "ja": "スピナッチソテー"
+    }
+  },
+  {
+    "baseLevel": 23,
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
+    "name": {
+      "de": "Brezel",
+      "en": "Dark Pretzel",
+      "fr": "Bretzel noir",
+      "ja": "プレッツェル"
+    }
+  },
+  {
+    "baseLevel": 23,
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
+    "name": {
+      "de": "Lachs nach Müllerinart",
+      "en": "Salmon Meuniere",
+      "fr": "Saumon meunière",
+      "ja": "サーモンムニエル"
+    }
+  },
+  {
+    "baseLevel": 23,
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
+    "name": {
+      "de": "Shepherd's Pie",
+      "en": "Shepherd's Pie",
+      "fr": "Hachis parmentier",
+      "ja": "シェパードパイ"
+    }
+  },
+  {
+    "baseLevel": 24,
+    "difficulty": 85,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 1239,
+    "name": {
+      "de": "Kamillentee",
+      "en": "Chamomile Tea",
+      "fr": "Thé à la camomille",
+      "ja": "カモミールティー"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
+    "name": {
+      "de": "Barschball",
+      "en": "Bass Ball",
+      "fr": "Boulette de bar",
+      "ja": "バスボール"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
+    "name": {
+      "de": "Aalpastete",
+      "en": "Eel Pie",
+      "fr": "Tarte à l'anguille",
+      "ja": "イールパイ"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 284,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 648,
+    "name": {
+      "de": "Riviera-Abendmahl-Set",
+      "en": "Riviera Supper",
+      "fr": "Dîner noscéen",
+      "ja": "ラノシアン・ディナーセット"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 90,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Grill-Bock",
+      "en": "Aldgoat Steak",
+      "fr": "Steak de bouquetin",
+      "ja": "大山羊ステーキ"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 90,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Ingwerkeks",
+      "en": "Ginger Cookie",
+      "fr": "Biscuit au gingembre",
+      "ja": "ジンジャークッキー"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 90,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Erbsensuppe",
+      "en": "Pea Soup",
+      "fr": "Soupe de pois",
+      "ja": "ピースープ"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Gekochte Brasse",
+      "en": "Boiled Bream",
+      "fr": "Brème bouillie",
+      "ja": "ボイルドブリーム"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Käserisotto",
+      "en": "Cheese Risotto",
+      "fr": "Risotto au fromage",
+      "ja": "チーズリゾット"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Spiegelei",
+      "en": "Fried Egg",
+      "fr": "Œuf au plat",
+      "ja": "フライドエッグ"
+    }
+  },
+  {
+    "baseLevel": 28,
+    "difficulty": 50,
+    "durability": 40,
+    "level": 28,
+    "maxQuality": 1498,
+    "name": {
+      "de": "Hühnerbrühe",
+      "en": "Chicken Stock",
+      "fr": "Bouillon de poulet",
+      "ja": "チキンストック"
+    }
+  },
+  {
+    "baseLevel": 28,
+    "difficulty": 100,
+    "durability": 70,
+    "level": 28,
+    "maxQuality": 1498,
+    "name": {
+      "de": "Crumpet",
+      "en": "Crumpet",
+      "fr": "Crumpet",
+      "ja": "クランペット"
+    }
+  },
+  {
+    "baseLevel": 28,
+    "difficulty": 100,
+    "durability": 70,
+    "level": 28,
+    "maxQuality": 1498,
+    "name": {
+      "de": "Orobon-Gulasch",
+      "en": "Orobon Stew",
+      "fr": "Ragoût d'orobon",
+      "ja": "オロボンシチュー"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 50,
+    "durability": 40,
+    "level": 29,
+    "maxQuality": 1544,
+    "name": {
+      "de": "Maismehl",
+      "en": "Cornmeal",
+      "fr": "Farine de maïs",
+      "ja": "コーングリッツ"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Tiefblauer Farbstoff",
+      "en": "Abyssal Blue Dye",
+      "fr": "Teinture bleu marine",
+      "ja": "カララント:アビサルブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 102,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Gebratene Seezunge",
+      "en": "Baked Sole",
+      "fr": "Sole au four",
+      "ja": "ベイクドソール"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Jadegrüner Farbstoff",
+      "en": "Celeste Green Dye",
+      "fr": "Teinture vert céleste",
+      "ja": "カララント:セレストグリーン"
+    }
+  },
+  {
+    "aspect": "Ice",
+    "baseLevel": 30,
+    "difficulty": 183,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "de": "Flaschenkühler mit Rotwein",
+      "en": "Chilled Red",
+      "fr": "Boissons festives",
+      "ja": "フルーツフレーバー・ドリンクセット"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Kolibrirosa Farbstoff",
+      "en": "Colibri Pink Dye",
+      "fr": "Teinture mauve colibri",
+      "ja": "カララント:コリブリピンク"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Dalamudroter Farbstoff",
+      "en": "Dalamud Red Dye",
+      "fr": "Teinture rouge Dalamud",
+      "ja": "カララント:ダラガブレッド"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Waldgrüner Farbstoff",
+      "en": "Deepwood Green Dye",
+      "fr": "Teinture vert sapin",
+      "ja": "カララント:ディープウッドグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Antritt I",
+      "en": "Grade 1 Feed - Acceleration Blend",
+      "fr": "Fourrage spécial accélération I",
+      "ja": "アクセルフォダーG1"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Köpfchen I",
+      "en": "Grade 1 Feed - Balance Blend",
+      "fr": "Fourrage spécial agilité I",
+      "ja": "バランスフォダーG1"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Puste I",
+      "en": "Grade 1 Feed - Endurance Blend",
+      "fr": "Fourrage spécial vitalité I",
+      "ja": "エンデュランスフォダーG1"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Geschwindigkeit I",
+      "en": "Grade 1 Feed - Speed Blend",
+      "fr": "Fourrage spécial vitesse I",
+      "ja": "スピードフォダーG1"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Ausdauer I",
+      "en": "Grade 1 Feed - Stamina Blend",
+      "fr": "Fourrage spécial endurance I",
+      "ja": "スタミナフォダーG1"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Honiggelber Farbstoff",
+      "en": "Honey Yellow Dye",
+      "fr": "Teinture jaune miel",
+      "ja": "カララント:ハニーイエロー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Jägergrüner Farbstoff",
+      "en": "Hunter Green Dye",
+      "fr": "Teinture vert chasseur",
+      "ja": "カララント:ハンターグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Koboldbrauner Farbstoff",
+      "en": "Kobold Brown Dye",
+      "fr": "Teinture brun kobold",
+      "ja": "カララント:コボルドブラウン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Lehmbrauner Farbstoff",
+      "en": "Loam Brown Dye",
+      "fr": "Teinture brun argile",
+      "ja": "カララント:ロームブラウン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Lotusrosa Farbstoff",
+      "en": "Lotus Pink Dye",
+      "fr": "Teinture mauve lotus",
+      "ja": "カララント:ロータスピンク"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Maisgelber Farbstoff",
+      "en": "Millioncorn Yellow Dye",
+      "fr": "Teinture jaune milli-maïs",
+      "ja": "カララント:ミリオンコーンイエロー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Morbolgrüner Farbstoff",
+      "en": "Morbol Green Dye",
+      "fr": "Teinture vert morbol",
+      "ja": "カララント:モルボルグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Ochugrüner Farbstoff",
+      "en": "Ochu Green Dye",
+      "fr": "Teinture vert otyugh",
+      "ja": "カララント:オチューグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Othardblauer Farbstoff",
+      "en": "Othard Blue Dye",
+      "fr": "Teinture bleu d'Othard",
+      "ja": "カララント:オサードブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Pflaumenvioletter Farbstoff",
+      "en": "Plum Purple Dye",
+      "fr": "Teinture prune",
+      "ja": "カララント:プラムパープル"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Kürbisoranger Farbstoff",
+      "en": "Pumpkin Orange Dye",
+      "fr": "Teinture orange citrouille",
+      "ja": "カララント:パンプキンオレンジ"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Königsvioletter Farbstoff",
+      "en": "Regal Purple Dye",
+      "fr": "Teinture byzantium",
+      "ja": "カララント:リーガルパープル"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Königsblauer Farbstoff",
+      "en": "Royal Blue Dye",
+      "fr": "Teinture bleu royal",
+      "ja": "カララント:ロイヤルブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Schneeweißer Farbstoff",
+      "en": "Snow White Dye",
+      "fr": "Teinture blanc neige",
+      "ja": "カララント:スノウホワイト"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Rußschwarzer Farbstoff",
+      "en": "Soot Black Dye",
+      "fr": "Teinture noir suie",
+      "ja": "カララント:スートブラック"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Sturmblauer Farbstoff",
+      "en": "Storm Blue Dye",
+      "fr": "Teinture bleu tempête",
+      "ja": "カララント:ストームブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Abendroter Farbstoff",
+      "en": "Sunset Orange Dye",
+      "fr": "Teinture orange couchant",
+      "ja": "カララント:サンセットオレンジ"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Nichtsblauer Farbstoff",
+      "en": "Void Blue Dye",
+      "fr": "Teinture bleu du néant",
+      "ja": "カララント:ヴォイドブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Weinroter Farbstoff",
+      "en": "Wine Red Dye",
+      "fr": "Teinture lie-de-vin",
+      "ja": "カララント:ワインレッド"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Indigoblauer Farbstoff",
+      "en": "Woad Blue Dye",
+      "fr": "Teinture bleu guède",
+      "ja": "カララント:ウォードブルー"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "de": "Krokosalat",
+      "en": "Alligator Salad",
+      "fr": "Salade alligator",
+      "ja": "アリゲーターサラダ"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "de": "Maisbrot",
+      "en": "Cornbread",
+      "fr": "Pain de maïs",
+      "ja": "コーンブレッド"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 53,
+    "durability": 40,
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "de": "Balsamessig",
+      "en": "Dark Vinegar",
+      "fr": "Vinaigre balsamique",
+      "ja": "バルサミコビネガー"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "Pilz-Miqo'Kebab",
+      "en": "Forest Miq'abob",
+      "fr": "Miqo-brochette forestière",
+      "ja": "ミコッテ風森の幸串焼"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "Räucher-Raptor",
+      "en": "Smoked Raptor",
+      "fr": "Tranche de raptor fumé",
+      "ja": "スモークドラプトル"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 111,
+    "durability": 80,
+    "level": 33,
+    "maxQuality": 1757,
+    "name": {
+      "de": "Blutbeertorte",
+      "en": "Blood Currant Tart",
+      "fr": "Tarte aux groseilles sanguines",
+      "ja": "ブラッドカーラントタルト"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 111,
+    "durability": 80,
+    "level": 33,
+    "maxQuality": 1757,
+    "name": {
+      "de": "Thunfisch-Miqo'Kebab",
+      "en": "Tuna Miq'abob",
+      "fr": "Miqo-brochette de thon",
+      "ja": "ミコッテ風海の幸串焼"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Eichelkeks",
+      "en": "Acorn Cookie",
+      "fr": "Biscuit aux glands",
+      "ja": "エーコンクッキー"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Rührei",
+      "en": "Scrambled Eggs",
+      "fr": "Œuf brouillé",
+      "ja": "スクランブルエッグ"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Cawl Cennin",
+      "en": "Cawl Cennin",
+      "fr": "Bouillon de poireaux",
+      "ja": "カウルケニン"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 393,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 926,
+    "name": {
+      "de": "Waldtee-Set",
+      "en": "Glade Tea Set",
+      "fr": "Goûter sombrelinçois",
+      "ja": "シュラウド・ティーセット"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Heringball",
+      "en": "Herring Ball",
+      "fr": "Boulette de hareng",
+      "ja": "ヘリングボール"
+    }
+  },
+  {
+    "baseLevel": 36,
+    "difficulty": 62,
+    "durability": 40,
+    "level": 36,
+    "maxQuality": 1882,
+    "name": {
+      "de": "Frischkäse",
+      "en": "Cream Cheese",
+      "fr": "Fromage à la crème",
+      "ja": "クリームチーズ"
+    }
+  },
+  {
+    "baseLevel": 36,
+    "difficulty": 124,
+    "durability": 80,
+    "level": 36,
+    "maxQuality": 1882,
+    "name": {
+      "de": "Sauerkraut",
+      "en": "Sauerkraut",
+      "fr": "Choucroute",
+      "ja": "ザワークラウト"
+    }
+  },
+  {
+    "baseLevel": 37,
+    "difficulty": 128,
+    "durability": 80,
+    "level": 37,
+    "maxQuality": 1905,
+    "name": {
+      "de": "Käseauflauf",
+      "en": "Cheese Souffle",
+      "fr": "Soufflé au fromage",
+      "ja": "チーズスフレ"
+    }
+  },
+  {
+    "baseLevel": 37,
+    "difficulty": 128,
+    "durability": 80,
+    "level": 37,
+    "maxQuality": 1905,
+    "name": {
+      "de": "Ratatouille",
+      "en": "Ratatouille",
+      "fr": "Ratatouille",
+      "ja": "ラタトゥイユ"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Ritterbrot",
+      "en": "Knight's Bread",
+      "fr": "Pain de chevalier",
+      "ja": "ナイツブレッド"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Karpfen Rot",
+      "en": "Mugwort Carp",
+      "fr": "Carpe à l'armoise",
+      "ja": "カープ&マグワート"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Raptoren-Gulasch",
+      "en": "Raptor Stew",
+      "fr": "Ragoût de raptor",
+      "ja": "ラプトルシチュー"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Gefüllte Artischocke",
+      "en": "Stuffed Artichoke",
+      "fr": "Artichaut farci",
+      "ja": "スタッフドアーティチョーク"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Apfelsaft",
+      "en": "Apple Juice",
+      "fr": "Jus de pomme",
+      "ja": "アップルジュース"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 441,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 1025,
+    "name": {
+      "de": "Gourmet-Frühstück",
+      "en": "Gourmet Lunch",
+      "fr": "Petit déjeuner complet",
+      "ja": "モーニングセット"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Gegrillter Regenrufer",
+      "en": "Grilled Raincaller",
+      "fr": "Grillade de cherche-pluie",
+      "ja": "雨乞魚のグリル"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Fischgebäck",
+      "en": "Pastry Fish",
+      "fr": "Pâtisserie poisson",
+      "ja": "ペストリーフィッシュ"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Trockenfleisch",
+      "en": "Jerked Beef",
+      "fr": "Tranche de buffle séché",
+      "ja": "ビーフジャーキー"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Dorsch im Schlafrock",
+      "en": "Salt Cod Puffs",
+      "fr": "Choux à la morue salée",
+      "ja": "ソルトコッドパフ"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 155,
+    "durability": 80,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Fischsuppe",
+      "en": "Fish Soup",
+      "fr": "Soupe de poisson",
+      "ja": "フィッシュスープ"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 77,
+    "durability": 40,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Rolanbeeren-Käse",
+      "en": "Rolanberry Cheese",
+      "fr": "Fromage sauce rolanbaie",
+      "ja": "ロランベリーチーズ"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Knofi-Pilzpfanne",
+      "en": "Button Mushroom Saute",
+      "fr": "Sauté de champignons à l'ail",
+      "ja": "キノコのガーリックソテー"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Dzemael-Gratin",
+      "en": "Dzemael Gratin",
+      "fr": "Gratin Dzemael",
+      "ja": "ゼーメル家風グラタン"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 505,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "de": "Ishgarder Frühstück",
+      "en": "Alpine Breakfast",
+      "fr": "Petit déjeuner ishgardais",
+      "ja": "イシュガルディアン・モーニングセット"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "La Noscea-Toast",
+      "en": "La Noscean Toast",
+      "fr": "Toast noscéen",
+      "ja": "ラノシアトースト"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Rolanbeeren-Lassi",
+      "en": "Rolanberry Lassi",
+      "fr": "Lassi à la rolanbaie",
+      "ja": "ロランベリーラッシー"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 505,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "de": "Sternenlichtkuchen",
+      "en": "Starlight Cake",
+      "fr": "Gâteau de la fête des étoiles",
+      "ja": "スターライト・レイヤーケーキ"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Kohlroulade",
+      "en": "Stuffed Cabbage",
+      "fr": "Choux farcis",
+      "ja": "パイクのキャベツ巻き"
+    }
+  },
+  {
+    "baseLevel": 46,
+    "difficulty": 159,
+    "durability": 80,
+    "level": 46,
+    "maxQuality": 2372,
+    "name": {
+      "de": "Verteufelte Eier",
+      "en": "Deviled Eggs",
+      "fr": "Œufs mimosa",
+      "ja": "デビルドエッグズ"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 167,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 2421,
+    "name": {
+      "de": "Glühtee",
+      "en": "Mulled Tea",
+      "fr": "Thé épicé",
+      "ja": "マルドティー"
+    }
+  },
+  {
+    "baseLevel": 48,
+    "difficulty": 172,
+    "durability": 80,
+    "level": 48,
+    "maxQuality": 2524,
+    "name": {
+      "de": "Gekrönter Kuchen",
+      "en": "Crowned Pie",
+      "fr": "Galette des rois",
+      "ja": "ガレット・デ・ロワ"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 174,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 2551,
+    "name": {
+      "de": "Pilz-Kohlrouladen",
+      "en": "Buttons in a Blanket",
+      "fr": "Choux farcis aux champignons",
+      "ja": "キノコのキャベツ巻き"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Ätherdämmendes Gefäß",
+      "en": "Aetheric Shielding",
+      "fr": "Récipient éthéroscellé",
+      "ja": "絶霊体容器"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Obstteller",
+      "en": "Assorted Fruit",
+      "fr": "Panier de fruits",
+      "ja": "フルーツアソート"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Drachengabe",
+      "en": "Austere Offering",
+      "fr": "Cadeau pour dragons",
+      "ja": "竜族報酬品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Korbkomponente",
+      "en": "Basket Component",
+      "fr": "Matériel de vannerie",
+      "ja": "編みカゴ部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Gulasch",
+      "en": "Beef Stew",
+      "fr": "Ragoût de buffle",
+      "ja": "ビーフシチュー"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Wolkenmeer-Köder",
+      "en": "Cloudfish Lure",
+      "fr": "Leurre spécial",
+      "ja": "雲海釣餌"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Dolchfisch-Suppe",
+      "en": "Dagger Soup",
+      "fr": "Soupe de dagues",
+      "ja": "ダガースープ"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Schuppenfeile",
+      "en": "Dragonscale Rasp",
+      "fr": "Racloir en écaille de dragon",
+      "ja": "竜鱗ヤスリ"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Molchsteak",
+      "en": "Eft Steak",
+      "fr": "Steak de jeune triton",
+      "ja": "エフトステーキ"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Rauchbombe",
+      "en": "Exploding Kupo Nut",
+      "fr": "Noix de kupo fumigène",
+      "ja": "煙幕の実"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 95,
+    "durability": 40,
+    "level": 50,
+    "maxQuality": 2692,
+    "name": {
+      "de": "Falsche Kupo-Nuss",
+      "en": "Fake Kupo Nut",
+      "fr": "Fausse noix de kupo",
+      "ja": "ニセの実"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Fundamentmaterial",
+      "en": "Foundation Component",
+      "fr": "Matériel pour les fondations",
+      "ja": "基礎工事資材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Komponente für die Werkzeugreparatur",
+      "en": "Gathering Tool Component",
+      "fr": "Matériel de réparation",
+      "ja": "採集道具補材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 273,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Trötenkomponente",
+      "en": "Horn Component",
+      "fr": "Composant de clairon",
+      "ja": "すんごいラッパ部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Bestandteil einer Mahlzeit",
+      "en": "Ishgardian Cuisine Miscellany",
+      "fr": "Élément de plateau-repas",
+      "ja": "晩餐不足品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Miniatur-Luftschiff",
+      "en": "Makeshift Toy Airship",
+      "fr": "Maquette d'aéronef",
+      "ja": "飛空艇模型"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Küchenartikel",
+      "en": "Mogstew Miscellany",
+      "fr": "Matériaux gastronomiques",
+      "ja": "調理不足品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Kleine Belohnung",
+      "en": "Moogle Mollifier",
+      "fr": "Cadeau personnalisé",
+      "ja": "特製ご褒美"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Mogry-Figur",
+      "en": "Moogle Statuette",
+      "fr": "Statuette de Mog",
+      "ja": "彫像見本品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 364,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 538,
+    "name": {
+      "de": "Mogry-Werkzeugkomponente",
+      "en": "Moogle Tool Component",
+      "fr": "Composant de marteau spécial Mog",
+      "ja": "モーグリ用道具部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Verwendbares Baumaterial",
+      "en": "Repurposed Construction Component",
+      "fr": "Matériel de construction",
+      "ja": "再生済み建築資材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Einzelteil für die Schneidemaschine",
+      "en": "Shearing Machine Component",
+      "fr": "Composant de machine à inciser",
+      "ja": "裁断機部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 228,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 996,
+    "name": {
+      "de": "Steinstatuenkomponente",
+      "en": "Statue Supplies",
+      "fr": "Composant de statue",
+      "ja": "石像修復用部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Formvollendete Steinblock-Vorlage",
+      "en": "Stonemasonry Supplies",
+      "fr": "Pierre de référence",
+      "ja": "調整された石材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 486,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Gedenktafelkomponente",
+      "en": "Tablet Supplies",
+      "fr": "Composant de plaque commémorative",
+      "ja": "銘板仕上げ部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Übungsmaterial",
+      "en": "Training Supplies",
+      "fr": "Matériel d'entraînement",
+      "ja": "訓練用部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Fallensteller-Quiche",
+      "en": "Trapper's Quiche",
+      "fr": "Quiche au triton façon chasseur",
+      "ja": "猟師風エフトキッシュ"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Flaschenzug-Ersatzteil",
+      "en": "Treadwheel Crane Components",
+      "fr": "Matériel de réparation de treuil",
+      "ja": "巻き上げ機部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Werkzeug zur Bodenplattenfärbung",
+      "en": "Veneer Component",
+      "fr": "Matériel de finition",
+      "ja": "床材加工用品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Werkzeug zur Mauerglättung",
+      "en": "Wall Repair Supplies",
+      "fr": "Matériel de rénovation de façade",
+      "ja": "壁の補修部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Abdichtungskomponente",
+      "en": "Water Filter Component",
+      "fr": "Composant de fontaine",
+      "ja": "泉水補修材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Schwarzer Drops",
+      "en": "Black Drop",
+      "fr": "Bonbon noir",
+      "ja": "ブラックドロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Blauer Drops",
+      "en": "Blue Drop",
+      "fr": "Bonbon bleu",
+      "ja": "ブルードロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Bouillabaisse",
+      "en": "Bouillabaisse",
+      "fr": "Bouillabaisse",
+      "ja": "ブイヤベース"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Transparenter Drops",
+      "en": "Clear Drop",
+      "fr": "Bonbon transparent",
+      "ja": "クリアドロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Grüner Drops",
+      "en": "Green Drop",
+      "fr": "Bonbon vert",
+      "ja": "グリーンドロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Grüntee-Set",
+      "en": "Green Tea Set",
+      "fr": "Collation de thé vert",
+      "ja": "グリーンティーセット"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Karnivorenblattsalat",
+      "en": "Landtrap Salad",
+      "fr": "Salade frémissante",
+      "ja": "ランドトラップサラダ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Oasen-Frühstücks-Set",
+      "en": "Oasis Breakfast",
+      "fr": "Petit déjeuner thanalanais",
+      "ja": "ザナラーン・モーニングセット"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Gebratener Mahi-Mahi",
+      "en": "Pan-fried Mahi-Mahi",
+      "fr": "Mahi-mahi frit",
+      "ja": "マヒマヒの揚げ焼き"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Violetter Drops",
+      "en": "Purple Drop",
+      "fr": "Bonbon violet",
+      "ja": "パープルドロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Roter Drops",
+      "en": "Red Drop",
+      "fr": "Bonbon rouge",
+      "ja": "レッドドロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Rolanbeeren-Käsekuchen",
+      "en": "Rolanberry Cheesecake",
+      "fr": "Gâteau au fromage à la rolanbaie",
+      "ja": "ロランベリーチーズケーキ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Tomatenpastete",
+      "en": "Tomato Pie",
+      "fr": "Tarte à la tomate",
+      "ja": "トマトパイ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Weißer Drops",
+      "en": "White Drop",
+      "fr": "Bonbon blanc",
+      "ja": "ホワイトドロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Gelber Drops",
+      "en": "Yellow Drop",
+      "fr": "Bonbon jaune",
+      "ja": "イエロードロップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Nachmittagstee-Set",
+      "en": "Afternoon Tea Set",
+      "fr": "Goûter de gourmand",
+      "ja": "アフタヌーンティーセット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Luftschiff-Reparaturkit",
+      "en": "Airship Repair Materials",
+      "fr": "Kit de réparation d'aéronef",
+      "ja": "飛空艇修理材"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Apkallu-Omelett",
+      "en": "Apkallu Omelette",
+      "fr": "Omelette aux œufs d'apkallu",
+      "ja": "アプカルオムレツ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Risotto mit schwarzen Trüffeln",
+      "en": "Black Truffle Risotto",
+      "fr": "Risotto aux truffes noires",
+      "ja": "ブラックトリュフリゾット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Kalte Toffelsuppe",
+      "en": "Chilled Popoto Soup",
+      "fr": "Soupe de popotos glacée",
+      "ja": "冷製ポポトスープ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Eiersandwich à la Bismarck",
+      "en": "Finger Sandwich",
+      "fr": "Sandwich à la Bismarck",
+      "ja": "ビスマルク風エッグサンド"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Gourmet-Abendessen",
+      "en": "Gourmet Supper",
+      "fr": "Dîner de gourmet",
+      "ja": "ディナーセット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Antritt II",
+      "en": "Grade 2 Feed - Acceleration Blend",
+      "fr": "Fourrage spécial accélération II",
+      "ja": "アクセルフォダーG2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Köpfchen II",
+      "en": "Grade 2 Feed - Balance Blend",
+      "fr": "Fourrage spécial agilité II",
+      "ja": "バランスフォダーG2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Puste II",
+      "en": "Grade 2 Feed - Endurance Blend",
+      "fr": "Fourrage spécial vitalité II",
+      "ja": "エンデュランスフォダーG2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Geschwindigkeit II",
+      "en": "Grade 2 Feed - Speed Blend",
+      "fr": "Fourrage spécial vitesse II",
+      "ja": "スピードフォダーG2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Ausdauer II",
+      "en": "Grade 2 Feed - Stamina Blend",
+      "fr": "Fourrage spécial endurance II",
+      "ja": "スタミナフォダーG2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Lavakrötenschenkel",
+      "en": "Lava Toad Legs",
+      "fr": "Cuisses de crapaud lavique",
+      "ja": "ラーヴァトードレッグズ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Ananassaft",
+      "en": "Pineapple Juice",
+      "fr": "Jus d'ananas",
+      "ja": "パインジュース"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Ananas-Ponzenkuchen",
+      "en": "Pineapple Ponzecake",
+      "fr": "Quatre-quarts à l'ananas",
+      "ja": "パイナップルケーキ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Coeurlfleisch",
+      "en": "Sauteed Coeurl",
+      "fr": "Coeurl au vin",
+      "ja": "クァールのワインソテー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 419,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 5257,
+    "name": {
+      "de": "Tomatenwürze",
+      "en": "Spicy Tomato Relish",
+      "fr": "Condiment épicé à la tomate",
+      "ja": "トマトケチャップ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Spinat-Quiche",
+      "en": "Spinach Quiche",
+      "fr": "Quiche aux épinards",
+      "ja": "スピナッチキッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 222,
+    "durability": 40,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Entenbrühe",
+      "en": "Duck Broth",
+      "fr": "Fond de canard",
+      "ja": "フォン・ド・カナール"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Taramosalata",
+      "en": "Haddock Dip",
+      "fr": "Tarama",
+      "ja": "タラモサラータ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Toffelpuffer",
+      "en": "Popoto Pancakes",
+      "fr": "Crique",
+      "ja": "ポポトパンケーキ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 8964,
+    "name": {
+      "de": "Fleischtomatenwürze",
+      "en": "Rich Tomato Relish",
+      "fr": "Condiment piquant à la tomate",
+      "ja": "濃厚トマトケチャップ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Röstente",
+      "en": "Roast Canard",
+      "fr": "Canard à l'orange",
+      "ja": "ローストカナール"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Sachertorte",
+      "en": "Sachertorte",
+      "fr": "Sachertorte",
+      "ja": "ザッハトルテ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Haifischflossensuppe",
+      "en": "Shark Fin Soup",
+      "fr": "Soupe d'aileron",
+      "ja": "フカヒレスープ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Gedünsteter Katfisch",
+      "en": "Steamed Catfish",
+      "fr": "Poisson-chat vapeur",
+      "ja": "ナマズのワイン蒸"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Aalpastete Spezial",
+      "en": "Tailor-made Eel Pie",
+      "fr": "Tarte à l'anguille très spéciale",
+      "ja": "秘製イールパイ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Valentionskuchen",
+      "en": "Valentione's Cake",
+      "fr": "Gâteau des Valention",
+      "ja": "ヴァレンティオンケーキ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Speckzopf",
+      "en": "Bacon Bread",
+      "fr": "Pain en épi au lard",
+      "ja": "ベーコンエピ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Specksuppe",
+      "en": "Bacon Broth",
+      "fr": "Bouillon au lard",
+      "ja": "ベーコンスープ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Feuerstein-Kaviar",
+      "en": "Flint Caviar",
+      "fr": "Caviar impérial",
+      "ja": "フリントキャビア"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Einspänner",
+      "en": "Triple Cream Coffee",
+      "fr": "Café triple crème",
+      "ja": "アインシュペナー"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 421,
+    "durability": 80,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Feigen à la Barvarois",
+      "en": "Fig Bavarois",
+      "fr": "Flan aux figues",
+      "ja": "ババロア・オ・フィグ"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 210,
+    "durability": 40,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Sauerrahm",
+      "en": "Sour Cream",
+      "fr": "Crème aigre",
+      "ja": "サワークリーム"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Überbackene Zwiebelsuppe",
+      "en": "Baked Onion Soup",
+      "fr": "Soupe à l'oignon",
+      "ja": "オニオングラタンスープ"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 905,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 2586,
+    "name": {
+      "de": "Etagere",
+      "en": "Cake Tray",
+      "fr": "Assortiment de gourmandises",
+      "ja": "ケーキスタンド"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 251,
+    "durability": 40,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Hochlandmehl",
+      "en": "Highland Flour",
+      "fr": "Farine des hautes terres",
+      "ja": "ハイランド小麦粉"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Gefüllte Kohlroulade",
+      "en": "Stuffed Cabbage Rolls",
+      "fr": "Paupiettes de chou",
+      "ja": "挽肉のキャベツ巻き"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 293,
+    "durability": 40,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Fermentierte Butter",
+      "en": "Fermented Butter",
+      "fr": "Beurre fermenté",
+      "ja": "発酵バター"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Quiche Ishgarder Art",
+      "en": "Ishgardian Muffin",
+      "fr": "Pain ishgardais",
+      "ja": "イシュガルドマフィン"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Ishgarder Tee",
+      "en": "Ishgardian Tea",
+      "fr": "Thé ishgardais",
+      "ja": "イシュガルドティー"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Porciniragout",
+      "en": "Sauteed Porcini",
+      "fr": "Bolets sautés",
+      "ja": "ポルチーニソテー"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Purpurrote Bete-Suppe",
+      "en": "Beet Soup",
+      "fr": "Soupe pourpre",
+      "ja": "クリムゾンスープ"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Dhalmel-Gratin",
+      "en": "Dhalmel Gratin",
+      "fr": "Gratin de dhalmel",
+      "ja": "アウフラウフ"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Gegrillte Purpur-Forelle",
+      "en": "Grilled Sweetfish",
+      "fr": "Poisson-sucre grillé",
+      "ja": "グリルドスイートフィッシュ"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Mont Sohm Al",
+      "en": "Sohm Al Tart",
+      "fr": "Sohm Al aux marrons",
+      "ja": "ソーム・アル・オ・マロン"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 348,
+    "durability": 35,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Sauce ishgardaise",
+      "en": "Hollandaise Sauce",
+      "fr": "Sauce ishgardaise",
+      "ja": "オランデーズソース"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Kaisersemmel",
+      "en": "Kaiser Roll",
+      "fr": "Pain empereur",
+      "ja": "カイザーゼンメル"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Emeraldgrüne Bohnensuppe",
+      "en": "Emerald Soup",
+      "fr": "Soupe émeraude",
+      "ja": "エメラルドスープ"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Adels-Abendessen",
+      "en": "High House Supper Set",
+      "fr": "Dîner de maison noble",
+      "ja": "ハイハウス・ディナーセット"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Fernöstliches Frühstück",
+      "en": "Oriental Breakfast",
+      "fr": "Petit déjeuner oriental",
+      "ja": "オリエンタル・モーニングセット"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Fernöstliches Teeservice",
+      "en": "Oriental Tea Set",
+      "fr": "Collation de thé oriental",
+      "ja": "オリエンタル・ティーセット"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Riviera-Frühstücks-Set",
+      "en": "Riviera Breakfast",
+      "fr": "Omelette",
+      "ja": "オムレツプレート"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Riviera-Lunch",
+      "en": "Riviera Lunch",
+      "fr": "Déjeuner noscéen",
+      "ja": "ラノシアン・ランチセット"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Sesamkeks",
+      "en": "Sesame Cookie",
+      "fr": "Biscuit au sésame",
+      "ja": "セサミクッキー"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 376,
+    "durability": 35,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Vermicelli",
+      "en": "Vermicelli",
+      "fr": "Vermicelles",
+      "ja": "ヴァーミセリ"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 1454,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 3410,
+    "name": {
+      "de": "Ishgarder Teeservice",
+      "en": "Alpine Tea Set",
+      "fr": "Goûter ishgardais",
+      "ja": "イシュガルディアン・ティーセット"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Dhalmel-Frikassee",
+      "en": "Dhalmel Fricassee",
+      "fr": "Fricassée de dhalmel",
+      "ja": "ダルメルフリカッセ"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 60,
+    "level": 142,
+    "maxQuality": 5456,
+    "name": {
+      "de": "Nahöstliche Antiquität",
+      "en": "Near Eastern Antique",
+      "fr": "Antiquité proche-orientale",
+      "ja": "近東風の蒐集品"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 404,
+    "durability": 60,
+    "level": 142,
+    "maxQuality": 2728,
+    "name": {
+      "de": "Komponente einer nahöstlichen Antiquität",
+      "en": "Near Eastern Antique Component",
+      "fr": "Composant d'antiquité proche-orientale",
+      "ja": "近東風の蒐集品部材"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 1454,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 3410,
+    "name": {
+      "de": "Fernöstliches Abendessen",
+      "en": "Oriental Supper",
+      "fr": "Dîner oriental",
+      "ja": "オリエンタル・ディナーセット"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Eier Royal",
+      "en": "Royal Eggs",
+      "fr": "Œufs royaux",
+      "ja": "エッグロワイヤル"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Gebackener Pipira Pira",
+      "en": "Baked Pipira Pira",
+      "fr": "Pipira pira au four",
+      "ja": "ベイクドピピラ・ピラ"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Cockatrice-Frikadelle",
+      "en": "Cockatrice Meatballs",
+      "fr": "Fricadelle de cocatrix",
+      "ja": "フリカデレ"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 60,
+    "level": 145,
+    "maxQuality": 5664,
+    "name": {
+      "de": "Coerthisches Souvenir",
+      "en": "Coerthan Souvenir",
+      "fr": "Souvenir du Coerthas",
+      "ja": "寒冷地の名産品"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 431,
+    "durability": 60,
+    "level": 145,
+    "maxQuality": 2832,
+    "name": {
+      "de": "Komponente eines coerthischen Souvenirs",
+      "en": "Coerthan Souvenir Component",
+      "fr": "Composant de souvenir du Coerthas",
+      "ja": "寒冷地の名産品部材"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Eiskalter Fruchtcocktail",
+      "en": "Frozen Spirits",
+      "fr": "Mélange glacé",
+      "ja": "フローズンカクテル"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 459,
+    "durability": 35,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Birkensirup",
+      "en": "Birch Syrup",
+      "fr": "Sirop de bouleau",
+      "ja": "バーチシロップ"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Leberkäsesemmel",
+      "en": "Liver-Cheese Sandwich",
+      "fr": "Sandwich au fromage de foie",
+      "ja": "レバーケースゼンメル"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 60,
+    "level": 148,
+    "maxQuality": 5871,
+    "name": {
+      "de": "Mahlstrom-Ausrüstung",
+      "en": "Maelstrom Materiel",
+      "fr": "Équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 459,
+    "durability": 60,
+    "level": 148,
+    "maxQuality": 2935,
+    "name": {
+      "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
+      "en": "Maelstrom Materiel Component",
+      "fr": "Composant d'équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品部材"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Glasierte Glanznüsse",
+      "en": "Marron Glace",
+      "fr": "Marrons glacés",
+      "ja": "マロングラッセ"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "de": "Ishgarder Abendessen",
+      "en": "Alpine Supper Set",
+      "fr": "Dîner ishgardais",
+      "ja": "イシュガルディアン・ディナーセット"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Muschelsuppe",
+      "en": "Clam Chowder",
+      "fr": "Chaudrée de palourdes",
+      "ja": "クラムチャウダー"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Okeanis-Schnitzel",
+      "en": "Deep-fried Okeanis",
+      "fr": "Océanide panée",
+      "ja": "オーケアニスシュニッツェル"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
+      "de": "Inniges Geschenk",
+      "en": "Heartfelt Gift",
+      "fr": "Cadeau attentionné",
+      "ja": "心尽くしの贈答品"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "de": "Komponente eines innigen Geschenks",
+      "en": "Heartfelt Gift Component",
+      "fr": "Composant de cadeau attentionné",
+      "ja": "心尽くしの贈答品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Mörchel-Salat",
+      "en": "Morel Salad",
+      "fr": "Salade verte aux morilles",
+      "ja": "モリーユサラダ"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Gefüllter Kohlkraut-Kopf",
+      "en": "Stuffed Chysahl",
+      "fr": "Cabus farci",
+      "ja": "スタッフドキャベイジ"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Mandelcroissant",
+      "en": "Almond Cream Croissant",
+      "fr": "Croissant amandé",
+      "ja": "クロワッサンアマンド"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Crème brulée",
+      "en": "Creme Brulee",
+      "fr": "Crème brûlée",
+      "ja": "クレームブリュレ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Heiße Schokolade",
+      "en": "Hot Chocolate",
+      "fr": "Chocolat chaud",
+      "ja": "ホットココア"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Brioche des Rois",
+      "en": "Kingcake",
+      "fr": "Brioche des rois",
+      "ja": "ブリオッシュ・デ・ロワ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Geburtstagskuchen",
+      "en": "Nameday Cake",
+      "fr": "Gâteau d'anniversaire",
+      "ja": "バースデーケーキ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "de": "Waisenhaus-Spende",
+      "en": "Orphanage Donation",
+      "fr": "Article quotidien d'orphelinat",
+      "ja": "孤児院の日用品"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "de": "Komponente einer Waisenhaus-Spende",
+      "en": "Orphanage Donation Component",
+      "fr": "Composant d'article pour orphelinat",
+      "ja": "孤児院の日用品部材"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Ishgarder Fischtopf",
+      "en": "Seafood Stew",
+      "fr": "Ragoût du pêcheur",
+      "ja": "トマトシチュー"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Flockenbeerentorte",
+      "en": "Snurbleberry Tart",
+      "fr": "Tarte aux lainuchairelles",
+      "ja": "スナーブルベリータルト"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Gedünsteter Vergelter",
+      "en": "Steamed Staff",
+      "fr": "Bâton à l'étouffée",
+      "ja": "嵐神魚の姿蒸し"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Seeigel-Pastete",
+      "en": "Urchin Loaf",
+      "fr": "Terrine d'oursins",
+      "ja": "アーチンテリーヌ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Anglerfisch-Eintopf",
+      "en": "Angler Stew",
+      "fr": "Ragoût de lotte",
+      "ja": "アングラーシチュー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Austern-Confit",
+      "en": "Oyster Confit",
+      "fr": "Huîtres confites",
+      "ja": "オイスターコンフィ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Süßer Gnomenfisch",
+      "en": "Sweet Gnomefish",
+      "fr": "Poisson gnome sucré",
+      "ja": "ヌマムツの甘露煮"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Apfelstrudel",
+      "en": "Apple Strudel",
+      "fr": "Strudel aux pommes",
+      "ja": "アップルシュトゥルーデル"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Boscaiola",
+      "en": "Boscaiola",
+      "fr": "Pâtes à la forestière",
+      "ja": "ボスカイオーラ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Himmelseier-Suppe",
+      "en": "Heavensegg Soup",
+      "fr": "Soupe aux célestœufs",
+      "ja": "ヘヴンスエッグスープ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Loaghtan-Steak",
+      "en": "Loaghtan Steak",
+      "fr": "Steak de loaghtan",
+      "ja": "ロフタンステーキ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Pasta Ortolano",
+      "en": "Pasta Ortolano",
+      "fr": "Pâtes à la maraîchère",
+      "ja": "オルトラーナ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Peperoncino",
+      "en": "Peperoncino",
+      "fr": "Pâtes aux piments",
+      "ja": "ペペロンチーノ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Würziger Apfelsaft",
+      "en": "Spiced Cider",
+      "fr": "Cidre aux épices",
+      "ja": "スパイスサイダー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Apfel-Flaugnarde",
+      "en": "Flaugnarde",
+      "fr": "Flaugnarde aux pommes",
+      "ja": "アップルフロニャルド"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmlischer Eierflip",
+      "en": "Heavenly Eggnog",
+      "fr": "Lait de poule céleste",
+      "ja": "ヘヴンスエッグノッグ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Cordon Bleu",
+      "en": "Loaghtan Cordon Bleu",
+      "fr": "Cordon bleu",
+      "ja": "コルドンブルー"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Priester-Omelett",
+      "en": "Priestly Omelette",
+      "fr": "Omelette sacerdotale",
+      "ja": "プリーストオムレツ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Carbonara",
+      "en": "Spaghetti Carbonara",
+      "fr": "Spaghettis à la carbonara",
+      "ja": "カルボナーラ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Pescatole",
+      "en": "Spaghetti Pescatore",
+      "fr": "Spaghetti pescatore",
+      "ja": "ペスカトーレ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Pilzomelett",
+      "en": "Wildwood Scrambled Eggs",
+      "fr": "Œufs brouillés",
+      "ja": "ウー・ブルイエ"
+    },
+    "stars": 4
+  }
+]

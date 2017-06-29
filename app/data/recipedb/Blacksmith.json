@@ -1,0 +1,8434 @@
+[
+  {
+    "baseLevel": 1,
+    "difficulty": 19,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Ballonhüllen-Bauteil",
+      "en": "Bladder Component",
+      "fr": "Composant de ballon",
+      "ja": "気嚢部材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 28,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 234,
+    "name": {
+      "de": "Hüllenverstärkungs-Bauteil",
+      "en": "Bladder Lining Component",
+      "fr": "Composant de finition de ballon",
+      "ja": "気嚢補強材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 19,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Bronzehandbeil",
+      "en": "Bronze Hatchet",
+      "fr": "Hachette",
+      "ja": "ハチェット"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 9,
+    "durability": 40,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Bronzebarren",
+      "en": "Bronze Ingot",
+      "fr": "Lingot de bronze",
+      "ja": "ブロンズインゴット"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 19,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Kanzelinnenraum-Bauteil",
+      "en": "Hull Interior Component",
+      "fr": "Composant de coque",
+      "ja": "エカトルの船体部材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 9,
+    "durability": 40,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Backbordrumpf-Bauteil",
+      "en": "Larboard Hull Component",
+      "fr": "Comp. de partie gauche de nacelle",
+      "ja": "左舷船体部材"
+    }
+  },
+  {
+    "baseLevel": 1,
+    "difficulty": 19,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Steuerbordrumpf-Bauteil",
+      "en": "Starboard Hull Component",
+      "fr": "Comp. de partie droite de nacelle",
+      "ja": "右舷船体部材"
+    }
+  },
+  {
+    "baseLevel": 2,
+    "difficulty": 20,
+    "durability": 60,
+    "level": 2,
+    "maxQuality": 325,
+    "name": {
+      "de": "Laienfeile",
+      "en": "Amateur's File",
+      "fr": "Lime d'amateur",
+      "ja": "アマチュアファイル"
+    }
+  },
+  {
+    "baseLevel": 2,
+    "difficulty": 20,
+    "durability": 60,
+    "level": 2,
+    "maxQuality": 325,
+    "name": {
+      "de": "Bastardschwert",
+      "en": "Bronze Bastard Sword",
+      "fr": "Épée bâtarde",
+      "ja": "バスタードソード"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 20,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Laienzange",
+      "en": "Amateur's Pliers",
+      "fr": "Tenailles d'amateur",
+      "ja": "アマチュアプライヤー"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 10,
+    "durability": 40,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Bronzenieten",
+      "en": "Bronze Rivets",
+      "fr": "Rivets en bronze",
+      "ja": "ブロンズリベット"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 20,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Bronzestreitaxt",
+      "en": "Bronze War Axe",
+      "fr": "Hache de guerre",
+      "ja": "ウォーアクス"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Werkzeug-Bauteil",
+      "en": "Crafting Tool Component",
+      "fr": "Nécessaire de fabrication",
+      "ja": "加工道具"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Deck-Bauteil",
+      "en": "Deck Component",
+      "fr": "Composant de pont",
+      "ja": "甲板部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 10,
+    "durability": 40,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Motorgehäuse-Bauteil",
+      "en": "Engine Casing Component",
+      "fr": "Composant de protection de moteur",
+      "ja": "機関外装部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 20,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Gyroantriebs-Bauteil",
+      "en": "Gyrodrive Component",
+      "fr": "Composant d'unité motrice",
+      "ja": "動力輪部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Erdseim-Motor-Bauteil",
+      "en": "Propulsion Engine Component",
+      "fr": "Composant de moteur",
+      "ja": "エカトルの機関部材"
+    }
+  },
+  {
+    "baseLevel": 3,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 169,
+    "name": {
+      "de": "Takelagen-Bauteil",
+      "en": "Rigging Component",
+      "fr": "Composant d'attache",
+      "ja": "索具部材"
+    }
+  },
+  {
+    "baseLevel": 4,
+    "difficulty": 21,
+    "durability": 60,
+    "level": 4,
+    "maxQuality": 352,
+    "name": {
+      "de": "Laien-Ahle",
+      "en": "Amateur's Awl",
+      "fr": "Alêne d'amateur",
+      "ja": "アマチュアアウル"
+    }
+  },
+  {
+    "baseLevel": 4,
+    "difficulty": 21,
+    "durability": 60,
+    "level": 4,
+    "maxQuality": 352,
+    "name": {
+      "de": "Bronzefuchsschwanz",
+      "en": "Bronze Saw",
+      "fr": "Scie",
+      "ja": "ソー"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Laien-Klauenhammer",
+      "en": "Amateur's Claw Hammer",
+      "fr": "Marteau arrache-clou d'amateur",
+      "ja": "アマチュアクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Bronze-Kreuzschlaghammer",
+      "en": "Bronze Cross-pein Hammer",
+      "fr": "Marteau à panne croisée",
+      "ja": "クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Bronzedolche",
+      "en": "Bronze Daggers",
+      "fr": "Dagues en bronze",
+      "ja": "ダガー"
+    }
+  },
+  {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Bronze-Flachhammer",
+      "en": "Bronze Doming Hammer",
+      "fr": "Marteau à emboutir",
+      "ja": "ドーミングハンマー"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Aerodynamo-Bauteil",
+      "en": "Aerodynamo Component",
+      "fr": "Composant de nez profilé",
+      "ja": "空力部材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Laien-Küchenmesser",
+      "en": "Amateur's Culinary Knife",
+      "fr": "Couteau de cuisine d'amateur",
+      "ja": "アマチュアクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Laienmörser",
+      "en": "Amateur's Mortar",
+      "fr": "Mortier d'amateur",
+      "ja": "アマチュアモーター"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 36,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Ballast-Bauteil",
+      "en": "Ballast Component",
+      "fr": "Composant de lest",
+      "ja": "バラスト部材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Kanzelaußenwand-Bauteil",
+      "en": "Cockpit Exterior Component",
+      "fr": "Composant extérieur de cockpit",
+      "ja": "操縦席外装材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Kanzelinnenwand-Bauteil",
+      "en": "Cockpit Interior Component",
+      "fr": "Composant intérieur de cockpit",
+      "ja": "操縦席内装材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Motorverstrebungs-Bauteil",
+      "en": "Engine Jointing Component",
+      "fr": "Composant de jonction de moteur",
+      "ja": "エカトルの機関部接合材"
+    }
+  },
+  {
+    "baseLevel": 6,
+    "difficulty": 115,
+    "durability": 60,
+    "level": 6,
+    "maxQuality": 237,
+    "name": {
+      "de": "Steuerpult-Bauteil",
+      "en": "Instrument Panel Component",
+      "fr": "Composant d'instrumentation",
+      "ja": "計器部材"
+    }
+  },
+  {
+    "baseLevel": 7,
+    "difficulty": 37,
+    "durability": 60,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Bronze-Ziselierhammer",
+      "en": "Bronze Chaser Hammer",
+      "fr": "Marteau de ciseleur",
+      "ja": "チェーサーハンマー"
+    }
+  },
+  {
+    "baseLevel": 7,
+    "difficulty": 37,
+    "durability": 60,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Bronze-Labrys",
+      "en": "Bronze Labrys",
+      "fr": "Labrys",
+      "ja": "ラブリュス"
+    }
+  },
+  {
+    "baseLevel": 7,
+    "difficulty": 37,
+    "durability": 60,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Wikingerschwert",
+      "en": "Viking Sword",
+      "fr": "Épée viking",
+      "ja": "ヴァイキングソード"
+    }
+  },
+  {
+    "baseLevel": 8,
+    "difficulty": 41,
+    "durability": 60,
+    "level": 8,
+    "maxQuality": 526,
+    "name": {
+      "de": "Bronze-Sattlermesser",
+      "en": "Bronze Head Knife",
+      "fr": "Couteau à pied",
+      "ja": "ヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 8,
+    "difficulty": 41,
+    "durability": 60,
+    "level": 8,
+    "maxQuality": 526,
+    "name": {
+      "de": "Bronzemesser",
+      "en": "Bronze Knives",
+      "fr": "Couteaux en bronze",
+      "ja": "ナイフ"
+    }
+  },
+  {
+    "baseLevel": 8,
+    "difficulty": 41,
+    "durability": 60,
+    "level": 8,
+    "maxQuality": 526,
+    "name": {
+      "de": "Bronzespitzhacke",
+      "en": "Bronze Pickaxe",
+      "fr": "Pioche",
+      "ja": "ピック"
+    }
+  },
+  {
+    "baseLevel": 9,
+    "difficulty": 42,
+    "durability": 60,
+    "level": 9,
+    "maxQuality": 545,
+    "name": {
+      "de": "Bronze-Klauenhammer",
+      "en": "Bronze Claw Hammer",
+      "fr": "Marteau arrache-clou",
+      "ja": "クローハンマー"
+    }
+  },
+  {
+    "baseLevel": 9,
+    "difficulty": 63,
+    "durability": 60,
+    "level": 9,
+    "maxQuality": 408,
+    "name": {
+      "de": "Wolkenaxt",
+      "en": "Cloud Axe",
+      "fr": "Hache ouragan",
+      "ja": "クラウドアクス"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Laien-Ziselierhammer",
+      "en": "Amateur's Chaser Hammer",
+      "fr": "Marteau de ciseleur d'amateur",
+      "ja": "アマチュアチェーサーハンマー"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Laien-Kreuzschlaghammer",
+      "en": "Amateur's Cross-pein Hammer",
+      "fr": "Marteau à panne croisée d'amateur",
+      "ja": "アマチュア・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Bronze-Baselarden",
+      "en": "Bronze Baselards",
+      "fr": "Baselards en bronze",
+      "ja": "バゼラード"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Bronzefeile",
+      "en": "Bronze File",
+      "fr": "Lime",
+      "ja": "ファイル"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Bronzemörser",
+      "en": "Bronze Mortar",
+      "fr": "Mortier",
+      "ja": "モーター"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Bronzezange",
+      "en": "Bronze Pliers",
+      "fr": "Tenailles",
+      "ja": "プライヤー"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 144,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 314,
+    "name": {
+      "de": "Kühler-Bauteil",
+      "en": "Heat Vent Component",
+      "fr": "Composant de ventilation",
+      "ja": "排熱部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Backbordtragflächen-Bauteil",
+      "en": "Larboard Wing Component",
+      "fr": "Composant d'aile gauche",
+      "ja": "左翼部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 67,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 471,
+    "name": {
+      "de": "Backbord-Tragflächengelenk-Bauteil",
+      "en": "Larboard Wing Control Component",
+      "fr": "Comp. d'articulation d'aile gauche",
+      "ja": "左翼可動部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Steuerbordtragflächen-Bauteil",
+      "en": "Starboard Wing Component",
+      "fr": "Composant d'aile droite",
+      "ja": "右翼部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 67,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 471,
+    "name": {
+      "de": "Steuerbord-Tragflächengelenk-Bauteil",
+      "en": "Starboard Wing Control Component",
+      "fr": "Comp. d'articulation d'aile droite",
+      "ja": "右翼可動部材"
+    }
+  },
+  {
+    "baseLevel": 10,
+    "difficulty": 144,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 314,
+    "name": {
+      "de": "Sprechanlagen-Bauteil",
+      "en": "Transmission Component",
+      "fr": "Composant de transmission",
+      "ja": "伝達系部材"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 48,
+    "durability": 60,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Laien-Flachhammer",
+      "en": "Amateur's Doming Hammer",
+      "fr": "Marteau à emboutir d'amateur",
+      "ja": "アマチュアドーミングハンマー"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 48,
+    "durability": 60,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Laien-Sattlermesser",
+      "en": "Amateur's Head Knife",
+      "fr": "Couteau à pied d'amateur",
+      "ja": "アマチュアヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 48,
+    "durability": 60,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Laien-Spitzhacke",
+      "en": "Amateur's Pickaxe",
+      "fr": "Pioche d'amateur",
+      "ja": "アマチュアピック"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 48,
+    "durability": 60,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Bronze-Ahle",
+      "en": "Bronze Awl",
+      "fr": "Alêne",
+      "ja": "アウル"
+    }
+  },
+  {
+    "baseLevel": 11,
+    "difficulty": 48,
+    "durability": 60,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Bronzesense",
+      "en": "Bronze Scythe",
+      "fr": "Faux",
+      "ja": "サイズ"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Laien-Handbeil",
+      "en": "Amateur's Hatchet",
+      "fr": "Hachette d'amateur",
+      "ja": "アマチュアハチェット"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Laien-Fuchsschwanz",
+      "en": "Amateur's Saw",
+      "fr": "Scie d'amateur",
+      "ja": "アマチュアソー"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Bronze-Küchenmesser",
+      "en": "Bronze Culinary Knife",
+      "fr": "Couteau de cuisine",
+      "ja": "クリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 79,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 526,
+    "name": {
+      "de": "Bronze-Ornamenthammer",
+      "en": "Bronze Ornamental Hammer",
+      "fr": "Marteau ornementé",
+      "ja": "オーナメンタルハンマー"
+    }
+  },
+  {
+    "baseLevel": 12,
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Bronze-Vorschlaghammer",
+      "en": "Bronze Sledgehammer",
+      "fr": "Maillet",
+      "ja": "モール"
+    }
+  },
+  {
+    "baseLevel": 13,
+    "difficulty": 54,
+    "durability": 60,
+    "level": 13,
+    "maxQuality": 726,
+    "name": {
+      "de": "Bronzeschlagringe",
+      "en": "Bronze Knuckles",
+      "fr": "Poings métalliques",
+      "ja": "メタルナックル"
+    }
+  },
+  {
+    "baseLevel": 13,
+    "difficulty": 54,
+    "durability": 60,
+    "level": 13,
+    "maxQuality": 726,
+    "name": {
+      "de": "Bronze-Spatha",
+      "en": "Bronze Spatha",
+      "fr": "Spathe",
+      "ja": "スパタ"
+    }
+  },
+  {
+    "baseLevel": 14,
+    "difficulty": 54,
+    "durability": 60,
+    "level": 14,
+    "maxQuality": 751,
+    "name": {
+      "de": "Messingdolche",
+      "en": "Brass Daggers",
+      "fr": "Dagues en laiton",
+      "ja": "ブラスダガー"
+    }
+  },
+  {
+    "baseLevel": 14,
+    "difficulty": 81,
+    "durability": 60,
+    "level": 14,
+    "maxQuality": 563,
+    "name": {
+      "de": "Messing-Sattlermesser",
+      "en": "Brass Head Knife",
+      "fr": "Couteau à pied en laiton",
+      "ja": "ブラスヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 14,
+    "difficulty": 54,
+    "durability": 60,
+    "level": 14,
+    "maxQuality": 751,
+    "name": {
+      "de": "Stachelbewehrte Bronze-Labrys",
+      "en": "Spiked Bronze Labrys",
+      "fr": "Labrys en bronze à pointe",
+      "ja": "スパイクドラブリュス"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 55,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Schnabelhammer",
+      "en": "Birdsbeak Hammer",
+      "fr": "Marteau à bec",
+      "ja": "バードビークハンマー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 55,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Bronze-Schlichthammer",
+      "en": "Bronze Raising Hammer",
+      "fr": "Marteau de batteur",
+      "ja": "レイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 176,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 403,
+    "name": {
+      "de": "Erdseim-Tank-Bauteil",
+      "en": "Ceruleum Tank Component",
+      "fr": "Composant de réservoir",
+      "ja": "青燐タンク部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 176,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 403,
+    "name": {
+      "de": "Entsorgungssystem-Bauteil",
+      "en": "Disposal Unit Component",
+      "fr": "Composant de système d'évacuation",
+      "ja": "緊急廃棄部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 99,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 1452,
+    "name": {
+      "de": "Schornstein-Bauteil",
+      "en": "Exhaust Outlet Component",
+      "fr": "Composant d'échappement",
+      "ja": "排気系部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 99,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 1452,
+    "name": {
+      "de": "Steuereinheits-Bauteil",
+      "en": "Helm Component",
+      "fr": "Composant de gouvernail",
+      "ja": "エカトルの操舵装置部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 40,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Eisenklöppel",
+      "en": "Iron Clapper",
+      "fr": "Battant en fer",
+      "ja": "アイアンクラッパー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 40,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Beleuchtungs-Bauteil",
+      "en": "Lamp Component",
+      "fr": "Composant d'éclairage",
+      "ja": "ランプ部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 176,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 403,
+    "name": {
+      "de": "Oasen-Oktagonfenster",
+      "en": "Oasis Octagonal Window",
+      "fr": "Fenêtre octogonale thanalanaise",
+      "ja": "ザナラーン・オクタゴンウィンドウ"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 82,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 605,
+    "name": {
+      "de": "Kommunikationsrohr-Bauteil",
+      "en": "Speaking Tube Component",
+      "fr": "Composant de tuyau acoustique",
+      "ja": "伝声系部材"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 82,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 605,
+    "name": {
+      "de": "Steuermechanismus-Bauteil",
+      "en": "Steering Mechanism Component",
+      "fr": "Composant de module de pilotage",
+      "ja": "操縦機具部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Aerodynamik-Verbesserer-Bauteil",
+      "en": "Auxiliary Aerodynamo Component",
+      "fr": "Composant d'aileron",
+      "ja": "補助空力部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 94,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 649,
+    "name": {
+      "de": "Messing-Bastardschwert",
+      "en": "Brass Bastard Sword",
+      "fr": "Épée bâtarde en laiton",
+      "ja": "ブラスバスタードソード"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Messingmesser",
+      "en": "Brass Knives",
+      "fr": "Couteaux en laiton",
+      "ja": "ブラスナイフ"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 94,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 649,
+    "name": {
+      "de": "Messingschlagringe",
+      "en": "Brass Knuckles",
+      "fr": "Poings en laiton",
+      "ja": "ブラスナックル"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 94,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 649,
+    "name": {
+      "de": "Bronze-Chocoboschwanz",
+      "en": "Chocobotail Saw",
+      "fr": "Scie queue de chocobo",
+      "ja": "チョコボテイルソー"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
+    "name": {
+      "de": "Zierplatten-Bauteil",
+      "en": "Decorative Plating Component",
+      "fr": "Composant d'ornementation",
+      "ja": "装飾部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 113,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 1558,
+    "name": {
+      "de": "Rettungsboots-Bauteil",
+      "en": "Escape Flyer Component",
+      "fr": "Composant de système d'éjection",
+      "ja": "緊急脱出用具"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
+    "name": {
+      "de": "Hyperleiter-Bauteil",
+      "en": "Hyperconductor Component",
+      "fr": "Composant d'hyperconducteur",
+      "ja": "高伝導率部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Eisenbarren",
+      "en": "Iron Ingot",
+      "fr": "Lingot de fer",
+      "ja": "アイアンインゴット"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Eisennägel",
+      "en": "Iron Nails",
+      "fr": "Clou en fer",
+      "ja": "アイアンネイル"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Isolations-Bauteil",
+      "en": "Isolator Component",
+      "fr": "Composant de système antivibration",
+      "ja": "免震部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 94,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 649,
+    "name": {
+      "de": "Gefiederte Bronzespitzhacke",
+      "en": "Plumed Bronze Pickaxe",
+      "fr": "Pioche à plumet",
+      "ja": "プルームドピック"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Gewichtsreduktions-Bauteil",
+      "en": "Refabrication Component",
+      "fr": "Composant d'allégement",
+      "ja": "軽量化部材"
+    }
+  },
+  {
+    "baseLevel": 16,
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
+    "name": {
+      "de": "Reservetank-Bauteil",
+      "en": "Spare Tank Component",
+      "fr": "Composant de réservoir de secours",
+      "ja": "予備タンク部材"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Eisenhandbeil",
+      "en": "Iron Hatchet",
+      "fr": "Hachette en fer",
+      "ja": "アイアンハチェット"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Eisen-Labrys",
+      "en": "Iron Labrys",
+      "fr": "Labrys en fer",
+      "ja": "アイアンラブリュス"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Eisenstreitaxt",
+      "en": "Iron War Axe",
+      "fr": "Hache de guerre en fer",
+      "ja": "アイアンウォーアクス"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 211,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 449,
+    "name": {
+      "de": "Oasen-Rundtisch",
+      "en": "Oasis Round Table",
+      "fr": "Table ronde thanalanaise",
+      "ja": "ザナラーン・ラウンドテーブル"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 214,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 469,
+    "name": {
+      "de": "Bugschmuck-Bauteil",
+      "en": "Figurehead Component",
+      "fr": "Aile d'Ehcatl",
+      "ja": "エカトルの羽根飾り"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 120,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 1690,
+    "name": {
+      "de": "Endstück-Bauteil",
+      "en": "Finishing Component",
+      "fr": "Composant final",
+      "ja": "エカトルの重要部材"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 67,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Eisen-Ziselierhammer",
+      "en": "Iron Chaser Hammer",
+      "fr": "Marteau de ciseleur en fer",
+      "ja": "アイアンチェーサーハンマー"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 67,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Eisen-Kreuzschlaghammer",
+      "en": "Iron Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en fer",
+      "ja": "アイアン・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 67,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Eisen-Flachhammer",
+      "en": "Iron Doming Hammer",
+      "fr": "Marteau à emboutir en fer",
+      "ja": "アイアンドーミングハンマー"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 33,
+    "durability": 40,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Eisennieten",
+      "en": "Iron Rivets",
+      "fr": "Rivets en fer",
+      "ja": "アイアンリベット"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 214,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 469,
+    "name": {
+      "de": "Riviera-Langfenster",
+      "en": "Riviera Oblong Window",
+      "fr": "Fenêtre à remplage noscéenne",
+      "ja": "ラノシアン・オブロングウィンドウ"
+    }
+  },
+  {
+    "baseLevel": 18,
+    "difficulty": 214,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 469,
+    "name": {
+      "de": "Handtuchaufhänger",
+      "en": "Towel Hanger",
+      "fr": "Porte-serviette",
+      "ja": "タオルハンガー"
+    }
+  },
+  {
+    "baseLevel": 19,
+    "difficulty": 68,
+    "durability": 70,
+    "level": 19,
+    "maxQuality": 982,
+    "name": {
+      "de": "Anfänger-Handbeil",
+      "en": "Initiate's Hatchet",
+      "fr": "Hachette d'initié",
+      "ja": "イニシエートハチェット"
+    }
+  },
+  {
+    "baseLevel": 19,
+    "difficulty": 68,
+    "durability": 70,
+    "level": 19,
+    "maxQuality": 982,
+    "name": {
+      "de": "Initiaten-Sattlermesser",
+      "en": "Initiate's Head Knife",
+      "fr": "Couteau à pied d'initié",
+      "ja": "イニシエートヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 19,
+    "difficulty": 68,
+    "durability": 70,
+    "level": 19,
+    "maxQuality": 982,
+    "name": {
+      "de": "Anfänger-Vorschlaghammer",
+      "en": "Initiate's Sledgehammer",
+      "fr": "Maillet d'initié",
+      "ja": "イニシエートモール"
+    }
+  },
+  {
+    "baseLevel": 19,
+    "difficulty": 68,
+    "durability": 70,
+    "level": 19,
+    "maxQuality": 982,
+    "name": {
+      "de": "Eisen-Ahle",
+      "en": "Iron Awl",
+      "fr": "Alêne en fer",
+      "ja": "アイアンアウル"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 111,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 789,
+    "name": {
+      "de": "Messing-Wikingerschwert",
+      "en": "Brass Viking Sword",
+      "fr": "Épée viking en laiton",
+      "ja": "ブラスヴァイキングソード"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 111,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 789,
+    "name": {
+      "de": "Massakerschwert",
+      "en": "Carnage Sword",
+      "fr": "Épée bâtarde enrageante",
+      "ja": "カルネージソード"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Anfänger-Fuchsschwanz",
+      "en": "Initiate's Saw",
+      "fr": "Scie d'initié",
+      "ja": "イニシエートソー"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Eisen-Klauenhammer",
+      "en": "Iron Claw Hammer",
+      "fr": "Marteau arrache-clou en fer",
+      "ja": "アイアンクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Eisendolche",
+      "en": "Iron Daggers",
+      "fr": "Dagues en fer",
+      "ja": "アイアンダガー"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Eisenspitzhacke",
+      "en": "Iron Pickaxe",
+      "fr": "Pioche en fer",
+      "ja": "アイアンピック"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 236,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 526,
+    "name": {
+      "de": "Oasen-Spitzbogenfenster",
+      "en": "Oasis Lancet Window",
+      "fr": "Fenêtre à lancette thanalanaise",
+      "ja": "ザナラーン・ランセットウィンドウ"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 112,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 817,
+    "name": {
+      "de": "Infernoaxt",
+      "en": "Inferno Axe",
+      "fr": "Hache infernale",
+      "ja": "インフェルノアクス"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Anfänger-Ziselierhammer",
+      "en": "Initiate's Chaser Hammer",
+      "fr": "Marteau de ciseleur d'initié",
+      "ja": "イニシエートチェーサーハンマー"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Anfänger-Kreuzschlaghammer",
+      "en": "Initiate's Cross-pein Hammer",
+      "fr": "Marteau à panne croisée d'initié",
+      "ja": "イニシエート・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Anfänger-Flachhammer",
+      "en": "Initiate's Doming Hammer",
+      "fr": "Marteau à emboutir d'initié",
+      "ja": "イニシエートドーミングハンマー"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Eisen-Küchenmesser",
+      "en": "Iron Culinary Knife",
+      "fr": "Couteau de cuisine en fer",
+      "ja": "アイアンクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Eisenmörser",
+      "en": "Iron Mortar",
+      "fr": "Mortier en fer",
+      "ja": "アイアンモーター"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
+    "name": {
+      "de": "Eisensense",
+      "en": "Iron Scythe",
+      "fr": "Faux en fer",
+      "ja": "アイアンサイズ"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 240,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 545,
+    "name": {
+      "de": "Riviera-Stuhl",
+      "en": "Riviera Chair",
+      "fr": "Chaise en bois noscéenne",
+      "ja": "ラノシアン・ウッドチェア"
+    }
+  },
+  {
+    "baseLevel": 21,
+    "difficulty": 240,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 545,
+    "name": {
+      "de": "Riviera-Deckenleuchte",
+      "en": "Riviera Pendant Lamp",
+      "fr": "Suspension noscéenne",
+      "ja": "ラノシアン・ペンダントランプ"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Anfänger-Spitzhacke",
+      "en": "Initiate's Pickaxe",
+      "fr": "Pioche d'initié",
+      "ja": "イニシエートピック"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Eisenfeile",
+      "en": "Iron File",
+      "fr": "Lime en fer",
+      "ja": "アイアンファイル"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Eisenzange",
+      "en": "Iron Pliers",
+      "fr": "Tenailles en fer",
+      "ja": "アイアンプライヤー"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Pugiones",
+      "en": "Iron Pugiones",
+      "fr": "Pugiones en fer",
+      "ja": "プジオ"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Eisen-Kurzschwert",
+      "en": "Iron Shortsword",
+      "fr": "Épée courte",
+      "ja": "ショートソード"
+    }
+  },
+  {
+    "baseLevel": 23,
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
+    "name": {
+      "de": "Anfänger-Ahle",
+      "en": "Initiate's Awl",
+      "fr": "Alêne d'initié",
+      "ja": "イニシエートアウル"
+    }
+  },
+  {
+    "baseLevel": 23,
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
+    "name": {
+      "de": "Eisen-Vorschlaghammer",
+      "en": "Iron Sledgehammer",
+      "fr": "Maillet en fer",
+      "ja": "アイアンモール"
+    }
+  },
+  {
+    "baseLevel": 23,
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
+    "name": {
+      "de": "Stachelschlagringe",
+      "en": "Spiked Knuckles",
+      "fr": "Poings à pointes",
+      "ja": "スパイクナックル"
+    }
+  },
+  {
+    "baseLevel": 24,
+    "difficulty": 85,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 1239,
+    "name": {
+      "de": "Kupferstich-Eisenfuchsschwanz",
+      "en": "Bas-relief Iron Saw",
+      "fr": "Scie en fer gravée",
+      "ja": "レリーフアイアンソー"
+    }
+  },
+  {
+    "baseLevel": 24,
+    "difficulty": 127,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 929,
+    "name": {
+      "de": "Messinghandbeil",
+      "en": "Brass Hatchet",
+      "fr": "Hachette en laiton",
+      "ja": "ブラスハチェット"
+    }
+  },
+  {
+    "baseLevel": 24,
+    "difficulty": 85,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 1239,
+    "name": {
+      "de": "Anfänger-Klauenhammer",
+      "en": "Initiate's Claw Hammer",
+      "fr": "Marteau arrache-clou d'initié",
+      "ja": "イニシエートクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 24,
+    "difficulty": 85,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 1239,
+    "name": {
+      "de": "Anfängermörser",
+      "en": "Initiate's Mortar",
+      "fr": "Mortier d'initié",
+      "ja": "イニシエートモーター"
+    }
+  },
+  {
+    "baseLevel": 24,
+    "difficulty": 85,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 1239,
+    "name": {
+      "de": "Eisen-Hippe",
+      "en": "Iron Bill",
+      "fr": "Vouge",
+      "ja": "ビル"
+    }
+  },
+  {
+    "baseLevel": 24,
+    "difficulty": 272,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 619,
+    "name": {
+      "de": "Riviera-Tisch",
+      "en": "Riviera Table",
+      "fr": "Table noscéenne",
+      "ja": "ラノシアン・テーブル"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
+    "name": {
+      "de": "Anfänger-Küchenmesser",
+      "en": "Initiate's Culinary Knife",
+      "fr": "Couteau de cuisine d'initié",
+      "ja": "イニシエートクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
+    "name": {
+      "de": "Anfängersense",
+      "en": "Initiate's Scythe",
+      "fr": "Faux d'initié",
+      "ja": "イニシエートサイズ"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
+    "name": {
+      "de": "Eisenrundmesser",
+      "en": "Iron Round Knife",
+      "fr": "Couteau arrondi",
+      "ja": "ラウンドナイフ"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
+    "name": {
+      "de": "Eisen-Spatha",
+      "en": "Iron Spatha",
+      "fr": "Spathe en fer",
+      "ja": "アイアンスパタ"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 90,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Krähenschnabelhammer",
+      "en": "Crowsbeak Hammer",
+      "fr": "Marteau corbeau",
+      "ja": "クロウビークハンマー"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 135,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 999,
+    "name": {
+      "de": "Eisen-Ornamenthammer",
+      "en": "Iron Ornamental Hammer",
+      "fr": "Marteau ornementé en fer",
+      "ja": "アイアンオーナメンタルハンマー"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 90,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Eisen-Schlichthammer",
+      "en": "Iron Raising Hammer",
+      "fr": "Marteau de batteur en fer",
+      "ja": "アイアンレイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 90,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Stahldolche",
+      "en": "Steel Daggers",
+      "fr": "Dagues en acier",
+      "ja": "スチールダガー"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 45,
+    "durability": 40,
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Stahlbarren",
+      "en": "Steel Ingot",
+      "fr": "Lingot d'acier",
+      "ja": "スチールインゴット"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 135,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 999,
+    "name": {
+      "de": "Donnersturmaxt",
+      "en": "Thunderstorm Axe",
+      "fr": "Hache orage",
+      "ja": "サンダーストームアクス"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 291,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 684,
+    "name": {
+      "de": "Galeassen-Steuerrad",
+      "en": "Galleass Wheel",
+      "fr": "Roue de galéasse",
+      "ja": "ガレアス船の操舵輪"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Anfängerfeile",
+      "en": "Initiate's File",
+      "fr": "Lime d'initié",
+      "ja": "イニシエートファイル"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Anfängerzange",
+      "en": "Initiate's Pliers",
+      "fr": "Tenailles d'initié",
+      "ja": "イニシエートプライヤー"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Eisen-Dolabra",
+      "en": "Iron Dolabra",
+      "fr": "Dolabre",
+      "ja": "ドラブラ"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 291,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 684,
+    "name": {
+      "de": "Riviera-Ornamenttür",
+      "en": "Riviera Ornate Door",
+      "fr": "Porte ornée noscéenne",
+      "ja": "ラノシアン・オーネイトドア"
+    }
+  },
+  {
+    "baseLevel": 27,
+    "difficulty": 45,
+    "durability": 40,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Stahlnägel",
+      "en": "Steel Nails",
+      "fr": "Clou en acier",
+      "ja": "スチールネイル"
+    }
+  },
+  {
+    "baseLevel": 28,
+    "difficulty": 100,
+    "durability": 70,
+    "level": 28,
+    "maxQuality": 1498,
+    "name": {
+      "de": "Eisen-Chocoboschwanz",
+      "en": "Iron Chocobotail Saw",
+      "fr": "Scie queue de chocobo en fer",
+      "ja": "アイアン・チョコボテイルソー"
+    }
+  },
+  {
+    "baseLevel": 28,
+    "difficulty": 100,
+    "durability": 70,
+    "level": 28,
+    "maxQuality": 1498,
+    "name": {
+      "de": "Stachelbewehrte Stahl-Labrys",
+      "en": "Spiked Steel Labrys",
+      "fr": "Labrys en acier à pointe",
+      "ja": "スパイクドスチールラブリュス"
+    }
+  },
+  {
+    "baseLevel": 28,
+    "difficulty": 100,
+    "durability": 70,
+    "level": 28,
+    "maxQuality": 1498,
+    "name": {
+      "de": "Breitschwert",
+      "en": "Steel Broadsword",
+      "fr": "Épée large",
+      "ja": "ブロードソード"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 323,
+    "durability": 70,
+    "level": 29,
+    "maxQuality": 772,
+    "name": {
+      "de": "Riviera-Prachtdeckenleuchte",
+      "en": "Deluxe Riviera Pendant Lamp",
+      "fr": "Plafonnier noscéen",
+      "ja": "ラノシアン・デラックスペンダントランプ"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 151,
+    "durability": 70,
+    "level": 29,
+    "maxQuality": 1158,
+    "name": {
+      "de": "Schwerer Krähenschnabelhammer",
+      "en": "Heavy Crowsbeak Hammer",
+      "fr": "Marteau corbeau lourd",
+      "ja": "ヘヴィ・クロウビークハンマー"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 101,
+    "durability": 70,
+    "level": 29,
+    "maxQuality": 1544,
+    "name": {
+      "de": "Eisen-Sattlermesser",
+      "en": "Iron Head Knife",
+      "fr": "Couteau à pied en fer",
+      "ja": "アイアンヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 101,
+    "durability": 70,
+    "level": 29,
+    "maxQuality": 1544,
+    "name": {
+      "de": "Gefiedertes Eisenhandbeil",
+      "en": "Plumed Iron Hatchet",
+      "fr": "Hachette à plumet",
+      "ja": "チョコボハチェット"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 101,
+    "durability": 70,
+    "level": 29,
+    "maxQuality": 1544,
+    "name": {
+      "de": "Stahlkrallen",
+      "en": "Steel Claws",
+      "fr": "Griffes métalliques",
+      "ja": "メタルクロー"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 50,
+    "durability": 40,
+    "level": 29,
+    "maxQuality": 1544,
+    "name": {
+      "de": "Stahlnieten",
+      "en": "Steel Rivets",
+      "fr": "Rivets en acier",
+      "ja": "スチールリベット"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 151,
+    "durability": 70,
+    "level": 29,
+    "maxQuality": 1158,
+    "name": {
+      "de": "Umwickelter Eisen-Schlichthammer",
+      "en": "Wrapped Iron Raising Hammer",
+      "fr": "Marteau de batteur en fer gainé",
+      "ja": "ラップドレイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Tiefblauer Farbstoff",
+      "en": "Abyssal Blue Dye",
+      "fr": "Teinture bleu marine",
+      "ja": "カララント:アビサルブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 102,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Kupferstich-Stahlfuchsschwanz",
+      "en": "Bas-relief Steel Saw",
+      "fr": "Scie en acier gravée",
+      "ja": "レリーフスチールソー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Jadegrüner Farbstoff",
+      "en": "Celeste Green Dye",
+      "fr": "Teinture vert céleste",
+      "ja": "カララント:セレストグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Kolibrirosa Farbstoff",
+      "en": "Colibri Pink Dye",
+      "fr": "Teinture mauve colibri",
+      "ja": "カララント:コリブリピンク"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Dalamudroter Farbstoff",
+      "en": "Dalamud Red Dye",
+      "fr": "Teinture rouge Dalamud",
+      "ja": "カララント:ダラガブレッド"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Waldgrüner Farbstoff",
+      "en": "Deepwood Green Dye",
+      "fr": "Teinture vert sapin",
+      "ja": "カララント:ディープウッドグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Grobschmiede-Projektionsprisma",
+      "en": "Glamour Prism (Smithing)",
+      "fr": "Prisme mirage (métallurgie)",
+      "ja": "ミラージュプリズム:スミシング"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Grobschmiede-Projektionsprisma II",
+      "en": "Grade 2 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage II (métallurgie)",
+      "ja": "ミラージュプリズムG2:スミシング"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Grobschmiede-Projektionsprisma III",
+      "en": "Grade 3 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage III (métallurgie)",
+      "ja": "ミラージュプリズムG3:スミシング"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Grobschmiede-Projektionsprisma IV",
+      "en": "Grade 4 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage IV (métallurgie)",
+      "ja": "ミラージュプリズムG4:スミシング"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Grobschmiede-Projektionsprisma V",
+      "en": "Grade 5 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage V (métallurgie)",
+      "ja": "ミラージュプリズムG5:スミシング"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Honiggelber Farbstoff",
+      "en": "Honey Yellow Dye",
+      "fr": "Teinture jaune miel",
+      "ja": "カララント:ハニーイエロー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Jägergrüner Farbstoff",
+      "en": "Hunter Green Dye",
+      "fr": "Teinture vert chasseur",
+      "ja": "カララント:ハンターグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Koboldbrauner Farbstoff",
+      "en": "Kobold Brown Dye",
+      "fr": "Teinture brun kobold",
+      "ja": "カララント:コボルドブラウン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Lehmbrauner Farbstoff",
+      "en": "Loam Brown Dye",
+      "fr": "Teinture brun argile",
+      "ja": "カララント:ロームブラウン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Lotusrosa Farbstoff",
+      "en": "Lotus Pink Dye",
+      "fr": "Teinture mauve lotus",
+      "ja": "カララント:ロータスピンク"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 326,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "de": "Herrenhaus-Blumenbord",
+      "en": "Manor Flower Stand",
+      "fr": "Sellette du Manoir",
+      "ja": "御用邸の花台"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Maisgelber Farbstoff",
+      "en": "Millioncorn Yellow Dye",
+      "fr": "Teinture jaune milli-maïs",
+      "ja": "カララント:ミリオンコーンイエロー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Morbolgrüner Farbstoff",
+      "en": "Morbol Green Dye",
+      "fr": "Teinture vert morbol",
+      "ja": "カララント:モルボルグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Ochugrüner Farbstoff",
+      "en": "Ochu Green Dye",
+      "fr": "Teinture vert otyugh",
+      "ja": "カララント:オチューグリーン"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Othardblauer Farbstoff",
+      "en": "Othard Blue Dye",
+      "fr": "Teinture bleu d'Othard",
+      "ja": "カララント:オサードブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Pflaumenvioletter Farbstoff",
+      "en": "Plum Purple Dye",
+      "fr": "Teinture prune",
+      "ja": "カララント:プラムパープル"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Kürbisoranger Farbstoff",
+      "en": "Pumpkin Orange Dye",
+      "fr": "Teinture orange citrouille",
+      "ja": "カララント:パンプキンオレンジ"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Königsvioletter Farbstoff",
+      "en": "Regal Purple Dye",
+      "fr": "Teinture byzantium",
+      "ja": "カララント:リーガルパープル"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 326,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "de": "Riviera-Laternenmast",
+      "en": "Riviera Lamppost",
+      "fr": "Lampadaire noscéen",
+      "ja": "ラノシアン・ランプポスト"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Königsblauer Farbstoff",
+      "en": "Royal Blue Dye",
+      "fr": "Teinture bleu royal",
+      "ja": "カララント:ロイヤルブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 153,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1188,
+    "name": {
+      "de": "Silber-Sattlermesser",
+      "en": "Silver Head Knife",
+      "fr": "Couteau à pied en argent",
+      "ja": "シルバーヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Schneeweißer Farbstoff",
+      "en": "Snow White Dye",
+      "fr": "Teinture blanc neige",
+      "ja": "カララント:スノウホワイト"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Rußschwarzer Farbstoff",
+      "en": "Soot Black Dye",
+      "fr": "Teinture noir suie",
+      "ja": "カララント:スートブラック"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 102,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Stahl-Ziselierhammer",
+      "en": "Steel Chaser Hammer",
+      "fr": "Marteau de ciseleur en acier",
+      "ja": "スチールチェーサーハンマー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 102,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Stahlmesser",
+      "en": "Steel Knives",
+      "fr": "Couteaux en acier",
+      "ja": "スチールナイフ"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 102,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Stahl-Spitzhacke",
+      "en": "Steel Pickaxe",
+      "fr": "Pioche en acier",
+      "ja": "スチールピック"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 102,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Stahl-Vorschlaghammer",
+      "en": "Steel Sledgehammer",
+      "fr": "Maillet en acier",
+      "ja": "スチールモール"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Sturmblauer Farbstoff",
+      "en": "Storm Blue Dye",
+      "fr": "Teinture bleu tempête",
+      "ja": "カララント:ストームブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Abendroter Farbstoff",
+      "en": "Sunset Orange Dye",
+      "fr": "Teinture orange couchant",
+      "ja": "カララント:サンセットオレンジ"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Nichtsblauer Farbstoff",
+      "en": "Void Blue Dye",
+      "fr": "Teinture bleu du néant",
+      "ja": "カララント:ヴォイドブルー"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Weinroter Farbstoff",
+      "en": "Wine Red Dye",
+      "fr": "Teinture lie-de-vin",
+      "ja": "カララント:ワインレッド"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Indigoblauer Farbstoff",
+      "en": "Woad Blue Dye",
+      "fr": "Teinture bleu guède",
+      "ja": "カララント:ウォードブルー"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "de": "Stahl-Ahle",
+      "en": "Steel Awl",
+      "fr": "Alêne en acier",
+      "ja": "スチールアウル"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "de": "Stahl-Klauenhammer",
+      "en": "Steel Claw Hammer",
+      "fr": "Marteau arrache-clou en acier",
+      "ja": "スチールクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "de": "Stahl-Falchion",
+      "en": "Steel Falchion",
+      "fr": "Fauchon en acier",
+      "ja": "スチールファルシオン"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 352,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 848,
+    "name": {
+      "de": "Oasen-Laternenmast",
+      "en": "Oasis Lamppost",
+      "fr": "Lampadaire thanalanais",
+      "ja": "ザナラーン・ランプポスト"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "Stahl-Berdysch",
+      "en": "Steel Bardiche",
+      "fr": "Bardiche en acier",
+      "ja": "スチールバルディッシュ"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "Stahl-Kreuzschlaghammer",
+      "en": "Steel Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en acier",
+      "ja": "スチール・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "Stahl-Küchenmesser",
+      "en": "Steel Culinary Knife",
+      "fr": "Couteau de cuisine en acier",
+      "ja": "スチールクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "Stahlmörser",
+      "en": "Steel Mortar",
+      "fr": "Mortier en acier",
+      "ja": "スチールモーター"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "Stahl-Ornamenthammer",
+      "en": "Steel Ornamental Hammer",
+      "fr": "Marteau ornementé en acier",
+      "ja": "スチールオーナメンタルハンマー"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 355,
+    "durability": 80,
+    "level": 33,
+    "maxQuality": 878,
+    "name": {
+      "de": "Eichenholzbank",
+      "en": "Oaken Bench",
+      "fr": "Banc en chêne",
+      "ja": "オークガーデンベンチ"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 111,
+    "durability": 80,
+    "level": 33,
+    "maxQuality": 1757,
+    "name": {
+      "de": "Stahl-Dolabra",
+      "en": "Steel Dolabra",
+      "fr": "Dolabre en acier",
+      "ja": "スチールドラブラ"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 111,
+    "durability": 80,
+    "level": 33,
+    "maxQuality": 1757,
+    "name": {
+      "de": "Stahlhandbeil",
+      "en": "Steel Hatchet",
+      "fr": "Hachette en acier",
+      "ja": "スチールハチェット"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 111,
+    "durability": 80,
+    "level": 33,
+    "maxQuality": 1757,
+    "name": {
+      "de": "Stahlsense",
+      "en": "Steel Scythe",
+      "fr": "Faux en acier",
+      "ja": "スチールサイズ"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 166,
+    "durability": 80,
+    "level": 33,
+    "maxQuality": 1317,
+    "name": {
+      "de": "Umwickelter Stahl-Vorschlaghammer",
+      "en": "Wrapped Steel Sledgehammer",
+      "fr": "Maillet en acier gainé",
+      "ja": "ラップドスチールモール"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Stahl-Baselarden",
+      "en": "Steel Baselards",
+      "fr": "Baselards en acier",
+      "ja": "スチールバゼラード"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Stahl-Krähenschnabelhammer",
+      "en": "Steel Crowsbeak Hammer",
+      "fr": "Marteau corbeau en acier",
+      "ja": "スチールビークハンマー"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Stahl-Flachhammer",
+      "en": "Steel Doming Hammer",
+      "fr": "Marteau à emboutir en acier",
+      "ja": "スチールドーミングハンマー"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Stahlfeile",
+      "en": "Steel File",
+      "fr": "Lime en acier",
+      "ja": "スチールファイル"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Stahl-Zweihänder",
+      "en": "Steel Zweihander",
+      "fr": "Espadon en acier",
+      "ja": "スチールツヴァイハンダー"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "Stahl-Muskete",
+      "en": "Steel-barreled Musketoon",
+      "fr": "Mousqueton en acier",
+      "ja": "スチールマスケトン"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 393,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 926,
+    "name": {
+      "de": "Ahriman-Bücherregal",
+      "en": "Ahriman Bookshelf",
+      "fr": "Bibliothèque ahriman",
+      "ja": "アーリマンブックシェルフ"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 393,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 926,
+    "name": {
+      "de": "Ahriman-Geschirrschrank",
+      "en": "Ahriman Cupboard",
+      "fr": "Vaisselier ahriman",
+      "ja": "アーリマンカップボード"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 393,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 926,
+    "name": {
+      "de": "Ahriman-Wandschirm",
+      "en": "Ahriman Screen",
+      "fr": "Panneau ahriman",
+      "ja": "アーリマンスクリーン"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 393,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 926,
+    "name": {
+      "de": "Ahriman-Anrichte",
+      "en": "Ahriman Sideboard",
+      "fr": "Dressoir ahriman",
+      "ja": "アーリマンサイドボード"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Ziehsäge",
+      "en": "Crosscut Saw",
+      "fr": "Scie égoïne",
+      "ja": "クロスカットソー"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 184,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1389,
+    "name": {
+      "de": "Schwerer Stahlmörser",
+      "en": "Heavy Steel Mortar",
+      "fr": "Mortier en acier renforcé",
+      "ja": "スチールモーターDX"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Gefiedertes Stahlhandbeil",
+      "en": "Plumed Steel Hatchet",
+      "fr": "Hachette à plumet en acier",
+      "ja": "スチールチョコボハチェット"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Stahl-Bhuj",
+      "en": "Steel Bhuj",
+      "fr": "Bhuj en acier",
+      "ja": "スチールブージ"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Stahlzange",
+      "en": "Steel Pliers",
+      "fr": "Tenailles en acier",
+      "ja": "スチールプライヤー"
+    }
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Restauriertes Breitschwert",
+      "en": "Vintage Bastard Sword",
+      "fr": "Épée bâtarde de collection",
+      "ja": "ヴィンテージバスタードソード"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Umwickeltes Stahl-Küchenmesser",
+      "en": "Wrapped Steel Culinary Knife",
+      "fr": "Couteau de cuisine en acier renforcé",
+      "ja": "スチールクリナリーナイフDX"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 184,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1389,
+    "name": {
+      "de": "Umwickelte Stahlsense",
+      "en": "Wrapped Steel Scythe",
+      "fr": "Faux en acier gainée",
+      "ja": "ラップドスチールサイズ"
+    }
+  },
+  {
+    "baseLevel": 36,
+    "difficulty": 124,
+    "durability": 80,
+    "level": 36,
+    "maxQuality": 1882,
+    "name": {
+      "de": "Stahlrundmesser",
+      "en": "Steel Round Knife",
+      "fr": "Couteau arrondi en acier",
+      "ja": "スチールラウンドナイフ"
+    }
+  },
+  {
+    "baseLevel": 36,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 36,
+    "maxQuality": 1411,
+    "name": {
+      "de": "Umwickelte Stahl-Ahle",
+      "en": "Wrapped Steel Awl",
+      "fr": "Alêne en acier gainée",
+      "ja": "ラップドスチールアウル"
+    }
+  },
+  {
+    "baseLevel": 36,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 36,
+    "maxQuality": 1411,
+    "name": {
+      "de": "Umwickelter Stahl-Klauenhammer",
+      "en": "Wrapped Steel Claw Hammer",
+      "fr": "Marteau arrache-clou en acier gainé",
+      "ja": "ラップド・スチールクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 37,
+    "difficulty": 128,
+    "durability": 80,
+    "level": 37,
+    "maxQuality": 1905,
+    "name": {
+      "de": "Stahl-Langschwert",
+      "en": "Steel Longsword",
+      "fr": "Épée longue en acier",
+      "ja": "スチールロングソード"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Mithril-Breitschwert",
+      "en": "Mythril Broadsword",
+      "fr": "Épée large en mithril",
+      "ja": "ミスリルブロードソード"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Mithril-Claymore",
+      "en": "Mythril Claymore",
+      "fr": "Claymore en mithril",
+      "ja": "ミスリルクレイモア"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Mithrilhandbeil",
+      "en": "Mythril Hatchet",
+      "fr": "Hachette en mithril",
+      "ja": "ミスリルハチェット"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 64,
+    "durability": 40,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Mithril-Barren",
+      "en": "Mythril Ingot",
+      "fr": "Lingot de mithril",
+      "ja": "ミスリルインゴット"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Mithril-Messer",
+      "en": "Mythril Knives",
+      "fr": "Couteaux en mithril",
+      "ja": "ミスリルナイフ"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Mithril-Karabiner",
+      "en": "Mythril-barreled Carbine",
+      "fr": "Carabine en mithril",
+      "ja": "ミスリルカービン"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Gefiederte Mithrilspitzhacke",
+      "en": "Plumed Mythril Pickaxe",
+      "fr": "Pioche en mithril à plumet",
+      "ja": "プルームドミスリルピック"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Stahl-Schlichthammer",
+      "en": "Steel Raising Hammer",
+      "fr": "Marteau de batteur en acier",
+      "ja": "スチールレイジングハンマー"
+    }
+  },
+  {
+    "aspect": "Earth",
+    "baseLevel": 38,
+    "difficulty": 129,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Restauriertes Wikingerschwert",
+      "en": "Vintage Viking Sword",
+      "fr": "Glaive gobelin",
+      "ja": "ヴィンテージヴァイキングソード"
+    }
+  },
+  {
+    "baseLevel": 38,
+    "difficulty": 193,
+    "durability": 80,
+    "level": 38,
+    "maxQuality": 1470,
+    "name": {
+      "de": "Umwickelter Schnabelhammer",
+      "en": "Wrapped Crowsbeak Hammer",
+      "fr": "Marteau corbeau gainé",
+      "ja": "ラップド・スチールビークハンマー"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Mithrilkrallen",
+      "en": "Mythril Claws",
+      "fr": "Griffes en mithril",
+      "ja": "ミスリルクロー"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Mithril-Sattlermesser",
+      "en": "Mythril Head Knife",
+      "fr": "Couteau à pied en mithril",
+      "ja": "ミスリルヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 68,
+    "durability": 40,
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Mithrilnieten",
+      "en": "Mythril Rivets",
+      "fr": "Rivets en mithril",
+      "ja": "ミスリルリベット"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Mithrilfuchsschwanz",
+      "en": "Mythril Saw",
+      "fr": "Scie en mithril",
+      "ja": "ミスリルソー"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Stachelbewehrte Mithril-Labrys",
+      "en": "Spiked Mythril Labrys",
+      "fr": "Labrys en mithril à pointe",
+      "ja": "スパイクドミスリルラブリュス"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Mithril-Ahle",
+      "en": "Mythril Awl",
+      "fr": "Alêne en mithril",
+      "ja": "ミスリルアウル"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Mithril-Bhuj",
+      "en": "Mythril Bhuj",
+      "fr": "Bhuj en mithril",
+      "ja": "ミスリルブージ"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Mithril-Klauenhammer",
+      "en": "Mythril Claw Hammer",
+      "fr": "Marteau arrache-clou en mithril",
+      "ja": "ミスリルクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Mithrilfeile",
+      "en": "Mythril File",
+      "fr": "Lime en mithril",
+      "ja": "ミスリルファイル"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Mithril-Ornamenthammer",
+      "en": "Mythril Ornamental Hammer",
+      "fr": "Marteau ornementé en mithril",
+      "ja": "ミスリルオーナメンタルハンマー"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Mithril-Baselarden",
+      "en": "Mythril Baselards",
+      "fr": "Baselards en mithril",
+      "ja": "ミスリルバゼラード"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Mithril-Küchenmesser",
+      "en": "Mythril Culinary Knife",
+      "fr": "Couteau de cuisine en mithril",
+      "ja": "ミスリルクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Mithrilmörser",
+      "en": "Mythril Mortar",
+      "fr": "Mortier en mithril",
+      "ja": "ミスリルモーター"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Mithrilsense",
+      "en": "Mythril Scythe",
+      "fr": "Faux en mithril",
+      "ja": "ミスリルサイズ"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Mithril-Vorschlaghammer",
+      "en": "Mythril Sledgehammer",
+      "fr": "Maillet en mithril",
+      "ja": "ミスリルモール"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Mithril-Zweihänder",
+      "en": "Mythril Zweihander",
+      "fr": "Espadon en mithril",
+      "ja": "ミスリルツヴァイハンダー"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "de": "Mithril-Muskete",
+      "en": "Mythril-barreled Musketoon",
+      "fr": "Mousqueton en mithril",
+      "ja": "ミスリルマスケトン"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 457,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 1054,
+    "name": {
+      "de": "Riviera-Audienztisch",
+      "en": "Riviera Counter",
+      "fr": "Comptoir noscéen",
+      "ja": "ラノシアン・カウンター"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 460,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 1073,
+    "name": {
+      "de": "Wetterapkallu",
+      "en": "Apkallu Weathervane",
+      "fr": "Girouette apkallu",
+      "ja": "ウェザーアプカル"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Koboldeisen-Kreuzschlaghammer",
+      "en": "Cobalt Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en cobalt",
+      "ja": "コバルト・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 72,
+    "durability": 40,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Koboldeisenbarren",
+      "en": "Cobalt Ingot",
+      "fr": "Lingot de cobalt",
+      "ja": "コバルトインゴット"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Koboldeisen-Katzbalger",
+      "en": "Cobalt Katzbalger",
+      "fr": "Katzbalger",
+      "ja": "カッツバルゲル"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Koboldeisen-Schlagringe",
+      "en": "Cobalt Knuckles",
+      "fr": "Poings en cobalt",
+      "ja": "コバルトナックル"
+    }
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Goblin-Scimitar",
+      "en": "Goblin Scimitar",
+      "fr": "Cimeterre gobelin",
+      "ja": "ゴブリンシミター"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Mithril-Chocoboschwanz",
+      "en": "Mythril Chocobotail Saw",
+      "fr": "Scie queue de chocobo en mithril",
+      "ja": "ミスリル・チョコボテイルソー"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Mithril-Juwelierhammer",
+      "en": "Mythril Lapidary Hammer",
+      "fr": "Marteau de lapidaire en mithril",
+      "ja": "ミスリルラピダリーハンマー"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Mithrilzange",
+      "en": "Mythril Pliers",
+      "fr": "Tenailles en mithril",
+      "ja": "ミスリルプライヤー"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "de": "Mithril-Rundmesser",
+      "en": "Mythril Round Knife",
+      "fr": "Couteau arrondi en mithril",
+      "ja": "ミスリルラウンドナイフ"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 155,
+    "durability": 80,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Freibeuter-Berdysch",
+      "en": "Buccaneer's Bardiche",
+      "fr": "Bardiche du boucanier",
+      "ja": "バッカニアバルディッシュ"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 155,
+    "durability": 80,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Koboldeisen-Dolabra",
+      "en": "Cobalt Dolabra",
+      "fr": "Dolabre en cobalt",
+      "ja": "コバルトドラブラ"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 155,
+    "durability": 80,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Koboldeisen-Flachhammer",
+      "en": "Cobalt Doming Hammer",
+      "fr": "Marteau à emboutir en cobalt",
+      "ja": "コバルトドーミングハンマー"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 155,
+    "durability": 80,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Koboldeisenhandbeil",
+      "en": "Cobalt Hatchet",
+      "fr": "Hachette en cobalt",
+      "ja": "コバルトハチェット"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 77,
+    "durability": 40,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Koboldeisennieten",
+      "en": "Cobalt Rivets",
+      "fr": "Rivets en cobalt",
+      "ja": "コバルトリベット"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 155,
+    "durability": 80,
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "de": "Koboldeisen-Shamshir",
+      "en": "Cobalt Shamshir",
+      "fr": "Shamshir",
+      "ja": "シャムシール"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Koboldeisen-Ahle",
+      "en": "Cobalt Awl",
+      "fr": "Alêne en cobalt",
+      "ja": "コバルトアウル"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Koboldeisen-Klauenhammer",
+      "en": "Cobalt Claw Hammer",
+      "fr": "Marteau arrache-clou en cobalt",
+      "ja": "コバルトクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Koboldeisen-Küchenmesser",
+      "en": "Cobalt Culinary Knife",
+      "fr": "Couteau de cuisine en cobalt",
+      "ja": "コバルトクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 78,
+    "durability": 40,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Koboldeisennägel",
+      "en": "Cobalt Nails",
+      "fr": "Clou en cobalt",
+      "ja": "コバルトネイル"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Koboldeisenzange",
+      "en": "Cobalt Pliers",
+      "fr": "Tenailles en cobalt",
+      "ja": "コバルトプライヤー"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Koboldeisen-Vorschlaghammer",
+      "en": "Cobalt Sledgehammer",
+      "fr": "Maillet en cobalt",
+      "ja": "コバルトモール"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 505,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "de": "Kanonenkugeln",
+      "en": "Cannonballs",
+      "fr": "Caisse à boulets anti-dragon",
+      "ja": "対竜砲弾箱"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Koboldeisen-Claymore",
+      "en": "Cobalt Claymore",
+      "fr": "Claymore en cobalt",
+      "ja": "コバルトクレイモア"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Koboldeisenfeile",
+      "en": "Cobalt File",
+      "fr": "Lime en cobalt",
+      "ja": "コバルトファイル"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Koboldeisenmörser",
+      "en": "Cobalt Mortar",
+      "fr": "Mortier en cobalt",
+      "ja": "コバルトモーター"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Koboldeisensense",
+      "en": "Cobalt Scythe",
+      "fr": "Faux en cobalt",
+      "ja": "コバルトサイズ"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Koboldeisen-Karabiner",
+      "en": "Cobalt-barreled Carbine",
+      "fr": "Carabine en cobalt",
+      "ja": "コバルトカービン"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Halbmond-Bhuj",
+      "en": "Demilune Bhuj",
+      "fr": "Bhuj demi-lune",
+      "ja": "デミルーンブージ"
+    }
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Goblin-Langschwert",
+      "en": "Goblin Longsword",
+      "fr": "Épée longue gobeline",
+      "ja": "ゴブリンロングソード"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Mithril-Pugiones",
+      "en": "Mythril Pugiones",
+      "fr": "Pugiones en mithril",
+      "ja": "ミスリルプジオ"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 505,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "de": "Oasen-Stehlampe",
+      "en": "Oasis Floor Lamp",
+      "fr": "Lampe thanalanaise",
+      "ja": "ザナラーン・フロアランプ"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 505,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "de": "Wachfeuer der Steinernen Wacht",
+      "en": "Stone Vigil Beacon",
+      "fr": "Torchère anti-dragon",
+      "ja": "対竜要塞のかがり"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 237,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1731,
+    "name": {
+      "de": "Umwickelter Falkenschnabelhammer",
+      "en": "Wrapped Hawksbeak Hammer",
+      "fr": "Marteau faucon gainé",
+      "ja": "ラップド・ホークビークハンマー"
+    }
+  },
+  {
+    "baseLevel": 46,
+    "difficulty": 159,
+    "durability": 80,
+    "level": 46,
+    "maxQuality": 2372,
+    "name": {
+      "de": "Kupferstich-Koboldeisen-Fuchsschwanz",
+      "en": "Bas-relief Cobalt Saw",
+      "fr": "Scie en cobalt gravée",
+      "ja": "レリーフコバルトソー"
+    }
+  },
+  {
+    "baseLevel": 46,
+    "difficulty": 159,
+    "durability": 80,
+    "level": 46,
+    "maxQuality": 2372,
+    "name": {
+      "de": "Elektrum-Sattlermesser",
+      "en": "Electrum Head Knife",
+      "fr": "Couteau à pied en électrum",
+      "ja": "エレクトラムヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 46,
+    "difficulty": 508,
+    "durability": 80,
+    "level": 46,
+    "maxQuality": 1186,
+    "name": {
+      "de": "Ritter-Kommandotisch",
+      "en": "Knight Captain's Desk",
+      "fr": "Bureau d'officier anti-dragon",
+      "ja": "対竜要塞の指揮机"
+    }
+  },
+  {
+    "baseLevel": 46,
+    "difficulty": 508,
+    "durability": 80,
+    "level": 46,
+    "maxQuality": 1186,
+    "name": {
+      "de": "Riviera-Bank",
+      "en": "Riviera Bench",
+      "fr": "Banc noscéen",
+      "ja": "ラノシアン・ベンチ"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 167,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 2421,
+    "name": {
+      "de": "Koboldeisen-Schlichthammer",
+      "en": "Cobalt Raising Hammer",
+      "fr": "Marteau de batteur en cobalt",
+      "ja": "コバルトレイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 167,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 2421,
+    "name": {
+      "de": "Elektrum-Juwelierhammer",
+      "en": "Electrum Lapidary Hammer",
+      "fr": "Marteau de lapidaire en électrum",
+      "ja": "エレクトラムラピダリーハンマー"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 534,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 1210,
+    "name": {
+      "de": "Nymische Wandlaterne",
+      "en": "Nymian Wall Lantern",
+      "fr": "Quinquet de Nym",
+      "ja": "ニームウォールランタン"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 534,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 1210,
+    "name": {
+      "de": "Oasen-Audienztisch",
+      "en": "Oasis Counter",
+      "fr": "Comptoir thanalanais",
+      "ja": "ザナラーン・カウンター"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 534,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 1210,
+    "name": {
+      "de": "Riviera-Stehlampe",
+      "en": "Riviera Floor Lamp",
+      "fr": "Lampe noscéenne",
+      "ja": "ラノシアン・フロアランプ"
+    }
+  },
+  {
+    "aspect": "Earth",
+    "baseLevel": 47,
+    "difficulty": 167,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 2421,
+    "name": {
+      "de": "Restaurierte Hippe",
+      "en": "Vintage Bill",
+      "fr": "Vouge de collection",
+      "ja": "ヴィンテージビル"
+    }
+  },
+  {
+    "baseLevel": 48,
+    "difficulty": 172,
+    "durability": 80,
+    "level": 48,
+    "maxQuality": 2524,
+    "name": {
+      "de": "Koboldeisen-Zweihänder",
+      "en": "Cobalt Zweihander",
+      "fr": "Espadon en cobalt",
+      "ja": "コバルトツヴァイハンダー"
+    }
+  },
+  {
+    "baseLevel": 48,
+    "difficulty": 172,
+    "durability": 80,
+    "level": 48,
+    "maxQuality": 2524,
+    "name": {
+      "de": "Koboldeisen-Muskete",
+      "en": "Cobalt-barreled Musketoon",
+      "fr": "Mousqueton en cobalt",
+      "ja": "コバルトマスケトン"
+    }
+  },
+  {
+    "baseLevel": 48,
+    "difficulty": 172,
+    "durability": 80,
+    "level": 48,
+    "maxQuality": 2524,
+    "name": {
+      "de": "Gefiederte Dolabra",
+      "en": "Egret Dolabra",
+      "fr": "Dolabre à aigrette",
+      "ja": "イーグレットドラブラ"
+    }
+  },
+  {
+    "baseLevel": 48,
+    "difficulty": 550,
+    "durability": 80,
+    "level": 48,
+    "maxQuality": 1262,
+    "name": {
+      "de": "Riviera-Kronleuchter",
+      "en": "Riviera Chandelier",
+      "fr": "Lustre noscéen",
+      "ja": "ラノシアン・シャンデリア"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 174,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 2551,
+    "name": {
+      "de": "Koboldeisen-Baselarden",
+      "en": "Cobalt Baselards",
+      "fr": "Baselards en cobalt",
+      "ja": "コバルトバゼラード"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 174,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 2551,
+    "name": {
+      "de": "Koboldeisen-Krallen",
+      "en": "Cobalt Claws",
+      "fr": "Griffes en cobalt",
+      "ja": "コバルトクロー"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 174,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 2551,
+    "name": {
+      "de": "Koboldeisen-Zeremonialschwert",
+      "en": "Cobalt Winglet",
+      "fr": "Espafut",
+      "ja": "ウィングレット"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 174,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 2551,
+    "name": {
+      "de": "Gehörntes Handbeil",
+      "en": "Horned Hatchet",
+      "fr": "Hachette cornue",
+      "ja": "ホーンドハチェット"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 556,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 1275,
+    "name": {
+      "de": "Mahagoni-Wandschirm",
+      "en": "Mahogany Screen",
+      "fr": "Cloison de séparation en bois",
+      "ja": "ウッドスクリーン"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 174,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 2551,
+    "name": {
+      "de": "Stachelbewehrte Koboldeisen-Labrys",
+      "en": "Spiked Cobalt Labrys",
+      "fr": "Labrys en cobalt à pointe",
+      "ja": "スパイクドコバルトラブリュス"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Ätherdämmendes Gefäß",
+      "en": "Aetheric Shielding",
+      "fr": "Récipient éthéroscellé",
+      "ja": "絶霊体容器"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Drachengabe",
+      "en": "Austere Offering",
+      "fr": "Cadeau pour dragons",
+      "ja": "竜族報酬品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Korbkomponente",
+      "en": "Basket Component",
+      "fr": "Matériel de vannerie",
+      "ja": "編みカゴ部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Wetterchocobo",
+      "en": "Chocobo Weathervane",
+      "fr": "Girouette chocobo",
+      "ja": "ウェザーチョコボ"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Wolkenmeer-Köder",
+      "en": "Cloudfish Lure",
+      "fr": "Leurre spécial",
+      "ja": "雲海釣餌"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Monument in Gedenken des Dunklen Reiters",
+      "en": "Dark Divinity Falleth",
+      "fr": "Monument de la victoire sur Odin",
+      "ja": "オーディン戦勝記念碑"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Schuppenfeile",
+      "en": "Dragonscale Rasp",
+      "fr": "Racloir en écaille de dragon",
+      "ja": "竜鱗ヤスリ"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Rauchbombe",
+      "en": "Exploding Kupo Nut",
+      "fr": "Noix de kupo fumigène",
+      "ja": "煙幕の実"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 95,
+    "durability": 40,
+    "level": 50,
+    "maxQuality": 2692,
+    "name": {
+      "de": "Falsche Kupo-Nuss",
+      "en": "Fake Kupo Nut",
+      "fr": "Fausse noix de kupo",
+      "ja": "ニセの実"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Fundamentmaterial",
+      "en": "Foundation Component",
+      "fr": "Matériel pour les fondations",
+      "ja": "基礎工事資材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Komponente für die Werkzeugreparatur",
+      "en": "Gathering Tool Component",
+      "fr": "Matériel de réparation",
+      "ja": "採集道具補材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 273,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Trötenkomponente",
+      "en": "Horn Component",
+      "fr": "Composant de clairon",
+      "ja": "すんごいラッパ部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Bestandteil einer Mahlzeit",
+      "en": "Ishgardian Cuisine Miscellany",
+      "fr": "Élément de plateau-repas",
+      "ja": "晩餐不足品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Miniatur-Luftschiff",
+      "en": "Makeshift Toy Airship",
+      "fr": "Maquette d'aéronef",
+      "ja": "飛空艇模型"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Küchenartikel",
+      "en": "Mogstew Miscellany",
+      "fr": "Matériaux gastronomiques",
+      "ja": "調理不足品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Kleine Belohnung",
+      "en": "Moogle Mollifier",
+      "fr": "Cadeau personnalisé",
+      "ja": "特製ご褒美"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Mogry-Figur",
+      "en": "Moogle Statuette",
+      "fr": "Statuette de Mog",
+      "ja": "彫像見本品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 364,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 538,
+    "name": {
+      "de": "Mogry-Werkzeugkomponente",
+      "en": "Moogle Tool Component",
+      "fr": "Composant de marteau spécial Mog",
+      "ja": "モーグリ用道具部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Verwendbares Baumaterial",
+      "en": "Repurposed Construction Component",
+      "fr": "Matériel de construction",
+      "ja": "再生済み建築資材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Einzelteil für die Schneidemaschine",
+      "en": "Shearing Machine Component",
+      "fr": "Composant de machine à inciser",
+      "ja": "裁断機部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 228,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 996,
+    "name": {
+      "de": "Steinstatuenkomponente",
+      "en": "Statue Supplies",
+      "fr": "Composant de statue",
+      "ja": "石像修復用部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Formvollendete Steinblock-Vorlage",
+      "en": "Stonemasonry Supplies",
+      "fr": "Pierre de référence",
+      "ja": "調整された石材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 486,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Gedenktafelkomponente",
+      "en": "Tablet Supplies",
+      "fr": "Composant de plaque commémorative",
+      "ja": "銘板仕上げ部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Übungsmaterial",
+      "en": "Training Supplies",
+      "fr": "Matériel d'entraînement",
+      "ja": "訓練用部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Flaschenzug-Ersatzteil",
+      "en": "Treadwheel Crane Components",
+      "fr": "Matériel de réparation de treuil",
+      "ja": "巻き上げ機部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Werkzeug zur Bodenplattenfärbung",
+      "en": "Veneer Component",
+      "fr": "Matériel de finition",
+      "ja": "床材加工用品"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Wandlaterne",
+      "en": "Wall Lantern",
+      "fr": "Lanterne murale",
+      "ja": "ウォールランタン"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Werkzeug zur Mauerglättung",
+      "en": "Wall Repair Supplies",
+      "fr": "Matériel de rénovation de façade",
+      "ja": "壁の補修部材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Abdichtungskomponente",
+      "en": "Water Filter Component",
+      "fr": "Composant de fontaine",
+      "ja": "泉水補修材"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Äolus-Scimitar",
+      "en": "Aeolian Scimitar",
+      "fr": "Cimeterre éolien",
+      "ja": "アイオリアンシミター"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Barbaren-Berdysch",
+      "en": "Barbarian's Bardiche",
+      "fr": "Bardiche de barbare",
+      "ja": "バーバリアンバルディッシュ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Drachenhaubitze",
+      "en": "Bertha Cannon",
+      "fr": "Canon anti-dragon à tourelle quadruple",
+      "ja": "四連装対竜カノン砲"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 97,
+    "durability": 40,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Dunkelstahl-Nugget",
+      "en": "Darksteel Nugget",
+      "fr": "Pépite de sombracier",
+      "ja": "ダークスチールナゲット"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 97,
+    "durability": 40,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Dunkelstahlnieten",
+      "en": "Darksteel Rivets",
+      "fr": "Rivets en sombracier",
+      "ja": "ダークスチールリベット"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Ahle",
+      "en": "Militia Awl",
+      "fr": "Alêne de milicien",
+      "ja": "ミリシアアウル"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Klauenhammer",
+      "en": "Militia Claw Hammer",
+      "fr": "Marteau arrache-clou de milicien",
+      "ja": "ミリシアクローハンマー"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Küchenmesser",
+      "en": "Militia Culinary Knife",
+      "fr": "Couteau de cuisine de milicien",
+      "ja": "ミリシアクリナリーナイフ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Feile",
+      "en": "Militia File",
+      "fr": "Lime de milicien",
+      "ja": "ミリシアファイル"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Mörser",
+      "en": "Militia Mortar",
+      "fr": "Mortier de milicien",
+      "ja": "ミリシアモーター"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Zange",
+      "en": "Militia Pliers",
+      "fr": "Tenailles de milicien",
+      "ja": "ミリシアプライヤー"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Sense",
+      "en": "Militia Scythe",
+      "fr": "Faux de milicien",
+      "ja": "ミリシアサイズ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Miliz-Vorschlaghammer",
+      "en": "Militia Sledgehammer",
+      "fr": "Maillet de milicien",
+      "ja": "ミリシアモール"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Riviera-Zaun",
+      "en": "Riviera Fence",
+      "fr": "Clôture à grille noscéenne",
+      "ja": "ラノシアン・フェンスウォール"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Tomberry-Kronleuchter",
+      "en": "Tonberry Chandelier",
+      "fr": "Lustre tomberry",
+      "ja": "トンベリシャンデリア"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Tomberry-Wandlaterne",
+      "en": "Tonberry Wall Lantern",
+      "fr": "Flambeau tomberry",
+      "ja": "トンベリウォールランタン"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Wolf-Klauen",
+      "en": "Wolf Claws",
+      "fr": "Griffes de loup",
+      "ja": "ウルフクロー"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Wolf-Labrys",
+      "en": "Wolf Labrys",
+      "fr": "Labrys de loup",
+      "ja": "ウルフラブリュス"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Wolfs-Muskete",
+      "en": "Wolf Musketoon",
+      "fr": "Mousqueton de loup",
+      "ja": "ウルフマスケトン"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Wolf-Pugiones",
+      "en": "Wolf Pugiones",
+      "fr": "Pugiones de loup",
+      "ja": "ウルフプジオ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Wolf-Zeremonialschwert",
+      "en": "Wolf Winglet",
+      "fr": "Espafut de loup",
+      "ja": "ウルフウィングレット"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Wolf-Zweihänder",
+      "en": "Wolf Zweihander",
+      "fr": "Espadon de loup",
+      "ja": "ウルフツヴァイハンダー"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Luftschiff-Reparaturkit",
+      "en": "Airship Repair Materials",
+      "fr": "Kit de réparation d'aéronef",
+      "ja": "飛空艇修理材"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Rächer-Griffe",
+      "en": "Avenger Grips",
+      "fr": "Poignées de Vengeurs",
+      "ja": "アベンジャーグリップ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Rächer",
+      "en": "Avengers",
+      "fr": "Vengeurs",
+      "ja": "アベンジャー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 419,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 5257,
+    "name": {
+      "de": "Dunkelstahlhaken",
+      "en": "Darksteel Hook",
+      "fr": "Crochet de sombracier",
+      "ja": "ダークスチールフック"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 116,
+    "durability": 40,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Dunkelstahlbarren",
+      "en": "Darksteel Ingot",
+      "fr": "Lingot de sombracier",
+      "ja": "ダークスチールインゴット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Dunkelstahl-Espingole",
+      "en": "Darksteel-barreled Blunderbuss",
+      "fr": "Tromblon",
+      "ja": "ブランダーバス"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Panzerbrecher",
+      "en": "Mailbreaker",
+      "fr": "Briseur de maille",
+      "ja": "メイルブレーカー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Panzerbrecher-Klinge",
+      "en": "Mailbreaker Blade",
+      "fr": "Lame de Briseur de maille",
+      "ja": "メイルブレーカーブレード"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Herrenhaus-Ofen",
+      "en": "Manor Oven",
+      "fr": "Fourneau du manoir",
+      "ja": "御用邸の焜炉"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Misericordia-Klingen",
+      "en": "Misericorde Blades",
+      "fr": "Lames de Miséricorde",
+      "ja": "ミセリコルデブレード"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Misericordiae",
+      "en": "Misericordes",
+      "fr": "Miséricorde",
+      "ja": "ミセリコルデ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Obelisk",
+      "en": "Obelisk",
+      "fr": "Obélisque",
+      "ja": "オベリスク"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Obelisken-Speerspitze",
+      "en": "Obelisk Head",
+      "fr": "Fer d'Obélisque",
+      "ja": "オベリスクヘッド"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 419,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Plasmakugel",
+      "en": "Plasma Lamp",
+      "fr": "Lampe à plasma de Ramuh",
+      "ja": "ラムウのプラズマランプ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Amok",
+      "en": "Rampager",
+      "fr": "Ravageuse",
+      "ja": "ランページャー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Amok-Axtblatt",
+      "en": "Rampager Head",
+      "fr": "Tête de Ravageuse",
+      "ja": "ランページャーヘッド"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Sitzmodul",
+      "en": "Seating Module",
+      "fr": "Module pour station assise",
+      "ja": "着席システム"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Unterdrücker",
+      "en": "Subduer",
+      "fr": "Persécutrice",
+      "ja": "サブドゥア"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Water",
+    "baseLevel": 50,
+    "difficulty": 419,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Brunnen der Wogen",
+      "en": "Wavesoul Fount",
+      "fr": "Fontaine de Léviathan",
+      "ja": "リヴァイアサンの噴水"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Sturmhingabe",
+      "en": "Abandon of the Vortex",
+      "fr": "Désespoir des rafales",
+      "ja": "ヴォーテックスアバンドン"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Kunsthandwerker-Ahle",
+      "en": "Artisan's Awl",
+      "fr": "Poinçon de façonnier",
+      "ja": "アーティザンアウル"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Kunsthandwerker-Klauenhammer",
+      "en": "Artisan's Claw Hammer",
+      "fr": "Marteau arrache-clou de façonnier",
+      "ja": "アーティザンクローハンマー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Kunsthandwerker-Küchenmesser",
+      "en": "Artisan's Culinary Knife",
+      "fr": "Couteau de cuisine de façonnier",
+      "ja": "アーティザンクリナリーナイフ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Kunsthandwerker-Feile",
+      "en": "Artisan's File",
+      "fr": "Lime de façonnier",
+      "ja": "アーティザンファイル"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Kunsthandwerker-Mörser",
+      "en": "Artisan's Mortar",
+      "fr": "Mortier de façonnier",
+      "ja": "アーティザンモーター"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Kunsthandwerker-Zange",
+      "en": "Artisan's Pliers",
+      "fr": "Tenailles de façonnier",
+      "ja": "アーティザンプライヤー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 8964,
+    "name": {
+      "de": "Ausbalancierter Dunkelstahlhaken",
+      "en": "Balanced Darksteel Hook",
+      "fr": "Crochet de sombracier équilibré",
+      "ja": "高精度ダークスチールフック"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Karfunkel-Bank",
+      "en": "Carbuncle Garden Bench",
+      "fr": "Banc de jardin Carbuncle",
+      "ja": "カーバンクルガーデンベンチ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Herd",
+      "en": "Cooking Stove",
+      "fr": "Fourneau de cuisine",
+      "ja": "クッキングストーブ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Furier-Sense",
+      "en": "Forager's Scythe",
+      "fr": "Faux de glaneur",
+      "ja": "フォリジャーサイズ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Furier-Vorschlaghammer",
+      "en": "Forager's Sledgehammer",
+      "fr": "Maillet de glaneur",
+      "ja": "フォリジャーモール"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Windgewalten-Blick",
+      "en": "Gaze of the Vortex",
+      "fr": "Regard des rafales",
+      "ja": "ヴォーテックスゲイズ"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Kriegsaxt",
+      "en": "Inferno Battleaxe",
+      "fr": "Hache des flammes",
+      "ja": "インフェルノバトルアクス"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Klinge",
+      "en": "Inferno Blade",
+      "fr": "Lame des flammes",
+      "ja": "インフェルノブレード"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Klauen",
+      "en": "Inferno Claws",
+      "fr": "Griffes des flammes",
+      "ja": "インフェルノクロー"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Warbrand",
+      "en": "Inferno Faussar",
+      "fr": "Faussar des flammes",
+      "ja": "インフェルノフォセ"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Harpune",
+      "en": "Inferno Harpoon",
+      "fr": "Harpon des flammes",
+      "ja": "インフェルノハープーン"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Krise",
+      "en": "Inferno Kris",
+      "fr": "Kriss des flammes",
+      "ja": "インフェルノクリス"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Muskete",
+      "en": "Inferno Musketoon",
+      "fr": "Mousqueton des flammes",
+      "ja": "インフェルノマスケトン"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Blitzkugel",
+      "en": "Lord of Levin Lamp",
+      "fr": "Lampe à plasma du Patriarche fulgurant",
+      "ja": "雷神ラムウのプラズマランプ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Malträtierende Mogul-Mogaxt",
+      "en": "Malignant Moggle Mogaxe",
+      "fr": "Hache Moggle Mog mordante",
+      "ja": "モグルモグアクス"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Melancholische Mogul-Moggabel",
+      "en": "Melancholy Moggle Mogfork",
+      "fr": "Fourche Moggle Mog monstrueuse",
+      "ja": "モグルモグフォーク"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Martialische Mogul Mogpistole",
+      "en": "Menacing Moggle Mog Gun",
+      "fr": "Pétoire Moggle Mog moderne",
+      "ja": "モグルモグエアガン"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Monströses Mogul-Mogschwert",
+      "en": "Monstrous Moggle Mogsword",
+      "fr": "Grande épée Moggle Mog morose",
+      "ja": "モグルモグレートソード"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Morbide Mogul-Mogklinge",
+      "en": "Morbid Moggle Mogblade",
+      "fr": "Lame Moggle Mog morbide",
+      "ja": "モグルモグブレード"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Mordsmogry-Mogmesser",
+      "en": "Mortal Moggle Mogknives",
+      "fr": "Couteaux Moggle Mog molestateurs",
+      "ja": "モグルモグナイフ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 222,
+    "durability": 40,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Schelmen-Dolche",
+      "en": "Mummer's Daggers",
+      "fr": "Dagues d'acrobate",
+      "ja": "アクロバットダガー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Oasen-Straßenlaterne",
+      "en": "Oasis Path Light",
+      "fr": "Éclairage au sol thanalanais",
+      "ja": "ザナラーン・フットランプ"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Sturmschmerz",
+      "en": "Pain of the Vortex",
+      "fr": "Tourment des rafales",
+      "ja": "ヴォーテックスペイン"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Hochwertiger Stößel",
+      "en": "Perfect Pestle",
+      "fr": "Pilon parfait",
+      "ja": "上質な乳棒"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Riviera-Straßenlaterne",
+      "en": "Riviera Path Light",
+      "fr": "Éclairage au sol noscéen",
+      "ja": "ラノシアン・フットランプ"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Windgewalten-Schrei",
+      "en": "Scream of the Vortex",
+      "fr": "Cri des rafales",
+      "ja": "ヴォーテックススクリーム"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Duschständer",
+      "en": "Shower Stand",
+      "fr": "Colonne de douche",
+      "ja": "シャワースタンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Esse",
+      "en": "Smithing Bench",
+      "fr": "Établi de métallurgie",
+      "ja": "スミシングベンチ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Krämerklingel",
+      "en": "Summoning Bell",
+      "fr": "Sonnette",
+      "ja": "リテイナーベル"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Windgewalten-Klauen",
+      "en": "Talons of the Vortex",
+      "fr": "Serres des rafales",
+      "ja": "ヴォーテックスタロン"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Water",
+    "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Seelenquelle Leviathans",
+      "en": "Tidal Wavesoul Fount",
+      "fr": "Fontaine du Déchaîneur des marées",
+      "ja": "水神リヴァイアサンの噴水"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Wolfram",
+      "en": "Wolfram Ingot",
+      "fr": "Lingot de tungstène",
+      "ja": "ウォルフラムインゴット"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1875,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Drachengott-Kopf",
+      "en": "Head of the Dreadwyrm",
+      "fr": "Trophée du Dragon-dieu",
+      "ja": "バハムートトロフィー"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Großschwert des mächtigen Donners",
+      "en": "Mighty Thunderclap",
+      "fr": "Fracas du Patriarche",
+      "ja": "レヴィン・サンダークラップ"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Patas des mächtigen Donners",
+      "en": "Mighty Thundercrack",
+      "fr": "Claquements du Patriarche",
+      "ja": "レヴィン・サンダークラック"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Donnerbüchse des mächtigen Donners",
+      "en": "Mighty Thundershower",
+      "fr": "Foudre du Patriarche",
+      "ja": "レヴィン・サンダーシャワー"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Macheten des mächtigen Donners",
+      "en": "Mighty Thundersparks",
+      "fr": "Fulgurances du Patriarche",
+      "ja": "レヴィン・サンダースパーク"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Kampfaxt des mächtigen Donners",
+      "en": "Mighty Thunderstorm",
+      "fr": "Orage du Patriarche",
+      "ja": "レヴィン・サンダーストーム"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Schwert des mächtigen Donners",
+      "en": "Mighty Thunderstrike",
+      "fr": "Frappe du Patriarche",
+      "ja": "レヴィン・サンダーストライク"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 293,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Aufzieh-Magitek-Drohne",
+      "en": "Model Magitek Bit",
+      "fr": "Micro-drone magitek",
+      "ja": "魔導ビット自律型"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Wootz-Bhuj",
+      "en": "Wootz Bhuj",
+      "fr": "Bhuj en wootz",
+      "ja": "ウーツブージ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Wootz-Dolche",
+      "en": "Wootz Daggers",
+      "fr": "Dagues en wootz",
+      "ja": "ウーツダガー"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Wootz-Warbrand",
+      "en": "Wootz Fausse",
+      "fr": "Faussar en wootz",
+      "ja": "ウーツフォセ"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Wootz-Barren",
+      "en": "Wootz Ingot",
+      "fr": "Lingot de wootz",
+      "ja": "ウーツインゴット"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Wootz-Schlagringe",
+      "en": "Wootz Knuckles",
+      "fr": "Poings en wootz",
+      "ja": "ウーツナックル"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Wootz-Revolver",
+      "en": "Wootz Revolver",
+      "fr": "Revolver en wootz",
+      "ja": "ウーツリボルバー"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Wootz-Scimitar",
+      "en": "Wootz Scimitar",
+      "fr": "Cimeterre en wootz",
+      "ja": "ウーツシミター"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 169,
+    "durability": 40,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Mythrit-Nugget",
+      "en": "Mythrite Nugget",
+      "fr": "Pépite de mithrite",
+      "ja": "ミスライトナゲット"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 421,
+    "durability": 80,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Mythrit-Claymore",
+      "en": "Mythrite Claymore",
+      "fr": "Claymore en mithrite",
+      "ja": "ミスライトクレイモア"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 421,
+    "durability": 80,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Mythrit-Katzbalger",
+      "en": "Mythrite Katzbalger",
+      "fr": "Katzbalger en mithrite",
+      "ja": "ミスライトカッツバルゲル"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 421,
+    "durability": 80,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Mythrit-Pata",
+      "en": "Mythrite Patas",
+      "fr": "Patas en mithrite",
+      "ja": "ミスライトパタ"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 421,
+    "durability": 80,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Mythrit-Pugiones",
+      "en": "Mythrite Pugiones",
+      "fr": "Pugiones en mithrite",
+      "ja": "ミスライトプジオ"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 210,
+    "durability": 40,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Mythrit-Nieten",
+      "en": "Mythrite Rivets",
+      "fr": "Rivets en mithrite",
+      "ja": "ミスライトリベット"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 421,
+    "durability": 80,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Mythrit-Streitaxt",
+      "en": "Mythrite War Axe",
+      "fr": "Hache de guerre en mithrite",
+      "ja": "ミスライトウォーアクス"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 421,
+    "durability": 80,
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Mythrit-Hakenbüchse",
+      "en": "Mythrite-barreled Arquebus",
+      "fr": "Arquebuse en mithrite",
+      "ja": "ミスライトアークウィバス"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Garlond-Stahl",
+      "en": "Garlond Steel",
+      "fr": "Acier de Garlond",
+      "ja": "ガーロンド鋼"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Rundsäge",
+      "en": "Mythrite Halfheart Saw",
+      "fr": "Scie ronde en mithrite",
+      "ja": "ミスライトラウンドソー"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Handbeil",
+      "en": "Mythrite Hatchet",
+      "fr": "Hachette en mithrite",
+      "ja": "ミスライトハチェット"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 251,
+    "durability": 40,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Barren",
+      "en": "Mythrite Ingot",
+      "fr": "Lingot de mithrite",
+      "ja": "ミスライトインゴット"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Juwelierhammer",
+      "en": "Mythrite Lapidary Hammer",
+      "fr": "Marteau de lapidaire en mithrite",
+      "ja": "ミスライトラピダリーハンマー"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Schlägel",
+      "en": "Mythrite Lump Hammer",
+      "fr": "Massette en mithrite",
+      "ja": "ミスライトランプハンマー"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Spitzhacke",
+      "en": "Mythrite Pickaxe",
+      "fr": "Pioche en mithrite",
+      "ja": "ミスライトピック"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Schlichthammer",
+      "en": "Mythrite Raising Hammer",
+      "fr": "Marteau de batteur en mithrite",
+      "ja": "ミスライトレイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Mythrit-Rundmesser",
+      "en": "Mythrite Round Knife",
+      "fr": "Couteau arrondi en mithrite",
+      "ja": "ミスライトラウンドナイフ"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Ahle",
+      "en": "Mythrite Awl",
+      "fr": "Alêne en mithrite",
+      "ja": "ミスライトアウル"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Klauenhammer",
+      "en": "Mythrite Claw Hammer",
+      "fr": "Marteau arrache-clou en mithrite",
+      "ja": "ミスライトクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Küchenmesser",
+      "en": "Mythrite Culinary Knife",
+      "fr": "Couteau de cuisine en mithrite",
+      "ja": "ミスライトクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Feile",
+      "en": "Mythrite File",
+      "fr": "Lime en mithrite",
+      "ja": "ミスライトファイル"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Flammenzunge",
+      "en": "Mythrite Flametongue",
+      "fr": "Langueflamme en mithrite",
+      "ja": "ミスライトフレイムタン"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Jamadhars",
+      "en": "Mythrite Jamadhars",
+      "fr": "Jamadhars en mithrite",
+      "ja": "ミスライトジャマダル"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Labrys",
+      "en": "Mythrite Labrys",
+      "fr": "Labrys en mithrite",
+      "ja": "ミスライトラブリュス"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Mörser",
+      "en": "Mythrite Mortar",
+      "fr": "Mortier en mithrite",
+      "ja": "ミスライトモーター"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythritzange",
+      "en": "Mythrite Pliers",
+      "fr": "Tenailles en mithrite",
+      "ja": "ミスライトプライヤー"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Sense",
+      "en": "Mythrite Scythe",
+      "fr": "Faux en mithrite",
+      "ja": "ミスライトサイズ"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Vorschlaghammer",
+      "en": "Mythrite Sledgehammer",
+      "fr": "Maillet en mithrite",
+      "ja": "ミスライトモール"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Stilettos",
+      "en": "Mythrite Stilettos",
+      "fr": "Stylets en mithrite",
+      "ja": "ミスライトスティレット"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Zweihänder",
+      "en": "Mythrite Zweihander",
+      "fr": "Espadon en mithrite",
+      "ja": "ミスライトツヴァイハンダー"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Mythrit-Muskete",
+      "en": "Mythrite-barreled Musketoon",
+      "fr": "Mousqueton en mithrite",
+      "ja": "ミスライトマスケトン"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Axt",
+      "en": "Titanium Axe",
+      "fr": "Hache en titane",
+      "ja": "チタンアクス"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Bastardschwert",
+      "en": "Titanium Bastard Sword",
+      "fr": "Épée bâtarde en titane",
+      "ja": "チタンバスタードソード"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Claymore",
+      "en": "Titanium Claymore",
+      "fr": "Claymore en titane",
+      "ja": "チタンクレイモア"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Jamadhars",
+      "en": "Titanium Jamadhars",
+      "fr": "Jamadhars en titane",
+      "ja": "チタンジャマダル"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 320,
+    "durability": 40,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Nugget",
+      "en": "Titanium Nugget",
+      "fr": "Pépite de titane",
+      "ja": "チタンナゲット"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Pugiones",
+      "en": "Titanium Pugiones",
+      "fr": "Pugiones en titane",
+      "ja": "チタンプジオ"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 320,
+    "durability": 40,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Nieten",
+      "en": "Titanium Rivets",
+      "fr": "Rivets en titane",
+      "ja": "チタンリベット"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Titan-Hakenbüchse",
+      "en": "Titanium-barreled Arquebus",
+      "fr": "Arquebuse en titane",
+      "ja": "チタンアークウィバス"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Hartsilber-Dolabra",
+      "en": "Hardsilver Dolabra",
+      "fr": "Dolabre en durargent",
+      "ja": "ハードシルバードラブラ"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Hartsilber-Säge",
+      "en": "Hardsilver Saw",
+      "fr": "Scie ronde en durargent",
+      "ja": "ハードシルバーソー"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Hartsilber-Stockhammer",
+      "en": "Hardsilver Texture Hammer",
+      "fr": "Marteau d'orfèvre en durargent",
+      "ja": "ハードシルバー・ゴールドスミスハンマー"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Titan-Schlosserhammer",
+      "en": "Titanium Ball-pein Hammer",
+      "fr": "Marteau à panne ronde en titane",
+      "ja": "チタンアーモラーハンマー"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Titan-Rillmesser",
+      "en": "Titanium Creasing Knife",
+      "fr": "Couteau de tanneur en titane",
+      "ja": "チタン・レザーワーカーナイフ"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Titan-Kreuzschlaghammer",
+      "en": "Titanium Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en titane",
+      "ja": "チタン・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Titan-Handbeil",
+      "en": "Titanium Hatchet",
+      "fr": "Hachette en titane",
+      "ja": "チタンハチェット"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Ahle",
+      "en": "Titanium Awl",
+      "fr": "Alêne en titane",
+      "ja": "チタンアウル"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Klauenhammer",
+      "en": "Titanium Claw Hammer",
+      "fr": "Marteau arrache-clou en titane",
+      "ja": "チタンクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Küchenmesser",
+      "en": "Titanium Culinary Knife",
+      "fr": "Couteau de cuisine en titane",
+      "ja": "チタンクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Feile",
+      "en": "Titanium File",
+      "fr": "Lime en titane",
+      "ja": "チタンファイル"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 376,
+    "durability": 35,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Barren",
+      "en": "Titanium Ingot",
+      "fr": "Lingot de titane",
+      "ja": "チタンインゴット"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Mörser",
+      "en": "Titanium Mortar",
+      "fr": "Mortier en titane",
+      "ja": "チタンモーター"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titanzange",
+      "en": "Titanium Pliers",
+      "fr": "Tenailles en titane",
+      "ja": "チタンプライヤー"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Sense",
+      "en": "Titanium Scythe",
+      "fr": "Faux en titane",
+      "ja": "チタンサイズ"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Titan-Vorschlaghammer",
+      "en": "Titanium Sledgehammer",
+      "fr": "Maillet en titane",
+      "ja": "チタンモール"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 1454,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 3410,
+    "name": {
+      "de": "Ishgarder Kronleuchter",
+      "en": "Alpine Chandelier",
+      "fr": "Lustre ishgardais",
+      "ja": "イシュガルディアン・シャンデリア"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Hartsilber-Handbeil",
+      "en": "Hardsilver Hatchet",
+      "fr": "Hachette en durargent",
+      "ja": "ハードシルバーハチェット"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Hartsilber-Juwelierhammer",
+      "en": "Hardsilver Lapidary Hammer",
+      "fr": "Marteau de lapidaire en durargent",
+      "ja": "ハードシルバー・ラピダリーハンマー"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Hartsilber-Rundmesser",
+      "en": "Hardsilver Round Knife",
+      "fr": "Couteau arrondi en durargent",
+      "ja": "ハードシルバー・ラウンドナイフ"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 60,
+    "level": 142,
+    "maxQuality": 5456,
+    "name": {
+      "de": "Nahöstliche Antiquität",
+      "en": "Near Eastern Antique",
+      "fr": "Antiquité proche-orientale",
+      "ja": "近東風の蒐集品"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 404,
+    "durability": 60,
+    "level": 142,
+    "maxQuality": 2728,
+    "name": {
+      "de": "Komponente einer nahöstlichen Antiquität",
+      "en": "Near Eastern Antique Component",
+      "fr": "Composant d'antiquité proche-orientale",
+      "ja": "近東風の蒐集品部材"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Kriegsaxt",
+      "en": "Titanium Battleaxe",
+      "fr": "Hache de combat en titane",
+      "ja": "チタンバトルアクス"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Großschwert",
+      "en": "Titanium Greatsword",
+      "fr": "Grande épée en titane",
+      "ja": "チタングレートソード"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Rundsäge",
+      "en": "Titanium Halfheart Saw",
+      "fr": "Scie ronde en titane",
+      "ja": "チタンラウンドソー"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Schlagringe",
+      "en": "Titanium Knuckles",
+      "fr": "Poings en titane",
+      "ja": "チタンナックル"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Krise",
+      "en": "Titanium Kris",
+      "fr": "Kriss en titane",
+      "ja": "チタンクリス"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Langschwert",
+      "en": "Titanium Longsword",
+      "fr": "Épée longue en titane",
+      "ja": "チタンロングソード"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Schlägel",
+      "en": "Titanium Lump Hammer",
+      "fr": "Massette en titane",
+      "ja": "チタンランプハンマー"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Spitzhacke",
+      "en": "Titanium Pickaxe",
+      "fr": "Pioche en titane",
+      "ja": "チタンピック"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Schlichthammer",
+      "en": "Titanium Raising Hammer",
+      "fr": "Marteau de batteur en titane",
+      "ja": "チタンレイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Titan-Pistole",
+      "en": "Titanium-barreled Snaphance",
+      "fr": "Fusil à silex en titane",
+      "ja": "チタンスナップハンス"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Hippe",
+      "en": "Adamantite Bill",
+      "fr": "Vouge en adamantium",
+      "ja": "アダマンビル"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Breitschwert",
+      "en": "Adamantite Broadsword",
+      "fr": "Épée large en adamantium",
+      "ja": "アダマンブロードソード"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Jamadhars",
+      "en": "Adamantite Jamadhars",
+      "fr": "Jamadhars en adamantium",
+      "ja": "アダマンジャマダル"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Messer",
+      "en": "Adamantite Knives",
+      "fr": "Couteaux en adamantium",
+      "ja": "アダマンナイフ"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 431,
+    "durability": 35,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Nugget",
+      "en": "Adamantite Nugget",
+      "fr": "Pépite d'adamant",
+      "ja": "アダマンナゲット"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Revolver",
+      "en": "Adamantite Revolver",
+      "fr": "Revolver en adamantium",
+      "ja": "アダマンリボルバー"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 431,
+    "durability": 35,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Nieten",
+      "en": "Adamantite Rivets",
+      "fr": "Rivets en adamantium",
+      "ja": "アダマンリベット"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Adamantium-Zweihänder",
+      "en": "Adamantite Zweihander",
+      "fr": "Espadon en adamantium",
+      "ja": "アダマンツヴァイハンダー"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 60,
+    "level": 145,
+    "maxQuality": 5664,
+    "name": {
+      "de": "Coerthisches Souvenir",
+      "en": "Coerthan Souvenir",
+      "fr": "Souvenir du Coerthas",
+      "ja": "寒冷地の名産品"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 431,
+    "durability": 60,
+    "level": 145,
+    "maxQuality": 2832,
+    "name": {
+      "de": "Komponente eines coerthischen Souvenirs",
+      "en": "Coerthan Souvenir Component",
+      "fr": "Composant de souvenir du Coerthas",
+      "ja": "寒冷地の名産品部材"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-Ahle",
+      "en": "Adamantite Awl",
+      "fr": "Alêne en adamantium",
+      "ja": "アダマンアウル"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-Klauenhammer",
+      "en": "Adamantite Claw Hammer",
+      "fr": "Marteau arrache-clou en adamantium",
+      "ja": "アダマンクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-Küchenmesser",
+      "en": "Adamantite Culinary Knife",
+      "fr": "Couteau de cuisine en adamantium",
+      "ja": "アダマンクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-Feile",
+      "en": "Adamantite File",
+      "fr": "Lime en adamantium",
+      "ja": "アダマンファイル"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-Mörser",
+      "en": "Adamantite Mortar",
+      "fr": "Mortier en adamantium",
+      "ja": "アダマンモーター"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantiumzange",
+      "en": "Adamantite Pliers",
+      "fr": "Tenailles en adamantium",
+      "ja": "アダマンプライヤー"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-Sense",
+      "en": "Adamantite Scythe",
+      "fr": "Faux en adamantium",
+      "ja": "アダマンサイズ"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-Vorschlaghammer",
+      "en": "Adamantite Sledgehammer",
+      "fr": "Maillet en adamantium",
+      "ja": "アダマンモール"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 60,
+    "level": 148,
+    "maxQuality": 5871,
+    "name": {
+      "de": "Mahlstrom-Ausrüstung",
+      "en": "Maelstrom Materiel",
+      "fr": "Équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 459,
+    "durability": 60,
+    "level": 148,
+    "maxQuality": 2935,
+    "name": {
+      "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
+      "en": "Maelstrom Materiel Component",
+      "fr": "Composant d'équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Schlosserhammer",
+      "en": "Adamantite Ball-pein Hammer",
+      "fr": "Marteau à panne ronde en adamantium",
+      "ja": "アダマンアーモラーハンマー"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Kreuzschlaghammer",
+      "en": "Adamantite Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en adamantium",
+      "ja": "アダマン・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Dolabra",
+      "en": "Adamantite Dolabra",
+      "fr": "Dolabre en adamantium",
+      "ja": "アダマンドラブラ"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Großschwert",
+      "en": "Adamantite Greatsword",
+      "fr": "Grande épée en adamantium",
+      "ja": "アダマングレートソード"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Handbeil",
+      "en": "Adamantite Hatchet",
+      "fr": "Hachette en adamantium",
+      "ja": "アダマンハチェット"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Henkersaxt",
+      "en": "Adamantite Headsman's Axe",
+      "fr": "Hache de bourreau en adamantium",
+      "ja": "アダマンヘッズマンアクス"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Schlagringe",
+      "en": "Adamantite Knuckles",
+      "fr": "Poings en adamantium",
+      "ja": "アダマンナックル"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Parierdolche",
+      "en": "Adamantite Main Gauches",
+      "fr": "Mains-gauches en adamantium",
+      "ja": "アダマンマインゴーシュ"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Säge",
+      "en": "Adamantite Saw",
+      "fr": "Scie ronde en adamantium",
+      "ja": "アダマンソー"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Zeremonialschwert",
+      "en": "Adamantite Winglet",
+      "fr": "Espafut en adamantium",
+      "ja": "アダマンウィングレット"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Adamantium-Kalverine",
+      "en": "Adamantite-barreled Culverin",
+      "fr": "Couleuvrine en adamantium",
+      "ja": "アダマンカルバリン"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Königsgold-Rillmesser",
+      "en": "Aurum Regis Creasing Knife",
+      "fr": "Couteau de tanneur en aurum regis",
+      "ja": "オーラムレギス・レザーワーカーナイフ"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Königsgold-Stockhammer",
+      "en": "Aurum Regis Texture Hammer",
+      "fr": "Marteau d'orfèvre en aurum regis",
+      "ja": "オーラムレギス・ゴールドスミスハンマー"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
+      "de": "Inniges Geschenk",
+      "en": "Heartfelt Gift",
+      "fr": "Cadeau attentionné",
+      "ja": "心尽くしの贈答品"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "de": "Komponente eines innigen Geschenks",
+      "en": "Heartfelt Gift Component",
+      "fr": "Composant de cadeau attentionné",
+      "ja": "心尽くしの贈答品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Adamantium-Franziska",
+      "en": "Adamantite Francesca",
+      "fr": "Francisque en adamantium",
+      "ja": "アダマンフランシスカ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Kristallglocke",
+      "en": "Crystal Bell",
+      "fr": "Sonnette de l'esthéticien",
+      "ja": "美容師の呼び鈴"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "de": "Waisenhaus-Spende",
+      "en": "Orphanage Donation",
+      "fr": "Article quotidien d'orphelinat",
+      "ja": "孤児院の日用品"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "de": "Komponente einer Waisenhaus-Spende",
+      "en": "Orphanage Donation Component",
+      "fr": "Composant d'article pour orphelinat",
+      "ja": "孤児院の日用品部材"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 35,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Titanlegierungs-Barren",
+      "en": "Titanium Alloy Ingot",
+      "fr": "Lingot d'alliage de titane",
+      "ja": "チタンアロイインゴット"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Barren",
+      "en": "Adamantite Ingot",
+      "fr": "Lingot d'adamant",
+      "ja": "アダマンインゴット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Ausbalancierte Adamantium-Sense",
+      "en": "Balanced Adamantite Scythe",
+      "fr": "Faux en adamantium renforcée",
+      "ja": "アダマンサイズDX"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kriegsaxt der Kolonie",
+      "en": "Dead Hive Battleaxe",
+      "fr": "Hache de combat du Maître des lames",
+      "ja": "ハイヴバトルアクス"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Klauen der Kolonie",
+      "en": "Dead Hive Claws",
+      "fr": "Griffes du Maître des lames",
+      "ja": "ハイヴクロー"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Claymore der Kolonie",
+      "en": "Dead Hive Claymore",
+      "fr": "Claymore du Maître des lames",
+      "ja": "ハイヴクレイモア"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Krise der Kolonie",
+      "en": "Dead Hive Kris",
+      "fr": "Kriss du Maître des lames",
+      "ja": "ハイヴクリス"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Muskete der Kolonie",
+      "en": "Dead Hive Musketoon",
+      "fr": "Mousqueton du Maître des lames",
+      "ja": "ハイヴマスケトン"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Shamshir der Kolonie",
+      "en": "Dead Hive Shamshir",
+      "fr": "Shamshir du Maître des lames",
+      "ja": "ハイヴシャムシール"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Verstärkte Adamantiumzange",
+      "en": "Double-jointed Adamantite Pliers",
+      "fr": "Tenailles en adamantium renforcées",
+      "ja": "アダマンプライヤーDX"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kampfaxt der endlosen Weiten",
+      "en": "Endless Expanse Battleaxe",
+      "fr": "Hache du Migrateur",
+      "ja": "エクスパンスバトルアクス"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Großschwert der endlosen Weiten",
+      "en": "Endless Expanse Greatsword",
+      "fr": "Grande épée du Migrateur",
+      "ja": "エクスパンスグレートソード"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Donnerbüchse der endlosen Weiten",
+      "en": "Endless Expanse Handgonne",
+      "fr": "Haquebute du Migrateur",
+      "ja": "エクスパンスハンドゴンネ"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Macheten der endlosen Weiten",
+      "en": "Endless Expanse Machetes",
+      "fr": "Machettes du Migrateur",
+      "ja": "エクスパンスマチェット"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Patas der endlosen Weiten",
+      "en": "Endless Expanse Patas",
+      "fr": "Patas du Migrateur",
+      "ja": "エクスパンスパタ"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwert der endlosen Weiten",
+      "en": "Endless Expanse Sword",
+      "fr": "Épée du Migrateur",
+      "ja": "エクスパンスソード"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Waffenschmiedemeister-Hammer",
+      "en": "Forgemaster's Hammer",
+      "fr": "Marteau d'expert de la forge",
+      "ja": "フォージマスターハンマー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Verstärkter Klauenhammer",
+      "en": "Fortified Claw Hammer",
+      "fr": "Marteau arrache-clou en adamantium renforcé",
+      "ja": "アダマンクローハンマーDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Verzinkter Garlond-Stahl",
+      "en": "Galvanized Garlond Steel",
+      "fr": "Acier de Garlond galvanisé",
+      "ja": "超硬ガーロンド鋼"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kunstschmiedemeister-Fäustel",
+      "en": "Gemmaster's Mallet",
+      "fr": "Massette d'expert des gemmes",
+      "ja": "ジェムマスターマレット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Gubal-Standleuchte",
+      "en": "Great Gubal Floor Lamp",
+      "fr": "Lampadaire de Gubal",
+      "ja": "グブラフロアランプ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Rüstungsschmiedemeister-Treibhammer",
+      "en": "Hammermaster's Beetle",
+      "fr": "Mailloche d'expert de la fonderie",
+      "ja": "ハンマーマスターハンマー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwerer Adamantium-Mörser",
+      "en": "Heavy Adamantite Mortar",
+      "fr": "Mortier en adamantium renforcé",
+      "ja": "アダマンモーターDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Lederermeister-Messer",
+      "en": "Hidemaster's Knife",
+      "fr": "Couteau d'expert de la peausserie",
+      "ja": "ハイドマスターナイフ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Edelmythrit-Nugget",
+      "en": "High Mythrite Nugget",
+      "fr": "Pépite de mithrite noble",
+      "ja": "ハイミスライトナゲット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Marionettenlampe",
+      "en": "Mammet Lantern",
+      "fr": "Lanterne pantin",
+      "ja": "マメットランタン"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schreinermeister-Säge",
+      "en": "Millmaster's Saw",
+      "fr": "Scie d'expert de l'établi",
+      "ja": "ミルマスターソー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Polierte Adamantium-Feile",
+      "en": "Polished Adamantite File",
+      "fr": "Lime en adamantium renforcée",
+      "ja": "アダマンファイルDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Pudding-Lampe",
+      "en": "Pudding Floor Lamp",
+      "fr": "Lampe pudding",
+      "ja": "プリンフロアランプ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Spitze Adamantium-Ahle",
+      "en": "Sharpened Adamantite Awl",
+      "fr": "Alêne en adamantium renforcée",
+      "ja": "アダマンアウルDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwerer Adamantium-Vorschlaghammer",
+      "en": "Weighted Adamantite Sledgehammer",
+      "fr": "Maillet en adamantium renforcé",
+      "ja": "アダマンモールDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Umwickeltes Adamantium-Küchenmesser",
+      "en": "Wrapped Adamantite Culinary Knife",
+      "fr": "Couteau de cuisine en adamantium renforcé",
+      "ja": "アダマンクリナリーナイフDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Axt der Runde",
+      "en": "Axe of the Round",
+      "fr": "Hache de la Table ronde",
+      "ja": "アクス・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Claymore der Runde",
+      "en": "Claymore of the Round",
+      "fr": "Claymore de la Table ronde",
+      "ja": "クレイモア・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Wolken-Mithril-Barren",
+      "en": "Cloud Mythril Ingot",
+      "fr": "Lingot de mithril céleste",
+      "ja": "クラウドミスリルインゴット"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Dolche der Runde",
+      "en": "Daggers of the Round",
+      "fr": "Dagues de la Table ronde",
+      "ja": "ダガー・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Ikoneneisen-Juwelierhammer",
+      "en": "Eikon Iron Lapidary Hammer",
+      "fr": "Marteau de lapidaire en fer primordial",
+      "ja": "イコンアロイ・ラピダリーハンマー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Muskete der Runde",
+      "en": "Fire of the Round",
+      "fr": "Feu de la Table ronde",
+      "ja": "ファイア・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Ahle",
+      "en": "High Mythrite Awl",
+      "fr": "Alêne en mithrite noble",
+      "ja": "ハイミスライトアウル"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Klauenhammer",
+      "en": "High Mythrite Claw Hammer",
+      "fr": "Marteau arrache-clou en mithrite noble",
+      "ja": "ハイミスライト・クローハンマー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Kreuzschlaghammer",
+      "en": "High Mythrite Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en mithrite noble",
+      "ja": "ハイミスライト・クロスペインハンマー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Küchenmesser",
+      "en": "High Mythrite Culinary Knife",
+      "fr": "Couteau de cuisine en mithrite noble",
+      "ja": "ハイミスライトクリナリーナイフ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Feile",
+      "en": "High Mythrite File",
+      "fr": "Lime en mithrite noble",
+      "ja": "ハイミスライトファイル"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Handbeil",
+      "en": "High Mythrite Hatchet",
+      "fr": "Hachette en mithrite noble",
+      "ja": "ハイミスライトハチェット"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythritbarren",
+      "en": "High Mythrite Ingot",
+      "fr": "Lingot de mithrite noble",
+      "ja": "ハイミスライトインゴット"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Mörser",
+      "en": "High Mythrite Mortar",
+      "fr": "Mortier en mithrite noble",
+      "ja": "ハイミスライトモーター"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Spitzhacke",
+      "en": "High Mythrite Pickaxe",
+      "fr": "Pioche en mithrite noble",
+      "ja": "ハイミスライトピック"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Zange",
+      "en": "High Mythrite Pliers",
+      "fr": "Tenailles en mithrite noble",
+      "ja": "ハイミスライトプライヤー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Schlichthammer",
+      "en": "High Mythrite Raising Hammer",
+      "fr": "Marteau de batteur en mithrite noble",
+      "ja": "ハイミスライト・レイジングハンマー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Rundmesser",
+      "en": "High Mythrite Round Knife",
+      "fr": "Couteau arrondi en mithrite noble",
+      "ja": "ハイミスライト・ラウンドナイフ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Säge",
+      "en": "High Mythrite Saw",
+      "fr": "Scie en mithrite noble",
+      "ja": "ハイミスライトソー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Sense",
+      "en": "High Mythrite Scythe",
+      "fr": "Faux en mithrite noble",
+      "ja": "ハイミスライトサイズ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Edelmythrit-Vorschlaghammer",
+      "en": "High Mythrite Sledgehammer",
+      "fr": "Maillet en mithrite noble",
+      "ja": "ハイミスライトモール"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Schlagringe der Runde",
+      "en": "Knuckles of the Round",
+      "fr": "Poings de la Table ronde",
+      "ja": "ナックル・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Baghnakhs (Replik)",
+      "en": "Replica Allagan Baghnakhs",
+      "fr": "Répliques de baghnakhs allagois",
+      "ja": "レプリカ・アラガンバグナウ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Kriegsaxt (Replik)",
+      "en": "Replica Allagan Battleaxe",
+      "fr": "Réplique de hache de combat allagoise",
+      "ja": "レプリカ・アラガンバトルアクス"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Klinge (Replik)",
+      "en": "Replica Allagan Blade",
+      "fr": "Réplique de lame allagoise",
+      "ja": "レプリカ・アラガンブレード"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagischer Kompositbogen (Replik)",
+      "en": "Replica Allagan Composite Bow",
+      "fr": "Réplique d'arc composite allagois",
+      "ja": "レプリカ・アラガンコンポジットボウ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Dolche (Replik)",
+      "en": "Replica Allagan Daggers",
+      "fr": "Répliques de dagues allagoises",
+      "ja": "レプリカ・アラガンダガー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Guillotine (Replik)",
+      "en": "Replica Allagan Guillotine",
+      "fr": "Réplique de fendoir allagois",
+      "ja": "レプリカ・アラガン・ディバイダー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Pistole (Replik)",
+      "en": "Replica Allagan Pistol",
+      "fr": "Réplique de pistolet allagois",
+      "ja": "レプリカ・アラガンハンドガン"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagischer Speer (Replik)",
+      "en": "Replica Allagan Spear",
+      "fr": "Réplique d'hast allagois",
+      "ja": "レプリカ・アラガンスピア"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Baghnakhs (Replik)",
+      "en": "Replica High Allagan Baghnakhs",
+      "fr": "Répliques de baghnakhs haut-allagois",
+      "ja": "レプリカ・ハイアラガンバグナウ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Kriegsaxt (Replik)",
+      "en": "Replica High Allagan Battleaxe",
+      "fr": "Réplique de hache de combat haut-allagoise",
+      "ja": "レプリカ・ハイアラガン・バトルアクス"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Klinge (Replik)",
+      "en": "Replica High Allagan Blade",
+      "fr": "Réplique de lame haut-allagoise",
+      "ja": "レプリカ・ハイアラガンブレード"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Spalter (Replik)",
+      "en": "Replica High Allagan Cleavers",
+      "fr": "Répliques de couperets haut-allagois",
+      "ja": "レプリカ・ハイアラガンクリーバー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Kompositbogen (Replik)",
+      "en": "Replica High Allagan Composite Bow",
+      "fr": "Réplique d'arc composite haut-allagois",
+      "ja": "レプリカ・ハイアラガン・コンポジットボウ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Guillotine (Replik)",
+      "en": "Replica High Allagan Guillotine",
+      "fr": "Réplique de fendoir haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ディバイダー"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Pistole (Replik)",
+      "en": "Replica High Allagan Pistol",
+      "fr": "Réplique de pistolet haut-allagois",
+      "ja": "レプリカ・ハイアラガンハンドガン"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Speer (Replik)",
+      "en": "Replica High Allagan Spear",
+      "fr": "Réplique d'hast haut-allagois",
+      "ja": "レプリカ・ハイアラガンスピア"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Schwert der Runde",
+      "en": "Sword of the Round",
+      "fr": "Épée de la Table ronde",
+      "ja": "ソード・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Klauen",
+      "en": "Heavy Metal Claws",
+      "fr": "Griffes en alliage de tungstène",
+      "ja": "ヘヴィアロイクロー"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Kalverine",
+      "en": "Heavy Metal Culverin",
+      "fr": "Couleuvrine en alliage de tungstène",
+      "ja": "ヘヴィアロイカルバリン"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Dolche",
+      "en": "Heavy Metal Daggers",
+      "fr": "Dagues en alliage de tungstène",
+      "ja": "ヘヴィアロイダガー"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Großschwert",
+      "en": "Heavy Metal Greatsword",
+      "fr": "Grande épée en alliage de tungstène",
+      "ja": "ヘヴィアロイ・グレートソード"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Barren",
+      "en": "Heavy Metal Ingot",
+      "fr": "Lingot d'alliage de tungstène",
+      "ja": "ヘヴィアロイインゴット"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Langschwert",
+      "en": "Heavy Metal Longsword",
+      "fr": "Épée en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ロングソード"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Kriegsaxt",
+      "en": "Heavy Metal War Axe",
+      "fr": "Hache de guerre en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ウォーアクス"
+    },
+    "stars": 4
+  }
+]
