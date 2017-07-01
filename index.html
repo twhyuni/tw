@@ -59,7 +59,6 @@
   <script>
   	var skilllist = [{"캐릭터":"보리스","스킬명":"연","공격력":300,"타수":3},
 {"캐릭터":"루시안","스킬명":"살","공격력":333,"타수":3}];
-
 	for(var i=0; i<skilllist.length; i++){
 		document.write("<tr><td>",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬명,"</td><td>",skilllist[i].공격력,"</td><td>",skilllist[i].타수,"</td><td>",skilllist[i].공격력 + (input_stab.value*2.1)+(input_hack.value*1.08),"</td></tr>");
 	}
@@ -71,15 +70,8 @@
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript">
 
-	var output_s = (input_stab.value*2.1)+(input_hack.value*1.08);
 
-
-
-
-
-	
-
-
+funtion factor_stat(){
 		  document.getElementById("output_stab").innerHTML=(input_stab.value*2.1)+(input_hack.value*1.08);
 		  document.getElementById("output_hack").innerHTML=(input_stab.value*1.08)+(input_hack.value*2.1);
 		  document.getElementById("output_stabhack").innerHTML=(input_stab.value*1.8)+(input_hack.value*1.8);
