@@ -12,10 +12,10 @@
 	<ul>
 		<li>
 			<label>STAB</label>
-			<input type="number" id="input_stab">
+			<input type="number" id="input_stab" value=0>
 		<li>
 			<label>HACK</label>
-			<input type="number" id="input_hack">
+			<input type="number" id="input_hack" value=0>
 		<li>
 			<label>INT</label>
 			<input type="number" id="input_int" value=0>
@@ -28,7 +28,7 @@
 	</ul>
 	<ul>
 		<li>
-			찌르기 계열 : <span id="output_stab">0</span>
+			찌르기 계열 :
 		<li>
 			베기 계열 : <span id="output_hack">0</span>
 		<li>
@@ -56,23 +56,19 @@
   </thead>
   <tbody>
 
-  <script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
   	var skilllist = [{"캐릭터":"보리스","스킬명":"연","공격력":300,"타수":3},
 {"캐릭터":"루시안","스킬명":"살","공격력":333,"타수":3}];
 	for(var i=0; i<skilllist.length; i++){
-		document.write("<tr><td>",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬명,"</td><td>",skilllist[i].공격력,"</td><td>",skilllist[i].타수,"</td><td>",skilllist[i].공격력 + (input_stab.value*2.1)+(input_hack.value*1.08),"</td></tr>");
+		document.write("<tr><td>",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬명,"</td><td>",skilllist[i].공격력,"</td><td>",skilllist[i].타수,"</td><td>",skilllist[i].공격력,"<span class=\"output_stab\"></span></td></tr>");
 	}
-</script>
 
-  </tbody>
-</table>
-
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript">
-
-
-function factor_stat(){
-		  document.getElementById("output_stab").innerHTML=(input_stab.value*2.1)+(input_hack.value*1.08);
+	function factor_stat(){
+	var output_stab = document.querySelectorAll('.output_stab');
+		for (var name in output_stab){
+			output_stab[name].innerHTML=(input_stab.value*2.1)+(input_hack.value*1.08);
+		}
 		  document.getElementById("output_hack").innerHTML=(input_stab.value*1.08)+(input_hack.value*2.1);
 		  document.getElementById("output_stabhack").innerHTML=(input_stab.value*1.8)+(input_hack.value*1.8);
 		  document.getElementById("output_hackint").innerHTML=(input_hack.value*1.8)+(input_int.value*1.5);
@@ -83,6 +79,15 @@ function factor_stat(){
 		
 		$("input").on("keyup change", factor_stat);
 		
+</script>
+
+  </tbody>
+</table>
+
+
+
+
+
 	</script>
 </body>
 </html>
