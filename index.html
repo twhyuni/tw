@@ -25,26 +25,224 @@
 <body>
 
   <p><h3>테일즈위버 대미지 계산기</h3></p>
-  <div id="header">
-    <p>			<label>STAB</label>
-			<input type="number" id="input_stab" value=0>
+    <div id="header">
+    <p>
 
-			<label>HACK</label>
-			<input type="number" id="input_hack" value=0>
+<table style="text-align: center; width:100%" class="ui celled table very compact striped">
+<thead>
+<tr>
+<th colspan="18">공격 캐릭터 정보</th>
+</tr>
+</thead> 
+<tbody> 
+<tr>
+<td colspan="4">기본정보</td>
+<td colspan="2">스탯</td>
+<td colspan="4">장비</td>
+<td colspan="2">습득스킬</td>
+<td colspan="2">본인/팀원 정보</td>
+<td colspan="4">아이템, 기타</td>
+</tr>
+<tr>
+<td>룬레벨</td>
+<td></td>
+<td>무기연마</td>
+<td></td>
+<td>STAB</td>
+<td><input type="number" id="input_stab" style="width:50px;"></td>
+<td>찌르기</td>
+<td></td>
+<td>투구어빌(극한이전)</td>
+<td></td>
+<td>신의방패</td>
+<td></td>
+<td>비호버프 효율</td>
+<td></td>
+<td>각성의 비약</td>
+<td></td>
+<td>승자의증표 소지</td>
+<td></td>
+</tr>
 
-			<label>INT</label>
-			<input type="number" id="input_int" value=0>
+<tr>
+<td>각성회차</td>
+<td></td>
+<td>보급무연</td>
+<td></td>
+<td>HACK</td>
+<td><input type="number" id="input_hack" style="width:50px;"></td>
+<td>베기</td>
+<td></td>
+<td>투구어빌공격력(시드)</td>
+<td></td>
+<td>약점간파</td>
+<td></td>
+<td>찬솔렛 극한여부</td>
+<td></td>
+<td>쌍둥이경단</td>
+<td></td>
+<td>기타 합연산</td>
+<td></td>
+</tr>
+<tr>
+<td>극한</td>
+<td></td>
+<td>콤보연마</td>
+<td></td>
+<td>INT</td>
+<td><input type="number" id="input_int" style="width:50px;"></td>
+<td>마공</td>
+<td></td>
+<td>아티펙트</td>
+<td></td>
+<td>신속의미학</td>
+<td></td>
+<td>로아극한,포이즌마스터</td>
+<td></td>
+<td>괴력의물약</td>
+<td></td>
+<td>기타 곱연산</td>
+<td></td>
+</tr>
+<tr>
+<td>속성합계</td>
+<td></td>
+<td>보급콤연</td>
+<td></td>
+<td>MR</td>
+<td><input type="number" id="input_mr" style="width:50px;"></td>
+<td>마방</td>
+<td></td>
+<td>진암페/땅문장</td>
+<td></td>
+<td>벤야마스터리1단계</td>
+<td></td>
+<td>콤보사용</td>
+<td></td>
+<td>괴력의햄/이공간</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>DEX</td>
+<td><input type="number" id="input_dex" style="width:50px;"></td>
+<td>어빌댐증(%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>도발</td>
+<td></td>
+<td>달빛의축복</td>
+<td></td>
+<td></td>
+<td></td>
+</tr></tbody></table>
 
-			<label>MR</label>
-			<input type="number" id="input_mr" value=0>
+<table style="text-align: center; width:100%"  class="ui celled table very compact striped">
+<thead>
+<tr>
+<th colspan="18">피격 몬스터 정보</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>이름</td>
+<td></td>
+<td>디버프</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>물리방어력</td>
+<td></td>
+<td>아나이스 평타</td>
+<td></td>
+<td>쇠약</td>
+<td></td>
+<td>찬솔렛3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>마법방어력</td>
+<td></td>
+<td>비호 초록장판</td>
+<td></td>
+<td>러스트아머</td>
+<td></td>
+<td>독설</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>속성</td>
+<td></td>
+<td>로아미니 장판</td>
+<td></td>
+<td>브레이크아머</td>
+<td></td>
+<td>커스</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody> 
 
-			<label>DEX</label>
-			<input type="number" id="input_dex" value=0></p>
+</table>
 
-<table  width=100%>
+
+
+
+<table width=100%>
   <thead>
     <tr>
-      <th width=10%>캐릭터</th>
+      <th width=10% height=30>캐릭터</th>
       <th width=30%>스킬명</th>
       <th width=10%>공격력</th>
       <th width=10%>타수</th>
@@ -54,12 +252,35 @@
   </thead></table>
     </div>
 
-<table class="ui very compact striped table">
+<table class="ui very compact striped table" id="skilltable">
 
 <thead>
     <tr>
-      <th width=10%></th>
-      <th width=30%></th>
+      <th width=10% style="text-align: center">
+      	<select id="cha_name" onchange="h_filter()">
+      		<option value="">전체</option>
+      		<option value="나야">나야</option>
+      		<option value="녹턴">녹턴</option>
+      		<option value="란지에">란지에</option>
+      		<option value="로아미니">로아미니</option>
+      		<option value="루시안">루시안</option>
+      		<option value="막시민">막시민</option>
+      		<option value="밀라">밀라</option>
+      		<option value="벤야">벤야</option>
+      		<option value="보리스">보리스</option>
+      		<option value="시벨린">시벨린</option>
+      		<option value="아나이스">아나이스</option>
+      		<option value="이솔렛">이솔렛</option>
+      		<option value="이스핀">이스핀</option>
+      		<option value="이자크">이자크</option>
+      		<option value="조슈아">조슈아</option>
+      		<option value="클로에">클로에</option>
+      		<option value="티치엘">티치엘</option>
+      	</select>
+      </th>
+      <th width=30%>
+      	
+      </th>
       <th width=10%></th>
       <th width=10%></th>
       <th width=10%></th>
@@ -100,6 +321,30 @@
 	
 		
 		$("input").on("keyup change", CALdamage);
+
+
+
+
+function h_filter() {
+
+  var cha_name, filter, table, tr, td, i;
+  cha_name = document.getElementById("cha_name");
+  filter = cha_name.value.toUpperCase();
+  table = document.getElementById("skilltable");
+  tr = table.getElementsByTagName("tr");
+
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+
 
 </script>
 
