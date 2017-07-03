@@ -6,17 +6,7 @@
 <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="semantic/semantic.min.js"></script>
-
- <script>
-  $(document)
-    .ready(function() {
-      $('.main.menu').visibility({
-        type: 'fixed'
-      });
-
-    })
-  ;
-  </script>
+<script src="skilllist.js"></script>
 
 </head>
 
@@ -288,11 +278,17 @@
   </thead>
   <tbody>
 
-	<script src="skilllist.js"></script>
+	
 	<script type="text/javascript">
 	for(var i=0; i<skilllist.length; i++){
 		document.write("<tr><td style=\"text-align: center\">",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬,"</td><td style=\"text-align: center\">",skilllist[i].스킬공격력,"</td><td style=\"text-align: center\">",skilllist[i].타격수,"</td><td style=\"text-align: center\">",skilllist[i].크리배율,"</td><td style=\"text-align: center\"><span class=\"damage\">0</span></td style=\"text-align: center\"></tr>");
 	}
+	  </script>
+
+  </tbody>
+</table>
+
+	  <script>
 	function CALdamage(){
 	var damage = document.querySelectorAll('.damage');
 		for (var name in damage){
@@ -316,12 +312,6 @@
 		damage[name].innerHTML=Math.round(factor_stat*skilllist[name].스킬공격력*skilllist[name].크리배율);
 		}
 	}
-		
-	
-		
-		$("input").on("keyup change", CALdamage);
-
-
 
 
 function h_filter() {
@@ -343,12 +333,9 @@ function h_filter() {
     } 
   }
 }
-
-
+		
+$("input").on("keyup change", CALdamage);
+$('.main.menu').visibility({type: 'fixed'});
 </script>
-
-  </tbody>
-</table>
-
 </body>
 </html>
