@@ -9,10 +9,7 @@
 <script src="semantic/semantic.min.js"></script>
 
 <script src="skilllist.js"></script>
-<<<<<<< HEAD
-=======
 
->>>>>>> 6718e4d94a53a6efbb4e7a38efc39aff7df518cd
 </head>
 
 <body>
@@ -288,18 +285,18 @@
 	for(var i=0; i<skilllist.length; i++){
 		document.write("<tr><td style=\"text-align: center\">",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬,"</td><td style=\"text-align: center\">",skilllist[i].스킬공격력,"</td><td style=\"text-align: center\">",skilllist[i].타격수,"</td><td style=\"text-align: center\">",skilllist[i].크리배율,"</td><td style=\"text-align: center\"><span class=\"damage\">0</span></td style=\"text-align: center\"></tr>");
 	}
-<<<<<<< HEAD
+
 
 </script>
-=======
-	  </script>
->>>>>>> 6718e4d94a53a6efbb4e7a38efc39aff7df518cd
+
+
+
 
   </tbody>
 </table>
 
 	  <script>
-<<<<<<< HEAD
+
 
 
 	function CALdamage(){
@@ -307,7 +304,7 @@
 
 
 		for (var i=0; i<damage.length; i++){
-=======
+
 	function CALdamage(){
 	var damage = document.querySelectorAll('.damage');
 		for (var name in damage){
@@ -331,7 +328,7 @@
 		damage[name].innerHTML=Math.round(factor_stat*skilllist[name].스킬공격력*skilllist[name].크리배율);
 		}
 	}
->>>>>>> 6718e4d94a53a6efbb4e7a38efc39aff7df518cd
+
 
 				if(skilllist[i].계열=="STAB"){
 					var factor_stat = Math.floor((input_stab.value*2.1)+(input_hack.value*1.08));}
@@ -370,7 +367,6 @@ function h_filter() {
     } 
   }
 }
-<<<<<<< HEAD
 
 
 
@@ -388,11 +384,6 @@ $(".statinput").on("keyup change", CALdamage);
 
 </script>
 
-=======
-		
-$(".statinput").on("keyup change", CALdamage);
-$('.main.menu').visibility({type: 'fixed'});
-</script>
->>>>>>> 6718e4d94a53a6efbb4e7a38efc39aff7df518cd
+
 </body>
 </html>
