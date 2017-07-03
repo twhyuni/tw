@@ -3,31 +3,18 @@
 <head>
 	<title>테일즈위버 대미지 계산기</title>
 	<meta charset="utf-8" />
-
-<style type="text/css">
-	    #header {
-      background: #ffffff;
-    }
-</style>
 <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
 
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="sticky/jquery.sticky.js"></script>
-  <script>
-    $(window).load(function(){
-      $("#header").sticky({ topSpacing: 0 });
-    });
-  </script>
-
+<script src="skilllist.js"></script>
 </head>
 
 <body>
-
   <p><h3>테일즈위버 대미지 계산기</h3></p>
-    <div id="header">
 
-<table style="text-align: center; width:100%" class="ui celled table very compact striped small">
+  <div class="main menu" style="width:100%;background:white;">
+
+<table style="text-align: center; width:100%" border=1>
 <thead>
 <tr>
 <th colspan="18">공격 캐릭터 정보</th>
@@ -48,7 +35,7 @@
 <td>무기연마</td>
 <td></td>
 <td>STAB</td>
-<td><input type="number" id="input_stab" style="width:50px;"></td>
+<td><input type="number" id="input_stab" style="width:50px;" class="statinput"></td>
 <td>찌르기</td>
 <td></td>
 <td>투구어빌(극한이전)</td>
@@ -69,7 +56,7 @@
 <td>보급무연</td>
 <td></td>
 <td>HACK</td>
-<td><input type="number" id="input_hack" style="width:50px;"></td>
+<td><input type="number" id="input_hack" style="width:50px;" class="statinput"></td>
 <td>베기</td>
 <td></td>
 <td>투구어빌공격력(시드)</td>
@@ -89,7 +76,7 @@
 <td>콤보연마</td>
 <td></td>
 <td>INT</td>
-<td><input type="number" id="input_int" style="width:50px;"></td>
+<td><input type="number" id="input_int" style="width:50px;" class="statinput"></td>
 <td>마공</td>
 <td></td>
 <td>아티펙트</td>
@@ -109,7 +96,7 @@
 <td>보급콤연</td>
 <td></td>
 <td>MR</td>
-<td><input type="number" id="input_mr" style="width:50px;"></td>
+<td><input type="number" id="input_mr" style="width:50px;" class="statinput"></td>
 <td>마방</td>
 <td></td>
 <td>진암페/땅문장</td>
@@ -129,7 +116,7 @@
 <td></td>
 <td></td>
 <td>DEX</td>
-<td><input type="number" id="input_dex" style="width:50px;"></td>
+<td><input type="number" id="input_dex" style="width:50px;" class="statinput"></td>
 <td>어빌댐증(%)</td>
 <td></td>
 <td></td>
@@ -144,7 +131,7 @@
 <td></td>
 </tr></tbody></table>
 
-<table style="text-align: center; width:100%"  class="ui celled table very compact striped small">
+<table style="text-align: center; width:100%"  border=1>
 <thead>
 <tr>
 <th colspan="18">피격 몬스터 정보</th>
@@ -249,7 +236,9 @@
       <th width=30%>대미지</th>
     </tr>
   </thead></table>
-    </div>
+
+  </div>
+
 
 <table class="ui very compact striped table" id="skilltable">
 
@@ -288,50 +277,52 @@
   </thead>
   <tbody>
 
-	<script src="skilllist.js"></script>
+	
 	<script type="text/javascript">
 	for(var i=0; i<skilllist.length; i++){
 		document.write("<tr><td style=\"text-align: center\">",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬,"</td><td style=\"text-align: center\">",skilllist[i].스킬공격력,"</td><td style=\"text-align: center\">",skilllist[i].타격수,"</td><td style=\"text-align: center\">",skilllist[i].크리배율,"</td><td style=\"text-align: center\"><span class=\"damage\">0</span></td style=\"text-align: center\"></tr>");
 	}
+
+</script>
+
+  </tbody>
+</table>
+
+	  <script>
+
+
 	function CALdamage(){
 	var damage = document.querySelectorAll('.damage');
-		for (var name in damage){
 
-	if(skilllist[name].계열=="STAB"){
-		var factor_stat = Math.floor((input_stab.value*2.1)+(input_hack.value*1.08));}
-	else if(skilllist[name].계열=="HACK"){
-		var factor_stat = Math.floor((input_stab.value*1.08)+(input_hack.value*2.1));}
-	else if(skilllist[name].계열=="STAB+HACK"){
-		var factor_stat = Math.floor((input_stab.value*1.8)+(input_hack.value*1.8));}
-	else if(skilllist[name].계열=="HACK+INT"){
-		var factor_stat = Math.floor((input_hack.value*1.8)+(input_int.value*1.5));}
-	else if(skilllist[name].계열=="STAB+INT"){
-		var factor_stat = Math.floor((input_stab.value*1.8)+(input_int.value*1.5));}
-	else if(skilllist[name].계열=="INT"){
-		var factor_stat = Math.floor((input_int.value*2.4)+(input_mr.value*0.6));}
-	else if(skilllist[name].계열=="MR"){
-		var factor_stat = Math.floor((input_int.value*0.45)+(input_mr.value*2.55));}
-	else{var factor_stat = 0;}
 
-		damage[name].innerHTML=Math.round(factor_stat*skilllist[name].스킬공격력*skilllist[name].크리배율);
+		for (var i=0; i<damage.length; i++){
+
+				if(skilllist[i].계열=="STAB"){
+					var factor_stat = Math.floor((input_stab.value*2.1)+(input_hack.value*1.08));}
+				else if(skilllist[i].계열=="HACK"){
+					var factor_stat = Math.floor((input_stab.value*1.08)+(input_hack.value*2.1));}
+				else if(skilllist[i].계열=="STAB+HACK"){
+					var factor_stat = Math.floor((input_stab.value*1.8)+(input_hack.value*1.8));}
+				else if(skilllist[i].계열=="HACK+INT"){
+					var factor_stat = Math.floor((input_hack.value*1.8)+(input_int.value*1.5));}
+				else if(skilllist[i].계열=="STAB+INT"){
+					var factor_stat = Math.floor((input_stab.value*1.8)+(input_int.value*1.5));}
+				else if(skilllist[i].계열=="INT"){
+					var factor_stat = Math.floor((input_int.value*2.4)+(input_mr.value*0.6));}
+				else if(skilllist[i].계열=="MR"){
+					var factor_stat = Math.floor((input_int.value*0.45)+(input_mr.value*2.55));}
+				else{var factor_stat = 0;}
+		damage[i].innerHTML=Math.round(factor_stat*skilllist[i].스킬공격력*skilllist[i].크리배율);
+
 		}
+
 	}
-		
-	
-		
-		$("input").on("keyup change", CALdamage);
-
-
-
-
 function h_filter() {
-
   var cha_name, filter, table, tr, td, i;
   cha_name = document.getElementById("cha_name");
   filter = cha_name.value.toUpperCase();
   table = document.getElementById("skilltable");
   tr = table.getElementsByTagName("tr");
-
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[0];
     if (td) {
@@ -345,10 +336,20 @@ function h_filter() {
 }
 
 
-</script>
 
-  </tbody>
-</table>
+
+
+</script>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script src="semantic/semantic.min.js"></script>
+
+<script>
+
+$('.main.menu').visibility({type: 'fixed'});
+$(".statinput").on("keyup change", CALdamage);
+
+</script>
 
 </body>
 </html>
