@@ -4,10 +4,8 @@
 	<title>테일즈위버 대미지 계산기</title>
 	<meta charset="utf-8" />
 <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-
-<script src="semantic/semantic.min.js"></script>
-
+<script src="jquery-3.2.1.min.js"></script>
+<script src="semantic/semantic.min.js"></script> <!--이거 지우면 계산은 되고 제목줄은 안되고, 놔두면 제목줄은되는데 계산이안됨-->
 <script src="skilllist.js"></script>
 
 </head>
@@ -302,32 +300,7 @@
 	function CALdamage(){
 	var damage = document.querySelectorAll('.damage');
 
-
 		for (var i=0; i<damage.length; i++){
-
-	function CALdamage(){
-	var damage = document.querySelectorAll('.damage');
-		for (var name in damage){
-
-	if(skilllist[name].계열=="STAB"){
-		var factor_stat = Math.floor((input_stab.value*2.1)+(input_hack.value*1.08));}
-	else if(skilllist[name].계열=="HACK"){
-		var factor_stat = Math.floor((input_stab.value*1.08)+(input_hack.value*2.1));}
-	else if(skilllist[name].계열=="STAB+HACK"){
-		var factor_stat = Math.floor((input_stab.value*1.8)+(input_hack.value*1.8));}
-	else if(skilllist[name].계열=="HACK+INT"){
-		var factor_stat = Math.floor((input_hack.value*1.8)+(input_int.value*1.5));}
-	else if(skilllist[name].계열=="STAB+INT"){
-		var factor_stat = Math.floor((input_stab.value*1.8)+(input_int.value*1.5));}
-	else if(skilllist[name].계열=="INT"){
-		var factor_stat = Math.floor((input_int.value*2.4)+(input_mr.value*0.6));}
-	else if(skilllist[name].계열=="MR"){
-		var factor_stat = Math.floor((input_int.value*0.45)+(input_mr.value*2.55));}
-	else{var factor_stat = 0;}
-
-		damage[name].innerHTML=Math.round(factor_stat*skilllist[name].스킬공격력*skilllist[name].크리배율);
-		}
-	}
 
 
 				if(skilllist[i].계열=="STAB"){
@@ -368,22 +341,12 @@ function h_filter() {
   }
 }
 
-
-
-
-
-</script>
-<script src="jquery-3.2.1.min.js"></script>
-
-<script src="semantic/semantic.min.js"></script>
-
-<script>
-
-$('.main.menu').visibility({type: 'fixed'});
 $(".statinput").on("keyup change", CALdamage);
 
-</script>
 
+$('.main.menu').visibility({type: 'fixed'});
+
+</script>
 
 </body>
 </html>
