@@ -5,13 +5,6 @@
 	<meta charset="utf-8" />
 
 <style type="text/css">
-	    #header {
-      background: #ffffff;
-    }
-	
-  body {
-    background-color: #FFFFFF;
-  }
   .main.container {
     margin-top: 2em;
   }
@@ -26,52 +19,20 @@
       padding 0.5s ease
     ;
   }
-  .main.menu .item img.logo {
-    margin-right: 1.5em;
-  }
-
-  .overlay {
-    float: left;
-    margin: 0em 3em 1em 0em;
-  }
-  .overlay .menu {
-    position: relative;
-    left: 0;
-    transition: left 0.5s ease;
-  }
 
   .main.menu.fixed {
     background-color: #FFFFFF;
     border: 1px solid #DDD;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
-  .overlay.fixed .menu {
-    left: 800px;
-  }
 
-  .text.container .left.floated.image {
-    margin: 2em 2em 2em -4em;
-  }
-  .text.container .right.floated.image {
-    margin: 2em -4em 2em 2em;
-  }
-
-  .ui.footer.segment {
-    margin: 5em 0em 0em;
-    padding: 5em 0em;
-  }
 </style>
 <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
 
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="semantic/semantic.min.js"></script>
-  <!--script type="text/javascript" src="sticky/jquery.sticky.js"></script>-->
-  <script>
-    $(window).load(function(){
-      $("#header").sticky({ topSpacing: 0 });
-    });
-  </script>
+
  <script>
   $(document)
     .ready(function() {
@@ -80,22 +41,7 @@
       $('.main.menu').visibility({
         type: 'fixed'
       });
-      $('.overlay').visibility({
-        type: 'fixed',
-        offset: 80
-      });
 
-      // lazy load images
-      $('.image').visibility({
-        type: 'image',
-        transition: 'vertical flip in',
-        duration: 500
-      });
-
-      // show dropdown on hover
-      $('.main.menu  .ui.dropdown').dropdown({
-        on: 'hover'
-      });
     })
   ;
   </script>
@@ -107,9 +53,6 @@
 
   <div class="ui borderless main menu">
     <div class="ui text container">
-
-
-    <div id="header">
 
 <table style="text-align: center; width:100%" border=1>
 <thead>
@@ -333,8 +276,6 @@
       <th width=30%>대미지</th>
     </tr>
   </thead></table>
-    </div>
-
     </div>
   </div>
 
