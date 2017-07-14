@@ -240,7 +240,7 @@
 
   </div>
 
-<section id="content"></section>
+
 <table class="ui very compact striped table" id="skilltable">
 
 <thead>
@@ -283,8 +283,6 @@
 	for(var i=0; i<skilllist.length; i++){
 		document.write("<tr><td style=\"text-align: center\">",skilllist[i].캐릭터,"</td><td>",skilllist[i].스킬,"</td><td style=\"text-align: center\">",skilllist[i].스킬공격력,"</td><td style=\"text-align: center\">",skilllist[i].타격수,"</td><td style=\"text-align: center\">",skilllist[i].크리배율,"</td><td style=\"text-align: center\"><span class=\"damage\">0</span></td style=\"text-align: center\"></tr>");
 	}
-
-
 </script>
 
 
@@ -294,15 +292,9 @@
 </table>
 
 	  <script>
-
-
-
 	function CALdamage(){
 	var damage = document.querySelectorAll('.damage');
-
 		for (var i=0; i<damage.length; i++){
-
-
 				if(skilllist[i].계열=="STAB"){
 					var factor_stat = Math.floor((input_stab.value*2.1)+(input_hack.value*1.08));}
 				else if(skilllist[i].계열=="HACK"){
@@ -319,9 +311,7 @@
 					var factor_stat = Math.floor((input_int.value*0.45)+(input_mr.value*2.55));}
 				else{var factor_stat = 0;}
 		damage[i].innerHTML=Math.round(factor_stat*skilllist[i].스킬공격력*skilllist[i].크리배율);
-
 		}
-
 	}
 function h_filter() {
   var cha_name, filter, table, tr, td, i;
@@ -340,36 +330,8 @@ function h_filter() {
     } 
   }
 }
-
 $(".statinput").on("keyup change", CALdamage);
-
-
 $('.main.menu').visibility({type: 'fixed'});
-
-		  
-var xhr = new XMLHttpRequest();                 // XMLHttpRequest 객체를 생성한다
-
-xhr.onload = function() {                       // readystate 값이 변경되면
-  // 아래 조건식은 로컬 환경에서는 동작하지 않으며 서버가 있어야만 동작한다
-  if(xhr.status === 200) {                      // 서버의 응답이 정상이면
-    responseObject = JSON.parse(xhr.responseText);
-
-    // 새로운 콘텐츠를 생성한다 (DOM 조작을 사용한다)
-    var newContent = '';
-    for (var i = 0; i < responseObject.skilllist.length; i++) { // 루프를 실행한다
-      newContent += '<div>';
-      newContent += responseObject.skilllist[i].캐릭터 + '</p></div>';
-    }
-
-    // 새로운 콘텐츠로 페이지를 수정한다
-    document.getElementById('content').innerHTML = newContent;
-
-  }
-};
-
-xhr.open('GET', 'data/data.json', true);        // 요청을 준비한다
-xhr.send(null);                                 // 요청을 전송한다
-		  
 </script>
 
 </body>
