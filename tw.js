@@ -67,7 +67,7 @@ var factorSum = 1+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$us
 //대미지, 스킬공격력을 출력할 셀을 모두 찾아 배열로 정의한다
 var damageResult = document.querySelectorAll('.damageResult');
 var factorSkillResult = document.querySelectorAll('.factorSkillResult');
-var factorCriResult = document.querySelectorAll('.factorSkillCri');
+var factorCriResult = document.querySelectorAll('.factorCriResult');
 
 //해당 셀에 들어갈 값을 반복문으로 작성한다
 for (var i=0; i<damageResult.length; i++){
