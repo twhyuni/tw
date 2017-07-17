@@ -7,7 +7,7 @@ $('[type="number"]').attr('value', '0')
 
 //배열을 표로 나타낸다
 	for(var i=0; i<skillData.length; i++){
-$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td></td><td class=\"factorSkillResult\">"+skillData[i].스킬공격력+"</td><td>"+skillData[i].타격수+"</td><td>"+skillData[i].크리배율+"</td><td class=\"damageResult\"></td></tr>");
+$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td></td><td class=\"factorSkillResult\"></td><td>"+skillData[i].타격수+"</td><td\"factorCriResult\"></td><td class=\"damageResult\"></td></tr>");
 	}
 
 //대미지를 계산하는 함수를 선언한다
@@ -67,6 +67,7 @@ var factorSum = 1+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$us
 //대미지, 스킬공격력을 출력할 셀을 모두 찾아 배열로 정의한다
 var damageResult = document.querySelectorAll('.damageResult');
 var factorSkillResult = document.querySelectorAll('.factorSkillResult');
+var factorCriResult = document.querySelectorAll('.factorSkillCri');
 
 //해당 셀에 들어갈 값을 반복문으로 작성한다
 for (var i=0; i<damageResult.length; i++){
@@ -117,8 +118,11 @@ var factorSkill = Number(skillData[i].스킬공격력)+ $userTuguseed + $userTug
 var factorCri = (Number(skillData[i].크리배율)*(1+$userYakgan+$userComyeon+$userBocom))+((2/3)*($userRune)/100);
 
     
+
 //해당 셀에 스킬공격력, 최종대미지를 출력한다
+
 factorSkillResult[i].innerHTML=factorSkill;
+factorCriResult[i].innerHTML=factorCri;
 damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1)*(factorSkill/100)*factorCri*factorSum);
 		}
 	}
