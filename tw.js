@@ -104,7 +104,7 @@ if($('#geukhan').is(':checked')){
 var $userTugu=0;
 if($('#yakgan').is(':checked')){var $userYakgan = 0.2}else{var $userYakgan = 0};
 if($('#comyeon').is(':checked')){var $userComyeon = 0.07}else{var $userComyeon = 0};
-if($('#bocom').is(':checked'))}{var $userBocom = 0.03}else{var $userBocom = 0};
+if($('#bocom').is(':checked')){var $userBocom = 0.03}else{var $userBocom = 0};
 }else{
 if($('#tugu').is(':checked')){var $userTugu = Number(skillData[i].투구어빌효과); var $userTuguseed=0}else{var $userTugu = 0};
 if($('#yakgan').is(':checked')){var $userYakgan = 0.5}else{var $userYakgan = 0};
