@@ -7,69 +7,66 @@ $('[type="number"]').attr('value', '0')
 
 //배열을 표로 나타낸다
 	for(var i=0; i<skillData.length; i++){
-$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td></td><td class=\"factorSkillResult\">"+skillData[i].스킬공격력+"</td><td>"+skillData[i].타격수+"</td><td class=\"factorCriResult\">"+skillData[i].크리배율+"</td><td class=\"damageResult\"></td></tr>");
+$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td></td><td class=\"factorSkillResult\"></td><td>"+skillData[i].타격수+"</td><td class=\"factorCriResult\"></td><td class=\"damageResult\"></td></tr>");
 	}
 
 //대미지를 계산하는 함수를 선언한다
 function calDamage(){
 
 //입력값을 변수에 담는다
-var $userStab = Number($(':input#stab').val());
-var $userHack = Number($(':input#hack').val());
-var $userInt = Number($(':input#int').val());
-var $userMr = Number($(':input#mr').val());
-var $userDex = Number($(':input#dex').val());
+var $userRune = Number($('#rune').val());
+var $userGakseong = Number($('#gakseong').val());
+var $userSokseong = Number($('#sokseong').val());
+
+if($('#muyeon').is(':checked')){var $userMuyeon = 0.2}else{var $userMuyeon = 0}
+if($('#bomu').is(':checked')){var $userBomu = 0.05}else{var $userBomu = 0}
 
 var $userJjil = Number($(':input#jjil').val());
 var $userBegi = Number($(':input#begi').val());
 var $userMagong = Number($(':input#magong').val());
 var $userMabang = Number($(':input#mabang').val());
 
+var $userStab = Number($(':input#stab').val());
+var $userHack = Number($(':input#hack').val());
+var $userInt = Number($(':input#int').val());
+var $userMr = Number($(':input#mr').val());
+var $userDex = Number($(':input#dex').val());
+
+var $userDamAbil = Number($(':input#damAbil').val());
 var $userTuguseed = Number($('#tuguseed').val());
-var $userRune = Number($('#rune').val());
+var $userArti = Number($('#arti').val());
+if($('#ttang').is(':checked')){var $userTtang = 0.15}else{var $userTtang = 0}
 
-
-/*
-
-최소대미지
-=([@스탯공격력]+[@장비공격력]+1
-
--((IF([@계열]="STAB",적물방,IF([@계열]="HACK",적물방,IF([@계열]="STAB+HACK",적물방,적마방))))*IF(찬솔렛3=TRUE,0.9,1)*IF(커스=TRUE,0.9,1)*+IF(로아미니장판=TRUE,0.9,1)))
-
-*(([@[스킬공격력]]+시드투구어빌+IF(투구어빌=TRUE,[@[투구어빌효과]],0))/100)
-*(1+[@[댐증버프_곱셈]]/100)
-*([@크리배율]*(1+IF(AND(극한=TRUE,약점간파=TRUE),0.2,0)+IF(AND(극한=TRUE,약점간파=TRUE,콤보연마=TRUE),0.07,0)+IF(AND(극한=TRUE,약점간파=TRUE,보급콤연=TRUE),0.03,0)+IF(AND(극한=FALSE,약점간파=TRUE),0.5,0)
-+(((2/3)*룬레벨)/100)))
-*IF(극한=FALSE,1,IF(각성회차=2,1.1,IF(각성회차=3,1.25,1)))
-*(1+IF((속성-적속성)<=0,0,IF(AND(0<(속성-적속성),(속성-적속성)<80),(속성-적속성)*0.00625,0.5)))
-*IF(콤보=TRUE,1.3,1)*(1+(비호버프/100))*(1+(아티펙트/100))*(1+(기타곱연산/100))
-*(1+(IF(신의방패=TRUE,0.1,0)+IF(찬솔렛1="극한O",0.1,IF(찬솔렛1="극한X",0.05,0))+(댐증어빌_퍼센트/100)+IF(각성의비약=TRUE,0.2,0)+IF(쌍둥이경단=TRUE,0.1,0)+IF(괴력의물약=TRUE,0.1,0)+IF(괴력의햄=TRUE,0.1,0)+IF(승자의증표=TRUE,0.15,0)+IF(진암페=TRUE,0.15,0)+IF(달빛의축복=TRUE,1,0)+(기타합연산/100)+([@[댐증버프_덧셈]]/100)))
-*(1+(IF(페어리=TRUE,0.1,0)+IF(초록장판=TRUE,0.15,0)+IF(로아미니장판=TRUE,IF(포이즌마스터="극한X/포이즌X",0.1,IF(포이즌마스터="극한X/포이즌O",0.2,0.15)),0)))
-*/
-
-//연마
-if($('#muyeon').is(':checked')){var $userMuyeon = 0.2}else{var $userMuyeon = 0}
-if($('#bomu').is(':checked')){var $userBomu = 0.05}else{var $userBomu = 0}
-
-//합연산요소
-if($('#sinbang').is(':checked')){var $userSinbang = 0.1}else{var $userSinbang = 0}
 if($('#gakbi').is(':checked')){var $userGakbi = 0.2}else{var $userGakbi = 0}
 if($('#ssang').is(':checked')){var $userSsang = 0.1}else{var $userSsang = 0}
 if($('#goemul').is(':checked')){var $userGoemul = 0.1}else{var $userGoemul = 0}
 if($('#goeham').is(':checked')){var $userGoeham = 0.1}else{var $userGoeham = 0}
-if($('#seungja').is(':checked')){var $userSeungja = 0.1}else{var $userSeungja = 0}
-if($('#ttang').is(':checked')){var $userTtang = 0.1}else{var $userTtang = 0}
-if($('#dalbit').is(':checked')){var $userDalbit = 0.1}else{var $userDalbit = 0}
+if($('#dalbit').is(':checked')){var $userDalbit = 1}else{var $userDalbit = 0}
+if($('#seungja').is(':checked')){var $userSeungja = 0.15}else{var $userSeungja = 0}
 
-var factorSum = 1+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit;
+if($('#sinbang').is(':checked')){var $userSinbang = 0.1}else{var $userSinbang = 0}
+if($('#combo').is(':checked')){var $userCombo = 1.3}else{var $userCombo = 1}
 
+var $userFreshAir = Number($('#freshAir').val());
+var $userEtcSum = Number($('#etcSum').val());
+var $userEtcMul = Number($('#etcMul').val());
 
-//대미지, 스킬공격력을 출력할 셀을 모두 찾아 배열로 정의한다
+//극한 시 각성에 따른 댐증
+if($('#geukhan').is(':checked')){
+if($('#gakseong').val() == 2){var $userGakseongPlus = 1.1}
+else if($('#gakseong').val() == 3){var $userGakseongPlus = 1.25}else{var $userGakseongPlus = 1}}else{var $userGakseongPlus = 1}
+
+//스킬공통 댐증요소
+var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+($userEtcSum/100);
+var factorMul = $userGakseongPlus*$userCombo*(1+$userArti/100)*(1+$userFreshAir/100)*(1+$userEtcMul/100);
+var factorSum2 = 1;
+
+//스킬공격력, 크리티컬, 대미지를 출력할 셀을 모두 찾아 배열로 정의한다
 var damageResult = document.querySelectorAll('.damageResult');
 var factorSkillResult = document.querySelectorAll('.factorSkillResult');
 var factorCriResult = document.querySelectorAll('.factorCriResult');
 
-//해당 셀에 들어갈 값을 반복문으로 작성한다
+//반복문 시작
 for (var i=0; i<damageResult.length; i++){
 
 //스킬 계열에 따른 스탯공격력, 장비공격력을 계산한다
@@ -113,17 +110,14 @@ var $userComyeon = 0;
 var $userBocom = 0;
 }
 
+//스킬별 기본대미지계산요소
 var factorSkill = Number(skillData[i].스킬공격력)+ $userTuguseed + $userTugu;
-
 var factorCri = (Number(skillData[i].크리배율)*(1+$userYakgan+$userComyeon+$userBocom))+((2/3)*($userRune)/100);
 
-    
-
-//해당 셀에 스킬공격력, 최종대미지를 출력한다
-
+//해당 셀에 스킬공격력, 크리티컬, 최종대미지를 출력한다
 factorSkillResult[i].innerHTML=factorSkill;
 factorCriResult[i].innerHTML=factorCri;
-damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1)*(factorSkill/100)*factorCri*factorSum);
+damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1)*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
 		}
 	}
 
@@ -153,3 +147,19 @@ $('#cha_name').on('change', function(){
   }
 });
 
+/*
+적 방어력에 따른 계산 추가
+속성댐증, 찬솔렛, 로아미니, 아나이스평타, 장판 효과 추가
+입력값 저장/불러오기 슬롯 기능
+신미/콤연에 따른 DPS 추가
+범위/사거리 입력
+입력폼 인터페이스 정렬
+마우스오버 시 도움말
+폼 유효성 검사, 이스케이핑 추가 /기합, 각비 등 각종 중복안되는것
+비호버프효율계산 팝업창 제공
+베리어효율 제공
+아티펙트 데이터 저장하여 불러오기에 따른 계산
+벤야마스터리 적용
+적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
+엑셀 파일이랑 결과값 차이 없는지 체크
+*/
