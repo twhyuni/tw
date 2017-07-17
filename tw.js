@@ -7,7 +7,7 @@ $('[type="number"]').attr('value', '0')
 
 //배열을 표로 나타낸다
 	for(var i=0; i<skillData.length; i++){
-$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td></td><td class=\"factorSkillResult\">"+skillData[i].스킬공격력+"</td><td>"+skillData[i].타격수+"</td><td class=\"damageResult\">"+skillData[i].크리배율+"</td><td class=\"damageResult\"></td></tr>");
+$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td></td><td class=\"factorSkillResult\">"+skillData[i].스킬공격력+"</td><td>"+skillData[i].타격수+"</td><td class=\"factorCriResult\">"+skillData[i].크리배율+"</td><td class=\"damageResult\"></td></tr>");
 	}
 
 //대미지를 계산하는 함수를 선언한다
