@@ -26,6 +26,7 @@ var $userMagong = Number($(':input#magong').val());
 var $userMabang = Number($(':input#mabang').val());
 
 var $userTuguseed = Number($('#tuguseed').val());
+var $userRune = Number($('#rune').val());
 
 
 /*
@@ -63,7 +64,6 @@ if($('#dalbit').is(':checked')){var $userDalbit = 0.1}else{var $userDalbit = 0}
 var factorSum = 1+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit;
 
 
-
 //대미지, 스킬공격력을 출력할 셀을 모두 찾아 배열로 정의한다
 var damageResult = document.querySelectorAll('.damageResult');
 var factorSkillResult = document.querySelectorAll('.factorSkillResult');
@@ -98,16 +98,28 @@ for (var i=0; i<damageResult.length; i++){
 		var factorArm = 0;
 	}
 
-//극한이면 투구어빌효과없음, 극한이 아니면 투구어빌 체크시 투구어빌효과부여하고 시드어빌효과없음, 투구어빌 체크해제시 투구어빌효과없음
-if($('#geukhan').is(':checked')){var $userTugu=0}else{
+//극한이면 투구어빌효과없음, 약간체크시 0.2 콤연체크시 0.07 보콤체크시 0.03
+//극한이 아니면 투구어빌 체크시 투구어빌효과부여하고 시드어빌효과없음, 투구어빌 체크해제시 투구어빌효과없음, 약간체크시0.5 콤연보콤0
+if($('#geukhan').is(':checked')){
+var $userTugu=0;
+if($('#yakgan').is(':checked')){var $userYakgan = 0.2}else{var $userYakgan = 0};
+if($('#comyeon').is(':checked')){var $userComyeon = 0.07}else{var $userComyeon = 0};
+if($('#bocom').is(':checked'))}{var $userBocom = 0.03}else{var $userBocom = 0};
+}else{
 if($('#tugu').is(':checked')){var $userTugu = Number(skillData[i].투구어빌효과); var $userTuguseed=0}else{var $userTugu = 0};
+if($('#yakgan').is(':checked')){var $userYakgan = 0.5}else{var $userYakgan = 0};
+var $userComyeon = 0;
+var $userBocom = 0;
 }
 
 var factorSkill = Number(skillData[i].스킬공격력)+ $userTuguseed + $userTugu;
 
+var factorCri = (Number(skillData[i].크리배율)*(1+$userYakgan+$userComyeon+$userBocom))+((2/3)*($userRune)/100);
+
+    
 //해당 셀에 스킬공격력, 최종대미지를 출력한다
 factorSkillResult[i].innerHTML=factorSkill;
-damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1)*(factorSkill/100)*Number(skillData[i].크리배율)*factorSum);
+damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1)*(factorSkill/100)*factorCri*factorSum);
 		}
 	}
 
