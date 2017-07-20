@@ -81,7 +81,7 @@
     <label>기타 곱연산 요소 <input type="number" min=0 max=999 id="etcMul"></label><br>
     </div>
 </td></tr></table>
-<!--
+
 
 <table>
 <thead>
@@ -92,15 +92,15 @@
 <tbody>
 <tr>
 <td>이름</td>
-<td></td>
+<td><select id=monName><option>선택</option></select></td>
 
 <td>물리방어력</td>
-<td><input type="number"></td>
+<td><input type="number" id="monMulbang"></td>
 <td>마법방어력</td>
-<td><input type="number"></td>
+<td><input type="number" id="monMabang"></td>
 
 <td>속성</td>
-<td><input type="number"></td></tr><tr>
+<td><input type="number" id="monSokseong"></td></tr><tr>
 
 
 <td>아나이스 평타</td>
@@ -125,13 +125,13 @@
 </tbody> 
 
 </table>
--->
+
 
 <table width=100%>
   <thead style="text-align: center">
     <tr>
       <th width=15%>캐릭터
-        <select id="cha_name">
+        <select id="chaName">
           <option value="">전체</option>
           <option value="나야">나야</option>
           <option value="녹턴">녹턴</option>
@@ -163,7 +163,7 @@
   </div>
 
 
-<table id="skilltable">
+<table id="skillTable">
 <thead>
 <colgroup width=15%></colgroup>
 <colgroup width=20%></colgroup>
@@ -178,6 +178,7 @@
 </table>
 <script src="jquery-3.2.1.min.js"></script>
 <script src="semantic/semantic.min.js"></script> 
+<script src="monData.js"></script>
 <script src="skillData.js"></script>
 <script src="tw.js"></script>
 </body>

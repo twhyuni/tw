@@ -1,6 +1,6 @@
 //스타일
 $('table').addClass('ui celled very compact table');
-$('table#skilltable').addClass('striped');
+$('table#skillTable').addClass('striped');
 $('.main.menu').visibility({type: 'fixed'});
 
 $('[type="number"]').attr('value', '0')
@@ -128,12 +128,12 @@ $(document).ready(calDamage);
 $(':input').on('input change', calDamage);
 
 //캐릭터를 선택하면, 캐릭터 필터 함수를 실행한다
-$('#cha_name').on('change', function(){
+$('#chaName').on('change', function(){
 
-  var cha_name, filter, table, tr, td, i;
-  cha_name = document.getElementById("cha_name");
-  filter = cha_name.value.toUpperCase();
-  table = document.getElementById("skilltable");
+  var chaName, filter, table, tr, td, i;
+  chaName = document.getElementById("chaName");
+  filter = chaName.value.toUpperCase();
+  table = document.getElementById("skillTable");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[0];
@@ -146,6 +146,19 @@ $('#cha_name').on('change', function(){
     } 
   }
 });
+
+for(var i=0; i<monData.length; i++){
+$('#monName').append("<option value="+i+">"+monData[i].이름+"</option>")}
+$(':input#monName').on('change', function(){
+var $monMulbang=Number(monData[$(this).val()].DEF*3)+Number(monData[$(this).val()].물리방어력*3);
+var $monMabang=Number(monData[$(this).val()].MR*3)+Number(monData[$(this).val()].마법방어력*3);
+var $monSokseong=Number(monData[$(this).val()].속성);
+$(':input#monMulbang').val($monMulbang);
+$(':input#monMabang').val($monMabang);
+$(':input#monSokseong').val($monSokseong);
+});
+
+	
 
 /*
 적 방어력에 따른 계산 추가
@@ -162,4 +175,6 @@ $('#cha_name').on('change', function(){
 벤야마스터리 적용
 적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
 엑셀 파일이랑 결과값 차이 없는지 체크
+실험용 임의의 몬스터, 임의의 스킬 추가 기능
+랜덤옵션 반영
 */
