@@ -1,9 +1,19 @@
-//스타일
-$('table').addClass('ui celled very compact table');
-$('table#skillTable').addClass('striped');
 $('.main.menu').visibility({type: 'fixed'});
 
-$('[type="number"]').attr('value', '0')
+$('#hide').on('click', function(){
+$('#info').hide();	
+});
+
+$('#show').on('click', function(){
+$('#info').show();	
+});
+
+$('#rune').popup({on:'focus', content:'룬스킬 "정의의 심판" 레벨'});
+$('#etcSum').popup({on:'focus', position:'bottom center',content:'ex)트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등'});
+$('.stat.tooltip').popup({on:'focus', position:'bottom center',target:'#status',title:'최종스탯', content:'룬스킬, 몬스터카드, 상태이상 등을 모두 포함한 최종 스탯을 입력해주세요.'});
+$('.biho.help.icon').popup({on:'click', position:'bottom center', title:'프레쉬에어, 하드웨폰', content:'(시전자의 순수MR+마방합)/50'});
+
+$('[type="number"]').attr('value', '0').width(50);
 
 //배열을 표로 나타낸다
 	for(var i=0; i<skillData.length; i++){
@@ -46,6 +56,8 @@ if($('#seungja').is(':checked')){var $userSeungja = 0.15}else{var $userSeungja =
 
 if($('#sinbang').is(':checked')){var $userSinbang = 0.1}else{var $userSinbang = 0}
 if($('#combo').is(':checked')){var $userCombo = 1.3}else{var $userCombo = 1}
+
+
 
 var $userFreshAir = Number($('#freshAir').val());
 var $userEtcSum = Number($('#etcSum').val());
@@ -110,16 +122,37 @@ var $userComyeon = 0;
 var $userBocom = 0;
 }
 
+if(skillData[i].마스터리_소울차지==40 && $('#benyamastery').val()=="소울차지"){var $userBenyamastery = Number(skillData[i].마스터리_소울차지)}
+else if(skillData[i].마스터리_소울커터==40 && $('#benyamastery').val()=="소울커터"){var $userBenyamastery = Number(skillData[i].마스터리_소울커터)}
+else if(skillData[i].마스터리_파워크러쉬==40 && $('#benyamastery').val()=="파워크러쉬"){var $userBenyamastery = Number(skillData[i].마스터리_파워크러쉬)}
+else{var $userBenyamastery = 0}
+
+
+
+
 //스킬별 기본대미지계산요소
-var factorSkill = Number(skillData[i].스킬공격력)+ $userTuguseed + $userTugu;
+var factorSkill = Number(skillData[i].스킬공격력)+ $userTuguseed + $userTugu + $userBenyamastery;
 var factorCri = (Number(skillData[i].크리배율)*(1+$userYakgan+$userComyeon+$userBocom))+((2/3)*($userRune)/100);
+
+//몬스터 방어력(물공이면 물방값, 마공이면 마방값을 적용한다)
+if(skillData[i].계열=="STAB"||skillData[i].계열=="HACK"||skillData[i].계열=="STAB+HACK"){
+var factorMon = $(':input#monMulbang').val();}
+else{var factorMon = $(':input#monMabang').val();}
+
+var sokGap = Number($userSokseong)-Number($(':input#monSokseong').val());
+
+if(sokGap<0){var factorSok = 1;}
+else if(sokGap>80){var factorSok = 1.5;}
+else{var factorSok = 1+sokGap*0.00625;}
 
 //해당 셀에 스킬공격력, 크리티컬, 최종대미지를 출력한다
 factorSkillResult[i].innerHTML=factorSkill;
 factorCriResult[i].innerHTML=factorCri;
-damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1)*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
+damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
 		}
-	}
+
+		//반복문 끝
+	}	//대미지계산함수 끝
 
 //페이지가 준비되면 대미지계산 함수를 실행한다
 $(document).ready(calDamage);
@@ -147,8 +180,12 @@ $('#chaName').on('change', function(){
   }
 });
 
+//몬스터 데이터를 선택지에 한줄씩 추가한다
 for(var i=0; i<monData.length; i++){
 $('#monName').append("<option value="+i+">"+monData[i].이름+"</option>")}
+
+
+//몬스터 이름을 선택하면 해당 데이터를 표시하고, 대미지계산 함수를 다시 실행한다
 $(':input#monName').on('change', function(){
 var $monMulbang=Number(monData[$(this).val()].DEF*3)+Number(monData[$(this).val()].물리방어력*3);
 var $monMabang=Number(monData[$(this).val()].MR*3)+Number(monData[$(this).val()].마법방어력*3);
@@ -156,25 +193,24 @@ var $monSokseong=Number(monData[$(this).val()].속성);
 $(':input#monMulbang').val($monMulbang);
 $(':input#monMabang').val($monMabang);
 $(':input#monSokseong').val($monSokseong);
+calDamage();
 });
 
-	
 
 /*
-적 방어력에 따른 계산 추가
-속성댐증, 찬솔렛, 로아미니, 아나이스평타, 장판 효과 추가
+곰나이스 계열공식
+찬솔렛, 로아미니, 아나이스평타, 장판 효과 추가
+엑셀 파일이랑 결과값 차이 없는지 체크
+적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
+폼 유효성 검사, 이스케이핑 추가 /기합, 각비 등 각종 중복안되는것
+
 입력값 저장/불러오기 슬롯 기능
 신미/콤연에 따른 DPS 추가
 범위/사거리 입력
-입력폼 인터페이스 정렬
-마우스오버 시 도움말
-폼 유효성 검사, 이스케이핑 추가 /기합, 각비 등 각종 중복안되는것
-비호버프효율계산 팝업창 제공
+
 베리어효율 제공
+입력폼 인터페이스 정렬
 아티펙트 데이터 저장하여 불러오기에 따른 계산
-벤야마스터리 적용
-적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
-엑셀 파일이랑 결과값 차이 없는지 체크
 실험용 임의의 몬스터, 임의의 스킬 추가 기능
 랜덤옵션 반영
 */

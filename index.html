@@ -6,103 +6,164 @@
 
   <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
   <style type="text/css">
-    table{width:100%;text-align: center;}
-
+    table{width:100%;margin: 0px}
+    input{padding:0px;}
   </style>
 
 </head>
 
 <body>
-  <p><h3>테일즈위버 대미지 계산기</h3></p>
+  <p><h3 class="ui center aligned purple header">테일즈위버 대미지 계산기</h3></p>
+  <p style="text-align: right"><a  href="http://tw-chapter.tistory.com" target="_blank" title="http://tw-chapter.tistory.com">By:[제르나]현이〃 | Last Update:2017.08.12</a></p>
 
 <div class="main menu" style="width:100%;background:white;">
+<div id="info">
+<table class="ui celled very compact striped table center aligned" style="margin: 0px;" >
 
-<table><tr><td>
-    <div>
-    <label>룬 레벨 <input type="number" min=1 max=30 id="rune"></label><br>
-    <label>각성회차<select id="gakseong"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></label><br>
-    <label>극한 <input type="checkbox" id="geukhan"></label><br>
-    <label>속성합 <input type="number" min=0 max=999 id="sokseong"></label><br>
-    </div>
-</td><td>
-    <div>
-    <label>무기연마 <input type="checkbox" id="muyeon"></label><br>
-    <label>보급무연 <input type="checkbox" id="bomu"></label><br>
-    <label>콤보연마 <input type="checkbox" id="comyeon"></label><br>
-    <label>보급콤연 <input type="checkbox" id="bocom"></label><br>
-    </div>
-</td><td>
-    <div>
-    <label>찌르기 <input type="number" min=0 max=999 id="jjil"></label><br>
-    <label>베기 <input type="number" min=0 max=999 id="begi"></label><br>
-    <label>마공 <input type="number" min=0 max=999 id="magong"></label><br>
-    <label>마방 <input type="number" min=0 max=999 id="mabang"></label><br>
-    </div>
-</td><td>
-    <div>
-    <label>STAB <input type="number" min=0 max=999 id="stab"></label><br>
-    <label>HACK <input type="number" min=0 max=999 id="hack"></label><br>
-    <label>INT <input type="number" min=0 max=999 id="int"></label><br>
-    <label>MR <input type="number" min=0 max=999 id="mr"></label><br>
-    <label>DEX <input type="number" min=0 max=999 id="dex"></label><br>
-    </div>
-</td><td>
-    <div>
-    <label>댐증어빌 <input type="number" id="damAbil" min=0 max=99></label><br>
-    <label>투구어빌(극한이전) <input type="checkbox" id="tugu"></label><br>
-    <label>투구어빌(시드) <select id="tuguseed"><option value="0">0</option><option value="1">1</option><option value="5">5</option><option value="10">10</option></select></label><br>
-    <label>아티펙트 <input type="number" min=0 max=99 id="arti"></label><br>
-    <label>땅문장,진암페 <input type="checkbox" id="ttang"></label><br>
-    </div>
-</td><td>
-    <div>
-    <label>각성의비약 <input type="checkbox" id="gakbi"></label><br>
-    <label>쌍둥이경단 <input type="checkbox" id="ssang"></label><br>
-    <label>괴력의물약 <input type="checkbox" id="goemul"></label><br>
-    <label>괴력의햄/이공간 <input type="checkbox" id="goeham"></label><br>
-    <label>달빛의축복 <input type="checkbox" id="dalbit"></label><br>
-    <label>승자의증표 소지 <input type="checkbox" id="seungja"></label><br>
-    </div>
-</td><td>
-    <div>
-    <label>신의방패 <input type="checkbox" id="sinbang"></label><br>
-    <label>약점간파 <input type="checkbox" id="yakgan"></label><br>
-    <label>신속의미학 <input type="checkbox" id="sinmi"></label><br>
-    <label><select id="benyamastery"><option>벤야마스터리1단계</option><option>소울차지</option><option>소울커터</option><option>파워크러쉬</option></select></label><br>
-    <label>콤보사용 <input type="checkbox" id="combo"></label><br>
-    <label>도발 <input type="checkbox" id="dobal"></label><br>
-    </div>
-</td><td>
-    <div>
-    <label>비호버프효율 <input type="number" min=0 max=25 id="freshAir"></label><br>
-    <label>찬솔렛 극한 <input type="checkbox" id="chantLimit"></label><br>
-    <label>로아극한,포이즌마스터 <select id="loaLimit"><option>X,X</option><option>X,O</option><option>O,O</option></select></label><br>
-    <label>기타 합연산 요소 <input type="number" min=0 max=999 id="etcSum"></label><br>
-    <label>기타 곱연산 요소 <input type="number" min=0 max=999 id="etcMul"></label><br>
-    </div>
+<tr>
+<td class="one wide">
+<b>
+공격<br>캐릭터<br>정보
+</b>
+</td><td class="two wide">
+<table><th class="right aligned"></th><th></th>
+  <tr><td><label>각성회차</label></td>
+      <td><select id="gakseong"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></td>
+  </tr>
+  <tr><td><label for="geukhan">극한</label></td>
+      <td><input type="checkbox" id="geukhan"></td>
+  </tr>
+  <tr><td><label for="muyeon">무기연마</label></td>
+      <td><input type="checkbox" id="muyeon"></td>
+  </tr>
+  <tr><td><label for="bomu">보급무연</label></td>
+      <td><input type="checkbox" id="bomu"></td>
+  </tr>
+  <tr><td><label for="comyeon">콤보연마</label></td>
+      <td><input type="checkbox" id="comyeon"></td>
+  </tr>
+  <tr><td><label for="bocom">보급콤연</label></td>
+      <td><input type="checkbox" id="bocom"></td></tr></table>
+</td><td class="two wide">
+<table>
+  <tr><td><label>룬 레벨</label></td>
+      <td><input type="number" min=1 max=30 id="rune"></td>
+  </tr>
+  <tr><td><label>속성합</label></td>
+      <td><input type="number" min=0 max=999 id="sokseong"></td></tr>
+  <tr><td><label>찌르기</label></td>
+      <td><input type="number" min=0 max=999 id="jjil"></td>
+  </tr>
+  <tr><td><label>베기</label></td>
+      <td><input type="number" min=0 max=999 id="begi"></td>
+  </tr>
+  <tr><td><label>마공</label></td>
+      <td><input type="number" min=0 max=999 id="magong"></td>
+  </tr>
+  <tr><td><label>마방</label></td>
+      <td><input type="number" min=0 max=999 id="mabang"></td></tr></table>
+
+</td><td id="status" class="two wide">
+<table>
+  <tr><td><label>STAB</label></td>
+      <td><input type="number" min=0 max=999 id="stab" class="stat tooltip"></td>
+  </tr>
+  <tr><td><label>HACK</label></td>
+      <td><input type="number" min=0 max=999 id="hack" class="stat tooltip"></td>
+  </tr>
+  <tr><td><label>INT</label></td>
+      <td><input type="number" min=0 max=999 id="int" class="stat tooltip"></td>
+  </tr>
+  <tr><td><label>MR</label></td>
+      <td><input type="number" min=0 max=999 id="mr" class="stat tooltip"></td>
+  </tr>
+  <tr><td><label>DEX</label></td>
+      <td><input type="number" min=0 max=999 id="dex" class="stat tooltip"></td></tr></table>
+</td><td class="two wide">
+<table>
+  <tr><td><label for="damAbil">댐증어빌</label></td>
+      <td><input type="number" id="damAbil" min=0 max=99></td>
+  </tr>
+  <tr><td><label for="tugu">투구어빌(극한이전)</label></td>
+      <td><input type="checkbox" id="tugu"></td>
+  </tr>
+  <tr><td><label>투구어빌(시드)</label></td>
+      <td><select id="tuguseed"><option value="0">0</option><option value="1">1</option><option value="5">5</option><option value="10">10</option></select></td>
+  </tr>
+  <tr><td><label>아티펙트</label></td>
+      <td><input type="number" min=0 max=99 id="arti"></td>
+  </tr>
+  <tr><td><label for="ttang">땅문장,진암페</label></td>
+      <td><input type="checkbox" id="ttang"></td></tr></table>
+</td><td class="two wide">
+<table>
+  <tr><td><label for="gakbi">각성의비약</label></td>
+      <td><input type="checkbox" id="gakbi"></td>
+  </tr>
+  <tr><td><label for="ssang">쌍둥이경단</label></td>
+      <td><input type="checkbox" id="ssang"></td>
+  </tr>
+  <tr><td><label for="goemul">괴력의물약</label></td>
+      <td><input type="checkbox" id="goemul"></td>
+  </tr>
+  <tr><td><label for="goeham">괴력의햄/이공간</label></td>
+      <td><input type="checkbox" id="goeham"></td>
+  </tr>
+  <tr><td><label for="dalbit">달빛의축복</label></td>
+      <td><input type="checkbox" id="dalbit"></td>
+  </tr>
+  <tr><td><label for="seungja">승자의증표 소지</label></td>
+      <td><input type="checkbox" id="seungja"></td></tr></table>
+</td><td class="two wide">
+<table>
+  <tr><td><label for="sinbang">신의방패</label></td>
+      <td><input type="checkbox" id="sinbang"></td>
+  </tr>
+  <tr><td><label for="yakgan">약점간파</label></td>
+      <td><input type="checkbox" id="yakgan"></td>
+  </tr><!--
+  <tr><td><label for="sinmi">신속의미학</label></td>
+      <td><input type="checkbox" id="sinmi"></td>
+  </tr>-->
+  <tr><td><label for="combo">콤보사용</label></td>
+      <td><input type="checkbox" id="combo"></td>
+  </tr>
+  <tr><td><label for="dobal">도발</label></td>
+      <td><input type="checkbox" id="dobal"></td>
+  </tr>
+  <tr><td><label>벤야 마스터리 1단계</label></td>
+      <td><select id="benyamastery"><option>선택</option><option>소울차지</option><option>소울커터</option><option>파워크러쉬</option></select></td></tr></table>
+</td><td class="three wide">
+<table>
+  <tr><td><label>비호버프효율<i class="biho help circle icon"></i></label></td>
+      <td><input type="number" min=0 max=25 id="freshAir"></td>
+  </tr>
+  <tr><td><label for="chantLimit">찬솔렛 극한</label></td>
+      <td><input type="checkbox" id="chantLimit"></td>
+  </tr>
+  <tr><td><label>로아극한,포이즌마스터</label></td>
+      <td><select id="loaLimit"><option>X,X</option><option>X,O</option><option>O,O</option></select></td>
+  </tr>
+  <tr><td><label>기타 합연산 요소</label></td>
+      <td><input type="number" min=0 max=999 id="etcSum"></td>
+  </tr>
+  <tr><td><label>기타 곱연산 요소</label></td>
+      <td><input type="number" min=0 max=999 id="etcMul"></td></tr></table>
 </td></tr></table>
 
 
-<table>
-<thead>
+<table class="ui celled very compact striped table center aligned" style="margin: 0px;"  >
+
 <tr>
-<th colspan="18">피격 몬스터 정보</th>
+<td rowspan="2" style="width:80px"><b>피격<br>몬스터<br>정보</b></td>
+<td colspan="18"><table><tr><td>이름</td><td><select id=monName><option>선택</option></select></td><td>
+물리방어력</td><td><input type="number" id="monMulbang"></td><td>
+마법방어력</td><td><input type="number" id="monMabang"></td><td>
+속성</td><td><input type="number" id="monSokseong"></td></tr></table></td>
 </tr>
-</thead>
-<tbody>
+
+
 <tr>
-<td>이름</td>
-<td><select id=monName><option>선택</option></select></td>
-
-<td>물리방어력</td>
-<td><input type="number" id="monMulbang"></td>
-<td>마법방어력</td>
-<td><input type="number" id="monMabang"></td>
-
-<td>속성</td>
-<td><input type="number" id="monSokseong"></td></tr><tr>
-
-
 <td>아나이스 평타</td>
 <td><input type="checkbox"></td>
 <td>쇠약</td>
@@ -122,15 +183,15 @@
 <td>커스</td>
 <td><input type="checkbox"></td>
 </tr>
-</tbody> 
 
 </table>
-
-
-<table width=100%>
-  <thead style="text-align: center">
+</div>
+<table width=100% class="ui celled very compact table center aligned" style="margin: 0px" >
+  <thead>
+  <tr><td colspan="7">  <span id="hide"> <i class="minus circle icon"></i> </span>/<span id="show"> <i class="add circle icon"></i> </span></td></tr>
     <tr>
-      <th width=15%>캐릭터
+      <th width=15%>
+      캐릭터
         <select id="chaName">
           <option value="">전체</option>
           <option value="나야">나야</option>
@@ -163,7 +224,7 @@
   </div>
 
 
-<table id="skillTable">
+<table id="skillTable" class="ui celled very compact striped selectable table center aligned" >
 <thead>
 <colgroup width=15%></colgroup>
 <colgroup width=20%></colgroup>
