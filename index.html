@@ -26,8 +26,8 @@
 공격<br>캐릭터<br>정보
 </b>
 </td><td class="two wide">
-<table><th class="right aligned"></th><th></th>
-  <tr><td><label>각성회차</label></td>
+<table>
+  <tr><td class="collapsing"><label>각성회차</label></td>
       <td><select id="gakseong"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></td>
   </tr>
   <tr><td><label for="geukhan">극한</label></td>
@@ -46,7 +46,7 @@
       <td><input type="checkbox" id="bocom"></td></tr></table>
 </td><td class="two wide">
 <table>
-  <tr><td><label>룬 레벨</label></td>
+  <tr><td class="collapsing"><label>룬 레벨</label></td>
       <td><input type="number" min=1 max=30 id="rune"></td>
   </tr>
   <tr><td><label>속성합</label></td>
@@ -65,7 +65,7 @@
 
 </td><td id="status" class="two wide">
 <table>
-  <tr><td><label>STAB</label></td>
+  <tr><td class="collapsing"><label>STAB</label></td>
       <td><input type="number" min=0 max=999 id="stab" class="stat tooltip"></td>
   </tr>
   <tr><td><label>HACK</label></td>
@@ -84,7 +84,7 @@
   <tr><td><label for="damAbil">댐증어빌</label></td>
       <td><input type="number" id="damAbil" min=0 max=99></td>
   </tr>
-  <tr><td><label for="tugu">투구어빌(극한이전)</label></td>
+  <tr><td class="collapsing"><label for="tugu">투구어빌(극한이전)</label></td>
       <td><input type="checkbox" id="tugu"></td>
   </tr>
   <tr><td><label>투구어빌(시드)</label></td>
@@ -106,7 +106,7 @@
   <tr><td><label for="goemul">괴력의물약</label></td>
       <td><input type="checkbox" id="goemul"></td>
   </tr>
-  <tr><td><label for="goeham">괴력의햄/이공간</label></td>
+  <tr><td class="collapsing"><label for="goeham">괴력의햄/이공간</label></td>
       <td><input type="checkbox" id="goeham"></td>
   </tr>
   <tr><td><label for="dalbit">달빛의축복</label></td>
@@ -131,7 +131,7 @@
   <tr><td><label for="dobal">도발</label></td>
       <td><input type="checkbox" id="dobal"></td>
   </tr>
-  <tr><td><label>벤야 마스터리 1단계</label></td>
+  <tr><td class="collapsing"><label>벤야 마스터리 1단계</label></td>
       <td><select id="benyamastery"><option>선택</option><option>소울차지</option><option>소울커터</option><option>파워크러쉬</option></select></td></tr></table>
 </td><td class="three wide">
 <table>
@@ -141,7 +141,7 @@
   <tr><td><label for="chantLimit">찬솔렛 극한</label></td>
       <td><input type="checkbox" id="chantLimit"></td>
   </tr>
-  <tr><td><label>로아극한,포이즌마스터</label></td>
+  <tr><td class="collapsing"><label>로아극한,포이즌마스터</label></td>
       <td><select id="loaLimit"><option>X,X</option><option>X,O</option><option>O,O</option></select></td>
   </tr>
   <tr><td><label>기타 합연산 요소</label></td>
