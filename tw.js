@@ -13,38 +13,76 @@ $('#etcSum').popup({on:'focus', position:'bottom center',content:'ex)트랜스�
 $('.stat.tooltip').popup({on:'focus', position:'bottom center',target:'#status',title:'최종스탯', content:'룬스킬, 몬스터카드, 상태이상 등을 모두 포함한 최종 스탯을 입력해주세요.'});
 $('.biho.help.icon').popup({on:'click', position:'bottom center', title:'프레쉬에어, 하드웨폰', content:'(시전자의 순수MR+마방합)/50'});
 
-$('[type="number"]').attr('value', '0').width(50);
+$('[type="number"]').width(50);
 
 //배열을 표로 나타낸다
 	for(var i=0; i<skillData.length; i++){
-$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td></td><td class=\"factorSkillResult\"></td><td>"+skillData[i].타격수+"</td><td class=\"factorCriResult\"></td><td class=\"damageResult\"></td></tr>");
+$('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td class=\"factorSkillResult\"></td><td>"+skillData[i].타격수+"</td><td class=\"factorCriResult\"></td><td class=\"damageResult\"></td></tr>");
 	}
 
 //대미지를 계산하는 함수를 선언한다
 function calDamage(){
 
 //입력값을 변수에 담는다
-var $userRune = Number($('#rune').val());
+
 var $userGakseong = Number($('#gakseong').val());
-var $userSokseong = Number($('#sokseong').val());
+localStorage.setItem('gakseong', $userGakseong);
+
+var $userGeukhan = Boolean($('#geukhan').is(':checked'));
+console.log($userGeukhan);
+localStorage.setItem('geukhan', $userGeukhan);
+
+//극한 시 각성에 따른 댐증
+if($('#geukhan').is(':checked')){
+if($('#gakseong').val() == 2){var $userGakseongPlus = 1.1}
+else if($('#gakseong').val() == 3){var $userGakseongPlus = 1.25}else{var $userGakseongPlus = 1}}else{var $userGakseongPlus = 1}
 
 if($('#muyeon').is(':checked')){var $userMuyeon = 0.2}else{var $userMuyeon = 0}
 if($('#bomu').is(':checked')){var $userBomu = 0.05}else{var $userBomu = 0}
 
+var $userRune = Number($('#rune').val());
+localStorage.setItem('rune', $userRune);
+
+var $userSokseong = Number($('#sokseong').val());
+localStorage.setItem('sokseong', $userSokseong);
+
 var $userJjil = Number($(':input#jjil').val());
+localStorage.setItem('jjil', $userJjil);
+
 var $userBegi = Number($(':input#begi').val());
+localStorage.setItem('begi', $userBegi);
+
 var $userMagong = Number($(':input#magong').val());
+localStorage.setItem('magong', $userMagong);
+
 var $userMabang = Number($(':input#mabang').val());
+localStorage.setItem('mabang', $userMabang);
 
 var $userStab = Number($(':input#stab').val());
+localStorage.setItem('stab', $userStab);
+
 var $userHack = Number($(':input#hack').val());
+localStorage.setItem('hack', $userHack);
+
 var $userInt = Number($(':input#int').val());
+localStorage.setItem('int', $userInt);
+
 var $userMr = Number($(':input#mr').val());
+localStorage.setItem('mr', $userMr);
+
 var $userDex = Number($(':input#dex').val());
+localStorage.setItem('dex', $userDex);
+
 
 var $userDamAbil = Number($(':input#damAbil').val());
+localStorage.setItem('damAbil', $userDamAbil);
+
 var $userTuguseed = Number($('#tuguseed').val());
+localStorage.setItem('tuguseed', $userTuguseed);
+
 var $userArti = Number($('#arti').val());
+localStorage.setItem('arti', $userArti);
+
 if($('#ttang').is(':checked')){var $userTtang = 0.15}else{var $userTtang = 0}
 
 if($('#gakbi').is(':checked')){var $userGakbi = 0.2}else{var $userGakbi = 0}
@@ -59,14 +97,17 @@ if($('#combo').is(':checked')){var $userCombo = 1.3}else{var $userCombo = 1}
 
 
 
-var $userFreshAir = Number($('#freshAir').val());
-var $userEtcSum = Number($('#etcSum').val());
-var $userEtcMul = Number($('#etcMul').val());
+var $userBenyamastery = Number($('#benyamastery').val());
+localStorage.setItem('benyamastery', $userBenyamastery);
 
-//극한 시 각성에 따른 댐증
-if($('#geukhan').is(':checked')){
-if($('#gakseong').val() == 2){var $userGakseongPlus = 1.1}
-else if($('#gakseong').val() == 3){var $userGakseongPlus = 1.25}else{var $userGakseongPlus = 1}}else{var $userGakseongPlus = 1}
+var $userFreshAir = Number($('#freshAir').val());
+localStorage.setItem('freshAir', $userFreshAir);
+
+var $userEtcSum = Number($('#etcSum').val());
+localStorage.setItem('etcSum', $userEtcSum);
+
+var $userEtcMul = Number($('#etcMul').val());
+localStorage.setItem('etcMul', $userEtcMul);
 
 //스킬공통 댐증요소
 var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+($userEtcSum/100);
@@ -82,9 +123,12 @@ var factorCriResult = document.querySelectorAll('.factorCriResult');
 for (var i=0; i<damageResult.length; i++){
 
 //스킬 계열에 따른 스탯공격력, 장비공격력을 계산한다
-	if(skillData[i].계열=="STAB"){
+	if(skillData[i].계열=="STAB"&&skillData[i].캐릭터!="아나이스"){
 		var factorStat = Math.floor(($userStab*2.1)+($userHack*1.08));
 		var factorArm = Math.floor(($userJjil*6.67)+($userBegi*1));}
+	else if(skillData[i].계열=="STAB"&&skillData[i].캐릭터=="아나이스"){
+		var factorStat = Math.floor(($userInt*2.1)+($userHack*1.08));
+		var factorArm = Math.floor(($userMagong*6.67)+($userBegi*1));}
 	else if(skillData[i].계열=="HACK"){
 		var factorStat = Math.floor(($userHack*2.1)+($userStab*1.08));
 		var factorArm = Math.floor(($userBegi*6.67)+($userJjil*1));}
@@ -122,9 +166,9 @@ var $userComyeon = 0;
 var $userBocom = 0;
 }
 
-if(skillData[i].마스터리_소울차지==40 && $('#benyamastery').val()=="소울차지"){var $userBenyamastery = Number(skillData[i].마스터리_소울차지)}
-else if(skillData[i].마스터리_소울커터==40 && $('#benyamastery').val()=="소울커터"){var $userBenyamastery = Number(skillData[i].마스터리_소울커터)}
-else if(skillData[i].마스터리_파워크러쉬==40 && $('#benyamastery').val()=="파워크러쉬"){var $userBenyamastery = Number(skillData[i].마스터리_파워크러쉬)}
+if(skillData[i].마스터리_소울차지==40 && $('#benyamastery').val()=="1"){var $userBenyamastery = Number(skillData[i].마스터리_소울차지)}
+else if(skillData[i].마스터리_소울커터==40 && $('#benyamastery').val()=="2"){var $userBenyamastery = Number(skillData[i].마스터리_소울커터)}
+else if(skillData[i].마스터리_파워크러쉬==40 && $('#benyamastery').val()=="3"){var $userBenyamastery = Number(skillData[i].마스터리_파워크러쉬)}
 else{var $userBenyamastery = 0}
 
 
@@ -147,18 +191,62 @@ else{var factorSok = 1+sokGap*0.00625;}
 
 //해당 셀에 스킬공격력, 크리티컬, 최종대미지를 출력한다
 factorSkillResult[i].innerHTML=factorSkill;
-factorCriResult[i].innerHTML=factorCri;
-damageResult[i].innerHTML=Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
-		}
+factorCriResult[i].innerHTML=factorCri.toFixed(2);
 
-		//반복문 끝
-	}	//대미지계산함수 끝
 
-//페이지가 준비되면 대미지계산 함수를 실행한다
+
+var damageResultMin = Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
+if(damageResultMin<0){var damageResultMin = 0};
+if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 0 && damageResultMin >7000){damageResultMin = 7000}
+else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 1 && damageResultMin >9999){damageResultMin = 9999}
+else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 2 && damageResultMin >12000){damageResultMin = 12000}
+else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 3 && damageResultMin >15000){damageResultMin = 15000}
+
+var damageResultMax = Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1+((factorStat+3*$userDex)/18)-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
+if(damageResultMax<0){var damageResultMax = 0};
+if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 0 && damageResultMax >7000){damageResultMax = 7000}
+else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 1 && damageResultMax >9999){damageResultMax = 9999}
+else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 2 && damageResultMax >12000){damageResultMax = 12000}
+else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 3 && damageResultMax >15000){damageResultMax = 15000}
+
+damageResult[i].innerHTML= damageResultMin +" ~ "+ damageResultMax;
+
+
+
+
+}//반복문 끝
+
+
+}//대미지계산함수 끝
+
+
+$(document).ready(function(){
+document.getElementById('gakseong').value = localStorage.getItem('gakseong');
+document.getElementById('rune').value = localStorage.getItem('rune');
+document.getElementById('sokseong').value = localStorage.getItem('sokseong');
+document.getElementById('jjil').value = localStorage.getItem('jjil');
+document.getElementById('begi').value = localStorage.getItem('begi');
+document.getElementById('magong').value = localStorage.getItem('magong');
+document.getElementById('mabang').value = localStorage.getItem('mabang');
+document.getElementById('stab').value = localStorage.getItem('stab');
+document.getElementById('hack').value = localStorage.getItem('hack');
+document.getElementById('int').value = localStorage.getItem('int');
+document.getElementById('mr').value = localStorage.getItem('mr');
+document.getElementById('dex').value = localStorage.getItem('dex');
+document.getElementById('damAbil').value = localStorage.getItem('damAbil');
+document.getElementById('tuguseed').value = localStorage.getItem('tuguseed');
+document.getElementById('arti').value = localStorage.getItem('arti');
+document.getElementById('benyamastery').value = localStorage.getItem('benyamastery');
+document.getElementById('freshAir').value = localStorage.getItem('freshAir');
+document.getElementById('etcSum').value = localStorage.getItem('etcSum');
+document.getElementById('etcMul').value = localStorage.getItem('etcMul');
+});
+
 $(document).ready(calDamage);
 
-//<input> 요소의 값이 변경되면 대미지계산 함수를 실행한다
+
 $(':input').on('input change', calDamage);
+
 
 //캐릭터를 선택하면, 캐릭터 필터 함수를 실행한다
 $('#chaName').on('change', function(){
@@ -198,19 +286,21 @@ calDamage();
 
 
 /*
-곰나이스 계열공식
+
 찬솔렛, 로아미니, 아나이스평타, 장판 효과 추가
+랜덤옵션 반영
+
 엑셀 파일이랑 결과값 차이 없는지 체크
 적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
 폼 유효성 검사, 이스케이핑 추가 /기합, 각비 등 각종 중복안되는것
 
 입력값 저장/불러오기 슬롯 기능
-신미/콤연에 따른 DPS 추가
 범위/사거리 입력
 
 베리어효율 제공
+신미/콤연에 따른 DPS 추가
 입력폼 인터페이스 정렬
 아티펙트 데이터 저장하여 불러오기에 따른 계산
 실험용 임의의 몬스터, 임의의 스킬 추가 기능
-랜덤옵션 반영
+곰나이스 공식연구, 곰돌이분노 효과
 */
