@@ -46,27 +46,10 @@
   </tr>
   <tr><td><label for="bocom">보급콤연</label></td>
       <td><input type="checkbox" id="bocom"></td></tr></table>
-</td><td>
-<table>
-  <tr><td><label>룬 레벨</label></td>
-      <td><input type="number" min=1 max=30 id="rune"></td>
-  </tr>
-  <tr><td><label>속성합</label></td>
-      <td><input type="number" min=0 max=999 id="sokseong"></td>
-  </tr>
-  <tr><td><label>찌르기</label></td>
-      <td><input type="number" min=0 max=999 id="jjil"></td>
-  </tr>
-  <tr><td><label>베기</label></td>
-      <td><input type="number" min=0 max=999 id="begi"></td>
-  </tr>
-  <tr><td><label>마공</label></td>
-      <td><input type="number" min=0 max=999 id="magong"></td>
-  </tr>
-  <tr><td><label>마방</label></td>
-      <td><input type="number" min=0 max=999 id="mabang"></td></tr></table>
-
 </td><td id="status">
+
+
+
 <table>
   <tr><td><label>STAB</label></td>
       <td><input type="number" min=0 max=999 id="stab" class="stat tooltip"></td>
@@ -83,24 +66,46 @@
   <tr><td><label>DEX</label></td>
       <td><input type="number" min=0 max=999 id="dex" class="stat tooltip"></td></tr></table>
 </td><td>
+
+
 <table>
-  <tr><td><label for="damAbil">댐증어빌</label></td>
-      <td><input type="number" id="damAbil" min=0 max=99></td>
+  <tr><td><label>룬 레벨<i class="help circle icon" data-content="룬 스킬 '정의의 심판' 레벨에 해당합니다"></i>
+</div></label></td>
+      <td><input type="number" min=1 max=30 id="rune"></td>
   </tr>
+  <tr><td><label>속성합</label></td>
+      <td><input type="number" min=0 max=999 id="sokseong"></td>
+  </tr>
+  <tr><td><label>찌르기</label></td>
+      <td><input type="number" min=0 max=999 id="jjil"></td>
+  </tr>
+  <tr><td><label>베기</label></td>
+      <td><input type="number" min=0 max=999 id="begi"></td>
+  </tr>
+  <tr><td><label>마공</label></td>
+      <td><input type="number" min=0 max=999 id="magong"></td>
+  </tr>
+  <tr><td><label>마방</label></td>
+      <td><input type="number" min=0 max=999 id="mabang"></td></tr></table>
+</td><td>
+<table>
   <tr><td><label for="tugu">투구어빌(극한이전)</label></td>
       <td><input type="checkbox" id="tugu"></td>
   </tr>
   <tr><td><label>투구어빌(시드)</label></td>
       <td><select id="tuguseed"><option value="0">0</option><option value="1">1</option><option value="5">5</option><option value="10">10</option></select></td>
   </tr>
-  <tr><td><label>아티펙트</label></td>
+  <tr><td><label>아펙,랜옵(계열한정)<i class="help circle icon" data-content="아티펙트(스킬사용시 특정스킬계열 증가류) 사용 시 15 // 손목 랜덤옵션 '공격력(특정 스킬계열 증가류)' 합산"></i></label></td>
       <td><input type="number" min=0 max=99 id="arti"></td>
   </tr>
-  <tr><td><label for="ttang">땅문장,진암페</label></td>
-      <td><input type="checkbox" id="ttang"></td></tr></table>
+  <tr><td><label for="ttang">아펙,랜옵(모든댐증)<i class="help circle icon" data-content="땅의문장, 眞암페르카의 무혼 사용 시 15 // 손목 랜덤옵션 '공격력(받는피해 증가류)' 합산"></i></label></td>
+      <td><input type="number" min=0 max=99 id="ttang"></td></tr>
+  <tr><td><label for="damAbil">댐증어빌리티<i class="help circle icon" data-content="무기, 손 장비 어빌리티의 N% 대미지증가 값을 더해서 입력해주세요"></i></label></td>
+      <td><input type="number" id="damAbil" min=0 max=99></td>
+  </tr></table>
 </td><td>
 <table>
-  <tr><td><label for="gakbi">각성의비약</label></td>
+  <tr><td><label for="gakbi">각성의비약<i class="help circle icon" data-content="밀라, 시벨린, 조슈아 사용 불가"></i></label></td>
       <td><input type="checkbox" id="gakbi"></td>
   </tr>
   <tr><td><label for="ssang">쌍둥이경단</label></td>
@@ -112,7 +117,7 @@
   <tr><td><label for="goeham">괴력의햄/이공간</label></td>
       <td><input type="checkbox" id="goeham"></td>
   </tr>
-  <tr><td><label for="dalbit">달빛의축복</label></td>
+  <tr><td><label for="dalbit">달빛의축복<i class="help circle icon" data-content="극한 이후 사용 불가"></i></label></td>
       <td><input type="checkbox" id="dalbit"></td>
   </tr>
   <tr><td><label for="seungja">승자의증표 소지</label></td>
@@ -141,16 +146,16 @@
   <tr><td><label>비호버프효율<i class="biho help circle icon"></i></label></td>
       <td><input type="number" min=0 max=25 id="freshAir"></td>
   </tr>
-  <tr><td><label for="chantLimit">찬솔렛 극한</label></td>
+  <tr><td><label for="chantLimit">이솔렛 찬트1 극한/노극한</label></td>
       <td><input type="checkbox" id="chantLimit"></td>
   </tr>
   <tr><td><label>로아극한,포이즌마스터</label></td>
-      <td><select id="loaLimit"><option>X,X</option><option>X,O</option><option>O,O</option></select></td>
+      <td><select id="loaLimit"><option value="1">X,X</option><option value="2">X,O</option><option value="3">O,O</option></select></td>
   </tr>
-  <tr><td><label>기타 합연산 요소</label></td>
+  <tr><td><label>기타 합연산 요소<i class="help circle icon" data-content="ex)트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></label></td>
       <td><input type="number" min=0 max=999 id="etcSum"></td>
   </tr>
-  <tr><td><label>기타 곱연산 요소</label></td>
+  <tr><td><label>기타 곱연산 요소<i class="help circle icon" data-content="해당하는 요소는 현재 없으나 테스트를 위한 입력칸입니다."></i></label></td>
       <td><input type="number" min=0 max=999 id="etcMul"></td></tr></table>
 </td></tr></table>
 
@@ -167,24 +172,35 @@
 
 
 <tr>
-<td>아나이스 평타</td>
-<td><input type="checkbox"></td>
+<td><label for="holyShout">홀리 샤우팅<i class="help circle icon" data-content="이솔렛 찬트3"></i></label></td>
+<td><input type="checkbox" id="holyShout"></td>
+
+<td><label for="overPace">오버 페이스<i class="help circle icon" data-content="비호 초록장판"></i></label></td>
+<td><input type="checkbox" id="overPace"></td>
+
+
+<td><label for="fairyLight">페어리 라이트<i class="help circle icon" data-content="아나이스 평타"></i></label></td>
+<td><input type="checkbox" id="fairyLight"></td>
+
+
+<td><label for="poisonNova">포이즌 노바<i class="help circle icon" data-content="로아미니 장판"></i></label></td>
+<td><input type="checkbox" id="poisonNova"></td>
+
+<td>러스트 아머</td>
+<td><input type="checkbox" id="rustArmour"></td>
+
+
 <td>쇠약</td>
-<td><input type="checkbox"></td>
-<td>찬솔렛3</td>
-<td><input type="checkbox"></td>
-<td>비호 초록장판</td>
-<td><input type="checkbox"></td>
-<td>러스트아머</td>
-<td><input type="checkbox"></td>
+<td><input type="checkbox" id="soeyak"></td>
+
 <td>독설</td>
-<td><input type="checkbox"></td>
-<td>로아미니 장판</td>
-<td><input type="checkbox"></td>
-<td>브레이크아머</td>
-<td><input type="checkbox"></td>
+<td><input type="checkbox" id="dokseol"></td>
+
+<td>브레이크 아머</td>
+<td><input type="checkbox" id="breakArmour"></td>
+
 <td>커스</td>
-<td><input type="checkbox"></td>
+<td><input type="checkbox" id="curse"></td>
 </tr>
 
 </table>

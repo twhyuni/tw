@@ -1,17 +1,11 @@
 $('.main.menu').visibility({type: 'fixed'});
 
-$('#hide').on('click', function(){
-$('#info').hide();	
-});
+$('#hide').on('click', function(){$('#info').hide();});
+$('#show').on('click', function(){$('#info').show();});
 
-$('#show').on('click', function(){
-$('#info').show();	
-});
-
-$('#rune').popup({on:'focus', content:'룬스킬 "정의의 심판" 레벨'});
-$('#etcSum').popup({on:'focus', position:'bottom center',content:'ex)트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등'});
+$('.help.icon').popup();
 $('.stat.tooltip').popup({on:'focus', position:'bottom center',target:'#status',title:'최종스탯', content:'룬스킬, 몬스터카드, 상태이상 등을 모두 포함한 최종 스탯을 입력해주세요.'});
-$('.biho.help.icon').popup({on:'click', position:'bottom center', title:'프레쉬에어, 하드웨폰', content:'(시전자의 순수MR+마방합)/50'});
+$('.biho.help.icon').popup({position:'bottom center', title:'프레쉬에어, 하드웨폰', content:'(시전자의 순수MR+마방합)/50'});
 
 $('[type="number"]').width(50);
 
@@ -23,13 +17,11 @@ $('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i]
 //대미지를 계산하는 함수를 선언한다
 function calDamage(){
 
-//입력값을 변수에 담는다
-
+//입력값을 변수와 로컬저장소에 담는다
 var $userGakseong = Number($('#gakseong').val());
 localStorage.setItem('gakseong', $userGakseong);
 
 var $userGeukhan = Boolean($('#geukhan').is(':checked'));
-console.log($userGeukhan);
 localStorage.setItem('geukhan', $userGeukhan);
 
 //극한 시 각성에 따른 댐증
@@ -83,7 +75,9 @@ localStorage.setItem('tuguseed', $userTuguseed);
 var $userArti = Number($('#arti').val());
 localStorage.setItem('arti', $userArti);
 
-if($('#ttang').is(':checked')){var $userTtang = 0.15}else{var $userTtang = 0}
+
+var $userTtang = Number($('#ttang').val());
+localStorage.setItem('ttang', $userTtang);
 
 if($('#gakbi').is(':checked')){var $userGakbi = 0.2}else{var $userGakbi = 0}
 if($('#ssang').is(':checked')){var $userSsang = 0.1}else{var $userSsang = 0}
@@ -95,7 +89,18 @@ if($('#seungja').is(':checked')){var $userSeungja = 0.15}else{var $userSeungja =
 if($('#sinbang').is(':checked')){var $userSinbang = 0.1}else{var $userSinbang = 0}
 if($('#combo').is(':checked')){var $userCombo = 1.3}else{var $userCombo = 1}
 
+if($('#fairyLight').is(':checked')){var $userFairyLight = 0.1}else{var $userFairyLight = 0}
+if($('#overPace').is(':checked')){var $userOverPace = 0.15}else{var $userOverPace = 0}
 
+if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="1"){var $userPoisonNova = 0.1}
+else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="2"){var $userPoisonNova = 0.2}
+else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="3"){var $userPoisonNova = 0.15}
+else{var $userPoisonNova = 0}
+
+
+
+var $userLoaLimit = Number($('#loaLimit').val());
+localStorage.setItem('loaLimit', $userLoaLimit);
 
 var $userBenyamastery = Number($('#benyamastery').val());
 localStorage.setItem('benyamastery', $userBenyamastery);
@@ -112,7 +117,7 @@ localStorage.setItem('etcMul', $userEtcMul);
 //스킬공통 댐증요소
 var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+($userEtcSum/100);
 var factorMul = $userGakseongPlus*$userCombo*(1+$userArti/100)*(1+$userFreshAir/100)*(1+$userEtcMul/100);
-var factorSum2 = 1;
+var factorSum2 = 1+$userFairyLight+$userOverPace+$userPoisonNova;
 
 //스킬공격력, 크리티컬, 대미지를 출력할 셀을 모두 찾아 배열로 정의한다
 var damageResult = document.querySelectorAll('.damageResult');
@@ -166,25 +171,23 @@ var $userComyeon = 0;
 var $userBocom = 0;
 }
 
+//벤야 마스터리 적용
 if(skillData[i].마스터리_소울차지==40 && $('#benyamastery').val()=="1"){var $userBenyamastery = Number(skillData[i].마스터리_소울차지)}
 else if(skillData[i].마스터리_소울커터==40 && $('#benyamastery').val()=="2"){var $userBenyamastery = Number(skillData[i].마스터리_소울커터)}
 else if(skillData[i].마스터리_파워크러쉬==40 && $('#benyamastery').val()=="3"){var $userBenyamastery = Number(skillData[i].마스터리_파워크러쉬)}
 else{var $userBenyamastery = 0}
 
-
-
-
 //스킬별 기본대미지계산요소
 var factorSkill = Number(skillData[i].스킬공격력)+ $userTuguseed + $userTugu + $userBenyamastery;
-var factorCri = (Number(skillData[i].크리배율)*(1+$userYakgan+$userComyeon+$userBocom))+((2/3)*($userRune)/100);
+var factorCri = Number(skillData[i].크리배율)*((1+$userYakgan+$userComyeon+$userBocom)+((2/3)*($userRune)/100));
 
 //몬스터 방어력(물공이면 물방값, 마공이면 마방값을 적용한다)
 if(skillData[i].계열=="STAB"||skillData[i].계열=="HACK"||skillData[i].계열=="STAB+HACK"){
 var factorMon = $(':input#monMulbang').val();}
 else{var factorMon = $(':input#monMabang').val();}
 
+//몬스터 속성에 따른 대미지 증가
 var sokGap = Number($userSokseong)-Number($(':input#monSokseong').val());
-
 if(sokGap<0){var factorSok = 1;}
 else if(sokGap>80){var factorSok = 1.5;}
 else{var factorSok = 1+sokGap*0.00625;}
@@ -193,33 +196,30 @@ else{var factorSok = 1+sokGap*0.00625;}
 factorSkillResult[i].innerHTML=factorSkill;
 factorCriResult[i].innerHTML=factorCri.toFixed(2);
 
-
-
-var damageResultMin = Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
+//최소대미지 계산
+var damageResultMin = Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorSum2*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
 if(damageResultMin<0){var damageResultMin = 0};
 if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 0 && damageResultMin >7000){damageResultMin = 7000}
 else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 1 && damageResultMin >9999){damageResultMin = 9999}
 else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 2 && damageResultMin >12000){damageResultMin = 12000}
 else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 3 && damageResultMin >15000){damageResultMin = 15000}
 
-var damageResultMax = Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1+((factorStat+3*$userDex)/18)-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
+//최대대미지 계산
+var damageResultMax = Math.round((factorStat+(factorArm*(1+$userMuyeon+$userBomu))+1+((factorStat+3*$userDex)/18)-factorMon)*factorSok*(factorSkill/100)*factorCri*(1+factorSum+(Number(skillData[i].댐증버프_덧셈)/100))*factorSum2*factorMul*(1+(Number(skillData[i].댐증버프_곱셈)/100)));
 if(damageResultMax<0){var damageResultMax = 0};
 if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 0 && damageResultMax >7000){damageResultMax = 7000}
 else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 1 && damageResultMax >9999){damageResultMax = 9999}
 else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 2 && damageResultMax >12000){damageResultMax = 12000}
 else if($('#geukhan').is(':checked')==false && $('#gakseong').val() == 3 && damageResultMax >15000){damageResultMax = 15000}
 
+//대미지 셀에 대미지 출력
 damageResult[i].innerHTML= damageResultMin +" ~ "+ damageResultMax;
-
-
-
 
 }//반복문 끝
 
-
 }//대미지계산함수 끝
 
-
+//페이지가 준비되면 로컬저장소에 저장된 입력값을 입력칸에 기본값으로 표시
 $(document).ready(function(){
 document.getElementById('gakseong').value = localStorage.getItem('gakseong');
 document.getElementById('rune').value = localStorage.getItem('rune');
@@ -236,71 +236,75 @@ document.getElementById('dex').value = localStorage.getItem('dex');
 document.getElementById('damAbil').value = localStorage.getItem('damAbil');
 document.getElementById('tuguseed').value = localStorage.getItem('tuguseed');
 document.getElementById('arti').value = localStorage.getItem('arti');
+document.getElementById('ttang').value = localStorage.getItem('ttang');
+document.getElementById('loaLimit').value = localStorage.getItem('loaLimit');
 document.getElementById('benyamastery').value = localStorage.getItem('benyamastery');
 document.getElementById('freshAir').value = localStorage.getItem('freshAir');
 document.getElementById('etcSum').value = localStorage.getItem('etcSum');
 document.getElementById('etcMul').value = localStorage.getItem('etcMul');
+document.getElementById('monName').value = localStorage.getItem('monName');
+document.getElementById('monMulbang').value = localStorage.getItem('monMulbang');
+document.getElementById('monMabang').value = localStorage.getItem('monMabang');
+document.getElementById('monSokseong').value = localStorage.getItem('monSokseong');
 });
 
+//페이지가 준비되면 대미지계산함수 실행
 $(document).ready(calDamage);
 
-
+//입력칸에 값을 입력하거나 내용이 바뀌면 대미지계산함수 실행
 $(':input').on('input change', calDamage);
-
-
-//캐릭터를 선택하면, 캐릭터 필터 함수를 실행한다
-$('#chaName').on('change', function(){
-
-  var chaName, filter, table, tr, td, i;
-  chaName = document.getElementById("chaName");
-  filter = chaName.value.toUpperCase();
-  table = document.getElementById("skillTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    } 
-  }
-});
 
 //몬스터 데이터를 선택지에 한줄씩 추가한다
 for(var i=0; i<monData.length; i++){
 $('#monName').append("<option value="+i+">"+monData[i].이름+"</option>")}
 
-
 //몬스터 이름을 선택하면 해당 데이터를 표시하고, 대미지계산 함수를 다시 실행한다
 $(':input#monName').on('change', function(){
-var $monMulbang=Number(monData[$(this).val()].DEF*3)+Number(monData[$(this).val()].물리방어력*3);
+localStorage.setItem('monName', $('#monName').val());
+
+
+if($('#holyShout').is(':checked')){var $holyShout = 0.9}else{var $holyShout = 1};
+
+var $monMulbang1 = $holyShout*Number(monData[$(this).val()].DEF*3);
+var $monMulbang2 = Number(monData[$(this).val()].물리방어력*3);
+var $monMulbang = $monMulbang1 + $monMulbang2;
 var $monMabang=Number(monData[$(this).val()].MR*3)+Number(monData[$(this).val()].마법방어력*3);
 var $monSokseong=Number(monData[$(this).val()].속성);
 $(':input#monMulbang').val($monMulbang);
 $(':input#monMabang').val($monMabang);
 $(':input#monSokseong').val($monSokseong);
+localStorage.setItem('monMulbang', $('#monMulbang').val());
+localStorage.setItem('monMabang', $('#monMabang').val());
+localStorage.setItem('monSokseong', $('#monSokseong').val());
+
 calDamage();
 });
 
+//캐릭터를 선택하면, 캐릭터 필터 함수를 실행
+$('#chaName').on('change', function(){
+var chaName = document.getElementById("chaName");
+var filter = chaName.value.toUpperCase();
+var table = document.getElementById("skillTable");
+var tr = table.getElementsByTagName("tr");
+for (var i = 0; i < tr.length; i++) {
+var td = tr[i].getElementsByTagName("td")[0];
+if (td) {if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";} else {
+        tr[i].style.display = "none";}}}});
 
 /*
-
-찬솔렛, 로아미니, 아나이스평타, 장판 효과 추가
-랜덤옵션 반영
-
-엑셀 파일이랑 결과값 차이 없는지 체크
-적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
+모바일 정렬 최적화
+체크여부 저장
+몬스터방어력 변경요인(찬솔렛3, 커스, 로아장판,쇠약,브레이크아머)
 폼 유효성 검사, 이스케이핑 추가 /기합, 각비 등 각종 중복안되는것
-
 입력값 저장/불러오기 슬롯 기능
+몬스터 데이터 추가, 실험용 임의의 몬스터, 임의의 스킬 추가 기능
 범위/사거리 입력
-
-베리어효율 제공
 신미/콤연에 따른 DPS 추가
-입력폼 인터페이스 정렬
 아티펙트 데이터 저장하여 불러오기에 따른 계산
-실험용 임의의 몬스터, 임의의 스킬 추가 기능
+
+적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
 곰나이스 공식연구, 곰돌이분노 효과
+베리어효율 제공
+코드효율(속도개선)
 */
