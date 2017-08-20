@@ -146,11 +146,13 @@
   <tr><td><label for="freshAir">비호버프효율<i class="biho help circle icon"></i></label></td>
       <td><input type="number" min=0 max=25 id="freshAir"></td>
   </tr>
-  <tr><td><label for="chantLimit">이솔렛 찬트1 극한/노극한</label></td>
-      <td><input type="checkbox" id="chantLimit"></td>
+  <tr><td><label for="chantLimit">홀리 라이트<i class="help circle icon" data-content="이솔렛 찬트1"></i></label></td>
+      <td>
+       <input type="checkbox" id="chantLimit">
+      </td>
   </tr>
-  <tr><td><label>로아극한,포이즌마스터</label></td>
-      <td><select id="loaLimit"><option value="1">X,X</option><option value="2">X,O</option><option value="3">O,O</option></select></td>
+  <tr><td><label>포이즌 노바<i class="help circle icon" data-content="포이즌 노바(장판)을 시전하는 로아미니(본인 또는 팀원)의 극한 여부와, ⓟ포이즌마스터의 습득 여부를 선택해주세요"></i></label></td>
+      <td><select id="loaLimit"><option value="1">해당없음</option><option value="2">극한O</option><option value="3">극한X,마스터O</option><option value="4">극한X,마스터X</option></select></td>
   </tr>
   <tr><td><label>기타 댐증 요소<i class="help circle icon" data-content="ex)트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></label></td>
       <td><input type="number" min=0 max=999 id="etcSum"></td>

@@ -74,7 +74,6 @@ localStorage.setItem('tuguseed', $userTuguseed);
 var $userArti = Number($('#arti').val());
 localStorage.setItem('arti', $userArti);
 
-
 var $userTtang = Number($('#ttang').val());
 localStorage.setItem('ttang', $userTtang);
 
@@ -87,20 +86,31 @@ if($('#seungja').is(':checked')){var $userSeungja = 0.15}else{var $userSeungja =
 
 if($('#sinbang').is(':checked')){var $userSinbang = 0.1}else{var $userSinbang = 0}
 if($('#combo').is(':checked')){var $userCombo = 1.3}else{var $userCombo = 1}
+if($('#dobal').is(':checked')){var $userDobal = 20}else{var $userDobal = 0}
+
+var $userBenyamastery = Number($('#benyamastery').val());
+localStorage.setItem('benyamastery', $userBenyamastery);
 
 if($('#fairyLight').is(':checked')){var $userFairyLight = 0.1}else{var $userFairyLight = 0}
 if($('#overPace').is(':checked')){var $userOverPace = 0.15}else{var $userOverPace = 0}
 
-if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="1"){var $userPoisonNova = 0.1}
-else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="2"){var $userPoisonNova = 0.2}
-else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="3"){var $userPoisonNova = 0.15}
+if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="2"){var $monPoisonNova = 0.1}
+else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="3"){var $monPoisonNova = 0.2}
+else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="4"){var $monPoisonNova = 0.1}
+else{var $monPoisonNova = 0}
+
+
+if($('#chantLimit').is(':checked')){var $userChantLimit = 0.1}else{var $userChantLimit = 0}
+
+
+if($('#loaLimit').val()=="2"){var $userPoisonNova = 0.1}
+else if($('#loaLimit').val()=="3"){var $userPoisonNova = 0.2}
+else if($('#loaLimit').val()=="4"){var $userPoisonNova = 0.1}
 else{var $userPoisonNova = 0}
 
 var $userLoaLimit = Number($('#loaLimit').val());
 localStorage.setItem('loaLimit', $userLoaLimit);
 
-var $userBenyamastery = Number($('#benyamastery').val());
-localStorage.setItem('benyamastery', $userBenyamastery);
 
 var $userFreshAir = Number($('#freshAir').val());
 localStorage.setItem('freshAir', $userFreshAir);
@@ -109,9 +119,9 @@ var $userEtcSum = Number($('#etcSum').val());
 localStorage.setItem('etcSum', $userEtcSum);
 
 //스킬공통 댐증요소
-var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+($userEtcSum/100);
+var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+$userPoisonNova+$userChantLimit+($userEtcSum/100);
 var factorMul = $userGakseongPlus*$userCombo*(1+$userArti/100)*(1+$userFreshAir/100);
-var factorSum2 = 1+$userFairyLight+$userOverPace+$userPoisonNova;
+var factorSum2 = 1+$userFairyLight+$userOverPace+$monPoisonNova;
 
 //스킬공격력, 크리티컬, 대미지를 출력할 셀을 모두 찾아 배열로 정의한다
 var damageResult = document.querySelectorAll('.damageResult');
@@ -124,31 +134,33 @@ for (var i=0; i<damageResult.length; i++){
 //스킬 계열에 따른 스탯공격력, 장비공격력을 계산한다
 	if(skillData[i].계열=="STAB"&&skillData[i].캐릭터!="아나이스"){
 		var factorStat = Math.floor(($userStab*2.1)+($userHack*1.08));
-		var factorArm = Math.floor(($userJjil*6.67)+($userBegi*1));}
+		var factorArm = Math.floor(($userJjil*6.67)+($userBegi*1))*(1+((skillData[i].극한전기합+$userDobal)/100))}
 	else if(skillData[i].계열=="STAB"&&skillData[i].캐릭터=="아나이스"){
 		var factorStat = Math.floor(($userInt*2.1)+($userHack*1.08));
-		var factorArm = Math.floor(($userMagong*6.67)+($userBegi*1));}
+		var factorArm = Math.floor(($userMagong*6.67)+($userBegi*1))*(1+((skillData[i].극한전기합+$userDobal)/100));}
 	else if(skillData[i].계열=="HACK"){
 		var factorStat = Math.floor(($userHack*2.1)+($userStab*1.08));
-		var factorArm = Math.floor(($userBegi*6.67)+($userJjil*1));}
+		var factorArm = Math.floor(($userBegi*6.67)+($userJjil*1))*(1+((skillData[i].극한전기합+$userDobal)/100));}
 	else if(skillData[i].계열=="STAB+HACK"){
 		var factorStat = Math.floor(($userStab*1.8)+($userHack*1.8));
-		var factorArm = Math.floor(($userJjil*4.55)+($userBegi*4.55));}
+		var factorArm = Math.floor(($userJjil*4.55)+($userBegi*4.55))*(1+((skillData[i].극한전기합+$userDobal)/100));}
 	else if(skillData[i].계열=="HACK+INT"){
 		var factorStat = Math.floor(($userHack*1.8)+($userInt*1.5));
-		var factorArm = Math.floor(($userBegi*4.55)+($userMagong*3.85));}
+		var factorArm = Math.floor(($userBegi*4.55)+($userMagong*3.85))*(1+((skillData[i].극한전기합+$userDobal)/100));}
 	else if(skillData[i].계열=="STAB+INT"){
 		var factorStat = Math.floor(($userStab*1.8)+($userInt*1.5));
-		var factorArm = Math.floor(($userJjil*4.55)+($userMagong*3.85));}
+		var factorArm = Math.floor(($userJjil*4.55)+($userMagong*3.85))*(1+((skillData[i].극한전기합+$userDobal)/100));}
 	else if(skillData[i].계열=="INT"){
 		var factorStat = Math.floor(($userInt*2.4)+($userMr*0.6));
-		var factorArm = Math.floor(($userMagong*5.95)+($userMabang*1.05));}
+		var factorArm = Math.floor(($userMagong*5.95)+($userMabang*1.05))*(1+((skillData[i].극한전기합+$userDobal)/100));}
 	else if(skillData[i].계열=="MR"){
 		var factorStat = Math.floor(($userInt*0.45)+($userMr*2.55));
-		var factorArm = Math.floor(($userMabang*5.25)+($userMagong*0.7));}
+		var factorArm = Math.floor(($userMabang*5.25)+($userMagong*0.7))*(1+((skillData[i].극한전기합+$userDobal)/100));}
 	else{
 		var factorStat = 0;
 		var factorArm = 0;
+
+		/**(1+([@[극한전기합]]/100)+IF(도발=TRUE,0.2,0))*/
 	}
 
 //극한이면 투구어빌효과없음, 약간체크시 0.2 콤연체크시 0.07 보콤체크시 0.03
