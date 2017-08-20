@@ -1,21 +1,20 @@
 $('.main.menu').visibility({type: 'fixed'});
-$('[type="checkbox"]').addClass("ui checkbox").checkbox();
 
 $('#hide').on('click', function(){$('#info').hide();});
 $('#show').on('click', function(){$('#info').show();});
 
 $('.help.icon').popup();
 $('.stat.tooltip').popup({on:'focus', position:'bottom center',target:'#status',title:'최종스탯', content:'룬스킬, 몬스터카드, 상태이상 등을 모두 포함한 최종 스탯을 입력해주세요.'});
-$('.biho.help.icon').popup({position:'bottom center', title:'프레쉬에어, 하드웨폰', content:'(시전자의 순수MR+마방합)/50'});
+$('.biho.help.icon').popup({position:'bottom center', title:'프레쉬에어, 하드웨폰', content:'(시전자의 순수MR+마방합)/50 , 최대 25'});
 
 $('[type="number"]').width(50);
 
-//배열을 표로 나타낸다
+//스킬리스트를 표로 나타낸다
 	for(var i=0; i<skillData.length; i++){
 $('#contents').append("<tr><td>"+skillData[i].캐릭터+"</td><td>"+skillData[i].스킬+"</td><td class=\"factorSkillResult\"></td><td>"+skillData[i].타격수+"</td><td class=\"factorCriResult\"></td><td class=\"damageResult\"></td></tr>");
 	}
 
-//대미지를 계산하는 함수를 선언한다
+//대미지를 계산하는 함수를 정의한다
 function calDamage(){
 
 //입력값을 변수와 로컬저장소에 담는다
@@ -66,7 +65,6 @@ localStorage.setItem('mr', $userMr);
 var $userDex = Number($(':input#dex').val());
 localStorage.setItem('dex', $userDex);
 
-
 var $userDamAbil = Number($(':input#damAbil').val());
 localStorage.setItem('damAbil', $userDamAbil);
 
@@ -98,8 +96,6 @@ else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="2"){var $userP
 else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="3"){var $userPoisonNova = 0.15}
 else{var $userPoisonNova = 0}
 
-
-
 var $userLoaLimit = Number($('#loaLimit').val());
 localStorage.setItem('loaLimit', $userLoaLimit);
 
@@ -111,7 +107,6 @@ localStorage.setItem('freshAir', $userFreshAir);
 
 var $userEtcSum = Number($('#etcSum').val());
 localStorage.setItem('etcSum', $userEtcSum);
-
 
 //스킬공통 댐증요소
 var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+($userEtcSum/100);
@@ -261,7 +256,7 @@ $(':input#monMabang').val($monMabang1+$monMabang2);
 var $monSokseong=Number(monData[$(this).val()].속성);
 $(':input#monSokseong').val($monSokseong);});
 
-//홀리샤우팅
+//몬스터 방어력 디버프류
 $('#monDebuff input').on('change', function(){
 	if($('#holyShout').is(':checked')){var $monHolyShout = 0.8}else{var $monHolyShout = 1}
 	if($('#poisonNova').is(':checked')){var $monPoisonNova = 0.9}else{var $monPoisonNova = 1}
@@ -289,5 +284,5 @@ if (td) {if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
 //페이지가 준비되면 대미지계산함수 실행
 $(document).ready(calDamage);
 
-//입력칸에 값을 입력하거나 내용이 바뀌면 대미지계산함수 실행
-$(':input').on('input change', calDamage);
+//입력칸에 값이 바뀌면 대미지계산함수 실행
+$(':input').on('change', calDamage);
