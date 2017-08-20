@@ -13,21 +13,25 @@
 </head>
 
 <body>
-  <p><h3 class="ui center aligned purple header">테일즈위버 대미지 계산기</h3></p>
+  <p><h3 class="ui center aligned purple header">테일즈위버 대미지 계산기</h3><center>
+<i class="red announcement icon" data-html="<div style='width:600px;'><center><b>이용 안내</b></center><ui class='list'>
+<li>캐릭터 정보를 입력하고 몬스터를 선택하면 스킬별 대미지(크리티컬)를 확인할 수 있습니다.</li>
+<li>같은스킬이 두 개인 것은 스킬레벨을 내렸을때 DPS 또는 HPS가 강해지는 경우입니다.</li>
+<li>몬스터 스펙 정보는 거의 확인되지 않은 정보입니다.</li>
+<li>아나이스는 소환수(AI) 자체 버그가 많고 정확한 대미지 산정방식을 알 수 없어 추측으로 작성되었습니다.</li>
+<li>밀라, 로아미니의 극한전후에 따른 댐증버프 계산식이 거의 추측으로 작성되었습니다.</li>
+<li>따라서 상당한 오차가 있을 수 있음에 책임지지 않으며 문의를 하셔도 답변이 어렵습니다.</li>
+<!--<li>DPS는 올크리 선후무딜을 전제로 한 것이며 아나이스(소환수)와 액션슬롯스킬은 제대로 된 DPS가 계산되지 않습니다.</li>--></div>"></i>  / <span id="hide"> <i class="minus circle icon"></i> </span>/<span id="show"> <i class="add circle icon"></i> </span></center>
+</p>
 
-
-  <p style="text-align: right"><a  href="http://tw-chapter.tistory.com" target="_blank" title="http://tw-chapter.tistory.com">By:[제르나]현이〃 | Last Update:2017.08.20</a></p>
+<p style="text-align: right"><a href="http://tw-chapter.tistory.com" target="_blank" title="http://tw-chapter.tistory.com">By:[제르나]현이〃 | Last Update:2017.08.20</a> </p>
 
 <div class="main menu" style="width:100%;background:white;">
 <div id="info">
-<table class="ui celled very compact striped table center aligned" style="margin: 0px;width:100%" >
 
-<tr>
-<td>
-<b>
-공격<br>캐릭터<br>정보
-</b>
-</td><td>
+<table style="width:100%" align="center"><tr><td><b>공격 캐릭터 정보</b></td><td>
+<b>피격 몬스터 정보</b></td></tr><tr><td>
+<div style="float:left;">
 <table>
   <tr><td><label>각성회차</label></td>
       <td><select id="gakseong"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></td>
@@ -46,36 +50,32 @@
   </tr>
   <tr><td><label for="bocom">보급콤연</label></td>
       <td><input type="checkbox" id="bocom"></td></tr></table>
-</td><td id="status">
-
-
-
-<table>
+</div><div style="float:left;">
+<table id="status">
   <tr><td><label>STAB</label></td>
-      <td><input type="number" min=0 max=999 id="stab" class="stat tooltip"></td>
+      <td><input type="number" min=0 max=999 id="stab"></td>
   </tr>
   <tr><td><label>HACK</label></td>
-      <td><input type="number" min=0 max=999 id="hack" class="stat tooltip"></td>
+      <td><input type="number" min=0 max=999 id="hack"></td>
   </tr>
   <tr><td><label>INT</label></td>
-      <td><input type="number" min=0 max=999 id="int" class="stat tooltip"></td>
+      <td><input type="number" min=0 max=999 id="int"></td>
   </tr>
   <tr><td><label>MR</label></td>
-      <td><input type="number" min=0 max=999 id="mr" class="stat tooltip"></td>
+      <td><input type="number" min=0 max=999 id="mr"></td>
   </tr>
   <tr><td><label>DEX</label></td>
-      <td><input type="number" min=0 max=999 id="dex" class="stat tooltip"></td></tr></table>
-</td><td>
+      <td><input type="number" min=0 max=999 id="dex"></td></tr>
+  <tr><td><label for="benyamastery">벤야 마스터리</label></td>
+      <td><select id="benyamastery">
+          <option value="0">선택</option>
+          <option value="1">소울차지</option>
+          <option value="2">소울커터</option>
+          <option value="3">파워크러쉬</option></select></td></tr></table>
+</div><div style="float: left;">
 
 
 <table>
-  <tr><td><label>룬 레벨<i class="help circle icon" data-content="룬 스킬 '정의의 심판' 레벨에 해당합니다"></i>
-</div></label></td>
-      <td><input type="number" min=1 max=30 id="rune"></td>
-  </tr>
-  <tr><td><label>속성합</label></td>
-      <td><input type="number" min=0 max=999 id="sokseong"></td>
-  </tr>
   <tr><td><label>찌르기</label></td>
       <td><input type="number" min=0 max=999 id="jjil"></td>
   </tr>
@@ -86,8 +86,17 @@
       <td><input type="number" min=0 max=999 id="magong"></td>
   </tr>
   <tr><td><label>마방</label></td>
-      <td><input type="number" min=0 max=999 id="mabang"></td></tr></table>
-</td><td>
+      <td><input type="number" min=0 max=999 id="mabang"></td>
+  </tr>
+  <tr><td><label>룬 레벨<i class="help circle icon" data-content="룬 스킬 '정의의 심판' 레벨에 해당합니다"></i></label></td>
+      <td><input type="number" min=1 max=30 id="rune"></td>
+  </tr>
+  <tr><td><label>속성합</label></td>
+      <td><input type="number" min=0 max=999 id="sokseong"></td>
+  </tr></table>
+
+
+</div><div style="float: left;">
 <table>
   <tr><td><label for="tugu">투구어빌(극한이전)</label></td>
       <td><input type="checkbox" id="tugu"></td>
@@ -99,11 +108,15 @@
       <td><input type="number" min=0 max=99 id="arti"></td>
   </tr>
   <tr><td><label for="ttang">아펙,랜옵(모든댐증)<i class="help circle icon" data-content="땅의문장, 眞암페르카의 무혼 사용 시 15 // 손목 랜덤옵션 '공격력(받는피해 증가류)' 합산"></i></label></td>
-      <td><input type="number" min=0 max=99 id="ttang"></td></tr>
-  <tr><td><label for="damAbil">댐증어빌리티<i class="help circle icon" data-content="무기, 손 장비 어빌리티의 N% 대미지증가 값을 더해서 입력해주세요"></i></label></td>
+      <td><input type="number" min=0 max=99 id="ttang"></td>
+  </tr>
+  <tr><td><label for="damAbil">댐증어빌리티<i class="help circle icon" data-content="무기, 손 장비 어빌리티의 대미지증가 %값을 더해서 입력해주세요"></i></label></td>
       <td><input type="number" id="damAbil" min=0 max=99></td>
-  </tr></table>
-</td><td>
+  </tr>
+  <tr><td><label>기타 댐증 요소<i class="help circle icon" data-html="<b>ex)</b>트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></label></td>
+      <td><input type="number" min=0 max=999 id="etcSum"></td></tr></table>
+
+</div><div style="float: left;">
 <table>
   <tr><td><label for="gakbi">각성의비약<i class="help circle icon" data-content="밀라, 시벨린, 조슈아 사용 불가"></i></label></td>
       <td><input type="checkbox" id="gakbi"></td>
@@ -122,7 +135,7 @@
   </tr>
   <tr><td><label for="seungja">승자의증표 소지</label></td>
       <td><input type="checkbox" id="seungja"></td></tr></table>
-</td><td>
+</div><div style="float: left;">
 <table>
   <tr><td><label for="sinbang">신의방패</label></td>
       <td><input type="checkbox" id="sinbang"></td>
@@ -136,77 +149,84 @@
   <tr><td><label for="combo">콤보사용</label></td>
       <td><input type="checkbox" id="combo"></td>
   </tr>
-  <tr><td><label for="dobal">도발</label></td>
-      <td><input type="checkbox" id="dobal"></td>
+  <tr><td><label>포이즌 노바<i class="help circle icon" data-content="포이즌 노바(장판)을 시전하는 로아미니(본인 또는 팀원)의 극한 여부와, ⓟ포이즌마스터의 습득 여부를 선택해주세요"></i></label></td>
+      <td><select id="loaLimit">
+          <option value="1">해당없음</option>
+          <option value="2">극한O</option>
+          <option value="3">극한X,마스터O</option>
+          <option value="4">극한X,마스터X</option></select></td>
   </tr>
-  <tr><td><label for="benyamastery">벤야 마스터리 1단계</label></td>
-      <td><select id="benyamastery"><option value="0">선택</option><option value="1">소울차지</option><option value="2">소울커터</option><option value="3">파워크러쉬</option></select></td></tr></table>
-</td><td>
-<table>
-  <tr><td><label for="freshAir">비호버프효율<i class="biho help circle icon"></i></label></td>
+  <tr><td><label for="freshAir">비호버프효율<i class="help circle icon" data-html="<b>프레쉬에어, 하드웨폰</b><br>(시전자의 순수MR+마방합)/50<br>최대 25"></i></label></td>
       <td><input type="number" min=0 max=25 id="freshAir"></td>
   </tr>
   <tr><td><label for="chantLimit">홀리 라이트<i class="help circle icon" data-content="이솔렛 찬트1"></i></label></td>
-      <td>
-       <input type="checkbox" id="chantLimit">
-      </td>
+      <td><input type="checkbox" id="chantLimit"></td></tr></table>
+
+</div>
+</td><td>
+
+<div style="float: left;">
+<table>
+  <tr><td><label for="monName">이름</label></td>
+      <td><select id=monName><option>선택</option></select></td>
   </tr>
-  <tr><td><label>포이즌 노바<i class="help circle icon" data-content="포이즌 노바(장판)을 시전하는 로아미니(본인 또는 팀원)의 극한 여부와, ⓟ포이즌마스터의 습득 여부를 선택해주세요"></i></label></td>
-      <td><select id="loaLimit"><option value="1">해당없음</option><option value="2">극한O</option><option value="3">극한X,마스터O</option><option value="4">극한X,마스터X</option></select></td>
+  <tr><td><label for="monMulbang">물리방어력</label></td>
+      <td><input type="number" id="monMulbang"></td>
   </tr>
-  <tr><td><label>기타 댐증 요소<i class="help circle icon" data-content="ex)트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></label></td>
-      <td><input type="number" min=0 max=999 id="etcSum"></td>
-  </tr></table>
-</td></tr></table>
+  <tr><td><label for="monMabang">마법방어력</label></td>
+      <td><input type="number" id="monMabang"></td>
+  </tr>
+  <tr><td><label for="monSokseong">속성</label></td>
+      <td><input type="number" id="monSokseong"></td></tr></table>
 
+</div><div style="float: left;">
 
-<table class="ui celled very compact striped table center aligned" style="margin: 0px;width:100%"  >
-
-<tr>
-<td rowspan="2" style="width:80px"><b>피격<br>몬스터<br>정보</b></td>
-<td colspan="18"><table><tr><td>이름</td><td><select id=monName><option>선택</option></select></td><td>
-물리방어력</td><td><input type="number" id="monMulbang"></td><td>
-마법방어력</td><td><input type="number" id="monMabang"></td><td>
-속성</td><td><input type="number" id="monSokseong"></td></tr></table></td>
-</tr>
-
-
+<table>
 <tr id="monDebuff">
 <td><label for="holyShout">홀리 샤우팅<i class="help circle icon" data-content="이솔렛 찬트3"></i></label></td>
 <td><input type="checkbox" id="holyShout"></td>
-
+</tr><tr>
 <td><label for="overPace">오버 페이스<i class="help circle icon" data-content="비호 초록장판"></i></label></td>
 <td><input type="checkbox" id="overPace"></td>
-
+</tr><tr>
 
 <td><label for="fairyLight">페어리 라이트<i class="help circle icon" data-content="아나이스 평타"></i></label></td>
 <td><input type="checkbox" id="fairyLight"></td>
-
+</tr><tr>
 
 <td><label for="poisonNova">포이즌 노바<i class="help circle icon" data-content="로아미니 장판"></i></label></td>
 <td><input type="checkbox" id="poisonNova"></td>
-
+</tr><tr>
 <td><label for="rustArmour">러스트 아머</label></td>
 <td><input type="checkbox" id="rustArmour"></td>
-
+</tr></table>
+</div><div style="float: left;">
+<table><tr>
 <td><label for="soeyak">쇠약</label></td>
 <td><input type="checkbox" id="soeyak"></td>
-
+</tr><tr>
 <td><label for="dokseol">독설</label></td>
 <td><input type="checkbox" id="dokseol"></td>
-
+</tr><tr>
 <td><label for="breakArmour">브레이크 아머</label></td>
 <td><input type="checkbox" id="breakArmour"></td>
-
+</tr><tr>
 <td><label for="curse">커스</label></td>
 <td><input type="checkbox" id="curse"></td>
+</tr><tr>
+<td><label for="dobal">도발</label></td>
+      <td><input type="checkbox" id="dobal"></td>
 </tr>
 
 </table>
-</div>
+
+
+</div></td></tr></table>
+
+
 <table width=100% class="ui celled very compact table center aligned" style="margin: 0px;width:100%" >
   <thead>
-  <tr><td colspan="7">  <span id="hide"> <i class="minus circle icon"></i> </span>/<span id="show"> <i class="add circle icon"></i> </span></td></tr>
+  <tr><td colspan="7"></td></tr>
     <tr>
       <th width=15%>
       캐릭터

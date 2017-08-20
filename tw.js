@@ -1,12 +1,16 @@
+
 $('.main.menu').visibility({type: 'fixed'});
 
 $('#hide').on('click', function(){$('#info').hide();});
 $('#show').on('click', function(){$('#info').show();});
 
+$('.announcement.icon').popup({on:'click', position:'bottom center', setFluidWidth:false});
 $('.help.icon').popup();
-$('.stat.tooltip').popup({on:'focus', position:'bottom center',target:'#status',title:'최종스탯', content:'룬스킬, 몬스터카드, 상태이상 등을 모두 포함한 최종 스탯을 입력해주세요.'});
-$('.biho.help.icon').popup({position:'bottom center', title:'프레쉬에어, 하드웨폰', content:'(시전자의 순수MR+마방합)/50 , 최대 25'});
+$('#status input').popup({on:'focus', position:'bottom center',target:'#status',title:'최종스탯', content:'룬스킬, 몬스터카드, 상태이상 등을 모두 포함한 최종 스탯을 입력해주세요.'});
 
+$('[type="checkbox"]').addClass("ui checkbox");
+$('#info table').addClass("ui collapsing table celled striped very compact center aligned");
+$('#info td').height(21);
 $('[type="number"]').width(50);
 
 //스킬리스트를 표로 나타낸다
@@ -103,7 +107,7 @@ else{var $monPoisonNova = 0}
 if($('#chantLimit').is(':checked')){var $userChantLimit = 0.1}else{var $userChantLimit = 0}
 
 
-if($('#loaLimit').val()=="2"){var $userPoisonNova = 0.1}
+if($('#loaLimit').val()=="2"){var $userPoisonNova = 0.15}
 else if($('#loaLimit').val()=="3"){var $userPoisonNova = 0.2}
 else if($('#loaLimit').val()=="4"){var $userPoisonNova = 0.1}
 else{var $userPoisonNova = 0}
