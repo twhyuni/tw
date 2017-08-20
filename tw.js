@@ -1,4 +1,5 @@
 $('.main.menu').visibility({type: 'fixed'});
+$('[type="checkbox"]').addClass("ui checkbox").checkbox();
 
 $('#hide').on('click', function(){$('#info').hide();});
 $('#show').on('click', function(){$('#info').show();});
@@ -111,12 +112,10 @@ localStorage.setItem('freshAir', $userFreshAir);
 var $userEtcSum = Number($('#etcSum').val());
 localStorage.setItem('etcSum', $userEtcSum);
 
-var $userEtcMul = Number($('#etcMul').val());
-localStorage.setItem('etcMul', $userEtcMul);
 
 //스킬공통 댐증요소
 var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+($userEtcSum/100);
-var factorMul = $userGakseongPlus*$userCombo*(1+$userArti/100)*(1+$userFreshAir/100)*(1+$userEtcMul/100);
+var factorMul = $userGakseongPlus*$userCombo*(1+$userArti/100)*(1+$userFreshAir/100);
 var factorSum2 = 1+$userFairyLight+$userOverPace+$userPoisonNova;
 
 //스킬공격력, 크리티컬, 대미지를 출력할 셀을 모두 찾아 배열로 정의한다
@@ -241,44 +240,39 @@ document.getElementById('loaLimit').value = localStorage.getItem('loaLimit');
 document.getElementById('benyamastery').value = localStorage.getItem('benyamastery');
 document.getElementById('freshAir').value = localStorage.getItem('freshAir');
 document.getElementById('etcSum').value = localStorage.getItem('etcSum');
-document.getElementById('etcMul').value = localStorage.getItem('etcMul');
-document.getElementById('monName').value = localStorage.getItem('monName');
-document.getElementById('monMulbang').value = localStorage.getItem('monMulbang');
-document.getElementById('monMabang').value = localStorage.getItem('monMabang');
-document.getElementById('monSokseong').value = localStorage.getItem('monSokseong');
 });
 
-//페이지가 준비되면 대미지계산함수 실행
-$(document).ready(calDamage);
-
-//입력칸에 값을 입력하거나 내용이 바뀌면 대미지계산함수 실행
-$(':input').on('input change', calDamage);
 
 //몬스터 데이터를 선택지에 한줄씩 추가한다
 for(var i=0; i<monData.length; i++){
 $('#monName').append("<option value="+i+">"+monData[i].이름+"</option>")}
 
-//몬스터 이름을 선택하면 해당 데이터를 표시하고, 대미지계산 함수를 다시 실행한다
+//몬스터 이름을 선택하면 해당 데이터를 표시한다
 $(':input#monName').on('change', function(){
-localStorage.setItem('monName', $('#monName').val());
 
+$monMulbang1 = Number(monData[$(this).val()].DEF*3);
+$monMulbang2 = Number(monData[$(this).val()].물리방어력*3);
+$(':input#monMulbang').val($monMulbang1+$monMulbang2);
 
-if($('#holyShout').is(':checked')){var $holyShout = 0.9}else{var $holyShout = 1};
+$monMabang1 = Number(monData[$(this).val()].MR*3)
+$monMabang2 = Number(monData[$(this).val()].마법방어력*3);
+$(':input#monMabang').val($monMabang1+$monMabang2);
 
-var $monMulbang1 = $holyShout*Number(monData[$(this).val()].DEF*3);
-var $monMulbang2 = Number(monData[$(this).val()].물리방어력*3);
-var $monMulbang = $monMulbang1 + $monMulbang2;
-var $monMabang=Number(monData[$(this).val()].MR*3)+Number(monData[$(this).val()].마법방어력*3);
 var $monSokseong=Number(monData[$(this).val()].속성);
-$(':input#monMulbang').val($monMulbang);
-$(':input#monMabang').val($monMabang);
-$(':input#monSokseong').val($monSokseong);
-localStorage.setItem('monMulbang', $('#monMulbang').val());
-localStorage.setItem('monMabang', $('#monMabang').val());
-localStorage.setItem('monSokseong', $('#monSokseong').val());
+$(':input#monSokseong').val($monSokseong);});
 
-calDamage();
-});
+//홀리샤우팅
+$('#monDebuff input').on('change', function(){
+	if($('#holyShout').is(':checked')){var $monHolyShout = 0.8}else{var $monHolyShout = 1}
+	if($('#poisonNova').is(':checked')){var $monPoisonNova = 0.9}else{var $monPoisonNova = 1}
+	if($('#soeyak').is(':checked')){var $monSoeyak = 0.8}else{var $monSoeyak = 1}
+	if($('#dokseol').is(':checked')){var $monDokseol = 0.8}else{var $monDokseol = 1}
+	if($('#curse').is(':checked')){var $monCurse = 0.8}else{var $monCurse = 1}
+	if($('#rustArmour').is(':checked')){var $monRustArmour = 0.8}else{var $monRustArmour = 1}
+	if($('#breakArmour').is(':checked')){var $monBreakArmour = 0.8}else{var $monBreakArmour = 1}
+
+	$(':input#monMulbang').val($monMulbang1*$monHolyShout*$monSoeyak*$monDokseol*$monCurse*$monRustArmour*$monBreakArmour+$monMulbang2);
+	$(':input#monMabang').val($monMabang1*$monHolyShout*$monSoeyak*$monDokseol*$monCurse+$monMabang2)});
 
 //캐릭터를 선택하면, 캐릭터 필터 함수를 실행
 $('#chaName').on('change', function(){
@@ -292,19 +286,8 @@ if (td) {if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";} else {
         tr[i].style.display = "none";}}}});
 
-/*
-모바일 정렬 최적화
-체크여부 저장
-몬스터방어력 변경요인(찬솔렛3, 커스, 로아장판,쇠약,브레이크아머)
-폼 유효성 검사, 이스케이핑 추가 /기합, 각비 등 각종 중복안되는것
-입력값 저장/불러오기 슬롯 기능
-몬스터 데이터 추가, 실험용 임의의 몬스터, 임의의 스킬 추가 기능
-범위/사거리 입력
-신미/콤연에 따른 DPS 추가
-아티펙트 데이터 저장하여 불러오기에 따른 계산
+//페이지가 준비되면 대미지계산함수 실행
+$(document).ready(calDamage);
 
-적용효과수치 테스트 : 신방, 아나이스정의의심판, 커스, 러스트아머, 브레이크아머, 로아미니 등등
-곰나이스 공식연구, 곰돌이분노 효과
-베리어효율 제공
-코드효율(속도개선)
-*/
+//입력칸에 값을 입력하거나 내용이 바뀌면 대미지계산함수 실행
+$(':input').on('input change', calDamage);

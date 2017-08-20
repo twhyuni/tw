@@ -16,7 +16,7 @@
   <p><h3 class="ui center aligned purple header">테일즈위버 대미지 계산기</h3></p>
 
 
-  <p style="text-align: right"><a  href="http://tw-chapter.tistory.com" target="_blank" title="http://tw-chapter.tistory.com">By:[제르나]현이〃 | Last Update:2017.08.12</a></p>
+  <p style="text-align: right"><a  href="http://tw-chapter.tistory.com" target="_blank" title="http://tw-chapter.tistory.com">By:[제르나]현이〃 | Last Update:2017.08.20</a></p>
 
 <div class="main menu" style="width:100%;background:white;">
 <div id="info">
@@ -139,12 +139,12 @@
   <tr><td><label for="dobal">도발</label></td>
       <td><input type="checkbox" id="dobal"></td>
   </tr>
-  <tr><td><label>벤야 마스터리 1단계</label></td>
+  <tr><td><label for="benyamastery">벤야 마스터리 1단계</label></td>
       <td><select id="benyamastery"><option value="0">선택</option><option value="1">소울차지</option><option value="2">소울커터</option><option value="3">파워크러쉬</option></select></td></tr></table>
 </td><td>
 <table>
-  <tr><td><label>비호버프효율<i class="biho help circle icon"></i></label></td>
-      <td><input type="number" min=0 max=25 id="freshAir"></td>
+  <tr><td><label for="freshAir">비호버프효율<i class="biho help circle icon"></i></label></td>
+      <td><input type="number" min=0 max=25 id="freshAir" class="ui form fields"></td>
   </tr>
   <tr><td><label for="chantLimit">이솔렛 찬트1 극한/노극한</label></td>
       <td><input type="checkbox" id="chantLimit"></td>
@@ -152,11 +152,9 @@
   <tr><td><label>로아극한,포이즌마스터</label></td>
       <td><select id="loaLimit"><option value="1">X,X</option><option value="2">X,O</option><option value="3">O,O</option></select></td>
   </tr>
-  <tr><td><label>기타 합연산 요소<i class="help circle icon" data-content="ex)트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></label></td>
+  <tr><td><label>기타 댐증 요소<i class="help circle icon" data-content="ex)트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></label></td>
       <td><input type="number" min=0 max=999 id="etcSum"></td>
-  </tr>
-  <tr><td><label>기타 곱연산 요소<i class="help circle icon" data-content="해당하는 요소는 현재 없으나 테스트를 위한 입력칸입니다."></i></label></td>
-      <td><input type="number" min=0 max=999 id="etcMul"></td></tr></table>
+  </tr></table>
 </td></tr></table>
 
 
@@ -171,7 +169,7 @@
 </tr>
 
 
-<tr>
+<tr id="monDebuff">
 <td><label for="holyShout">홀리 샤우팅<i class="help circle icon" data-content="이솔렛 찬트3"></i></label></td>
 <td><input type="checkbox" id="holyShout"></td>
 
@@ -186,20 +184,19 @@
 <td><label for="poisonNova">포이즌 노바<i class="help circle icon" data-content="로아미니 장판"></i></label></td>
 <td><input type="checkbox" id="poisonNova"></td>
 
-<td>러스트 아머</td>
+<td><label for="rustArmour">러스트 아머</label></td>
 <td><input type="checkbox" id="rustArmour"></td>
 
-
-<td>쇠약</td>
+<td><label for="soeyak">쇠약</label></td>
 <td><input type="checkbox" id="soeyak"></td>
 
-<td>독설</td>
+<td><label for="dokseol">독설</label></td>
 <td><input type="checkbox" id="dokseol"></td>
 
-<td>브레이크 아머</td>
+<td><label for="breakArmour">브레이크 아머</label></td>
 <td><input type="checkbox" id="breakArmour"></td>
 
-<td>커스</td>
+<td><label for="curse">커스</label></td>
 <td><input type="checkbox" id="curse"></td>
 </tr>
 
