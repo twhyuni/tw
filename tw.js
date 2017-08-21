@@ -351,7 +351,7 @@ if (td) {if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";} else {
         tr[i].style.display = "none";}}}});
 
-//페이지가 준비되면 대미지계산함수, 몬스터요인 함수 실행
+//페이지가 준비되면 대미지계산함수 실행
 $(document).ready(calDamage);
 
 //입력칸에 값이 바뀌면 대미지계산함수 실행
