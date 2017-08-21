@@ -4,7 +4,7 @@ $('.main.menu').visibility({type: 'fixed'});
 $('#hide').on('click', function(){$('#info').hide();});
 $('#show').on('click', function(){$('#info').show();});
 
-$('.announcement.icon').popup({on:'click', position:'bottom center', setFluidWidth:false});
+$('.announcement.icon').popup({on:'click', position:'bottom center'});
 $('.help.icon').popup();
 $('#status input').popup({on:'focus', position:'bottom center',target:'#status',title:'최종스탯', content:'룬스킬, 몬스터카드, 상태이상 등을 모두 포함한 최종 스탯을 입력해주세요.'});
 
@@ -34,7 +34,9 @@ if($('#gakseong').val() == 2){var $userGakseongPlus = 1.1}
 else if($('#gakseong').val() == 3){var $userGakseongPlus = 1.25}else{var $userGakseongPlus = 1}}else{var $userGakseongPlus = 1}
 
 if($('#muyeon').is(':checked')){var $userMuyeon = 0.2}else{var $userMuyeon = 0}
+localStorage.setItem('muyeon', $('#muyeon').is(':checked'));
 if($('#bomu').is(':checked')){var $userBomu = 0.05}else{var $userBomu = 0}
+localStorage.setItem('bomu', $('#bomu').is(':checked'));
 
 var $userRune = Number($('#rune').val());
 localStorage.setItem('rune', $userRune);
@@ -82,29 +84,49 @@ var $userTtang = Number($('#ttang').val());
 localStorage.setItem('ttang', $userTtang);
 
 if($('#gakbi').is(':checked')){var $userGakbi = 0.2}else{var $userGakbi = 0}
+localStorage.setItem('gakbi', $('#gakbi').is(':checked'));
+
 if($('#ssang').is(':checked')){var $userSsang = 0.1}else{var $userSsang = 0}
+localStorage.setItem('ssang', $('#ssang').is(':checked'));
+
 if($('#goemul').is(':checked')){var $userGoemul = 0.1}else{var $userGoemul = 0}
+localStorage.setItem('goemul', $('#goemul').is(':checked'));
+
 if($('#goeham').is(':checked')){var $userGoeham = 0.1}else{var $userGoeham = 0}
+localStorage.setItem('goeham', $('#goeham').is(':checked'));
+
 if($('#dalbit').is(':checked')){var $userDalbit = 1}else{var $userDalbit = 0}
+localStorage.setItem('dalbit', $('#dalbit').is(':checked'));
+
 if($('#seungja').is(':checked')){var $userSeungja = 0.15}else{var $userSeungja = 0}
+localStorage.setItem('seungja', $('#seungja').is(':checked'));
 
 if($('#sinbang').is(':checked')){var $userSinbang = 0.1}else{var $userSinbang = 0}
+localStorage.setItem('sinbang', $('#sinbang').is(':checked'));
+
 if($('#combo').is(':checked')){var $userCombo = 1.3}else{var $userCombo = 1}
+localStorage.setItem('combo', $('#combo').is(':checked'));
+
 if($('#dobal').is(':checked')){var $userDobal = 20}else{var $userDobal = 0}
+localStorage.setItem('dobal', $('#dobal').is(':checked'));
 
 var $userBenyamastery = Number($('#benyamastery').val());
 localStorage.setItem('benyamastery', $userBenyamastery);
 
 if($('#fairyLight').is(':checked')){var $userFairyLight = 0.1}else{var $userFairyLight = 0}
+localStorage.setItem('fairyLight', $('#fairyLight').is(':checked'));
+
 if($('#overPace').is(':checked')){var $userOverPace = 0.15}else{var $userOverPace = 0}
+localStorage.setItem('overPace', $('#overPace').is(':checked'));
 
 if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="2"){var $monPoisonNova = 0.1}
 else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="3"){var $monPoisonNova = 0.2}
 else if($('#poisonNova').is(':checked') && $('#loaLimit').val()=="4"){var $monPoisonNova = 0.1}
 else{var $monPoisonNova = 0}
+localStorage.setItem('poisonNova', $('#poisonNova').is(':checked'));
 
-
-if($('#chantLimit').is(':checked')){var $userChantLimit = 0.1}else{var $userChantLimit = 0}
+if($('#holyLight').is(':checked')){var $userholyLight = 0.1}else{var $userholyLight = 0}
+localStorage.setItem('holyLight', $('#holyLight').is(':checked'));
 
 
 if($('#loaLimit').val()=="2"){var $userPoisonNova = 0.15}
@@ -123,7 +145,7 @@ var $userEtcSum = Number($('#etcSum').val());
 localStorage.setItem('etcSum', $userEtcSum);
 
 //스킬공통 댐증요소
-var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+$userPoisonNova+$userChantLimit+($userEtcSum/100);
+var factorSum = ($userDamAbil/100)+$userSinbang+$userGakbi+$userSsang+$userGoemul+$userGoeham+$userSeungja+$userTtang+$userDalbit+$userPoisonNova+$userholyLight+($userEtcSum/100);
 var factorMul = $userGakseongPlus*$userCombo*(1+$userArti/100)*(1+$userFreshAir/100);
 var factorSum2 = 1+$userFairyLight+$userOverPace+$monPoisonNova;
 
@@ -173,6 +195,7 @@ if($('#geukhan').is(':checked')){
 var $userTugu=0;
 if($('#yakgan').is(':checked')){var $userYakgan = 0.2}else{var $userYakgan = 0};
 if($('#comyeon').is(':checked')){var $userComyeon = 0.07}else{var $userComyeon = 0};
+
 if($('#bocom').is(':checked')){var $userBocom = 0.03}else{var $userBocom = 0};
 }else{
 if($('#tugu').is(':checked')){var $userTugu = Number(skillData[i].투구어빌효과); var $userTuguseed=0}else{var $userTugu = 0};
@@ -180,6 +203,14 @@ if($('#yakgan').is(':checked')){var $userYakgan = 0.5}else{var $userYakgan = 0};
 var $userComyeon = 0;
 var $userBocom = 0;
 }
+
+localStorage.setItem('yakgan', $('#yakgan').is(':checked'));
+
+localStorage.setItem('comyeon', $('#comyeon').is(':checked'));
+
+localStorage.setItem('bocom', $('#bocom').is(':checked'));
+localStorage.setItem('tugu', $('#tugu').is(':checked'));
+
 
 //벤야 마스터리 적용
 if(skillData[i].마스터리_소울차지==40 && $('#benyamastery').val()=="1"){var $userBenyamastery = Number(skillData[i].마스터리_소울차지)}
@@ -251,6 +282,27 @@ document.getElementById('loaLimit').value = localStorage.getItem('loaLimit');
 document.getElementById('benyamastery').value = localStorage.getItem('benyamastery');
 document.getElementById('freshAir').value = localStorage.getItem('freshAir');
 document.getElementById('etcSum').value = localStorage.getItem('etcSum');
+if(localStorage.getItem('geukhan')=="true"){$('#geukhan').attr('checked','true')}
+if(localStorage.getItem('muyeon')=="true"){$('#muyeon').attr('checked','true')}
+if(localStorage.getItem('bomu')=="true"){$('#bomu').attr('checked','true')}
+if(localStorage.getItem('comyeon')=="true"){$('#comyeon').attr('checked','true')}
+if(localStorage.getItem('bocom')=="true"){$('#bocom').attr('checked','true')}
+if(localStorage.getItem('tugu')=="true"){$('#tugu').attr('checked','true')}
+if(localStorage.getItem('gakbi')=="true"){$('#gakbi').attr('checked','true')}
+if(localStorage.getItem('ssang')=="true"){$('#ssang').attr('checked','true')}
+if(localStorage.getItem('goemul')=="true"){$('#goemul').attr('checked','true')}
+if(localStorage.getItem('goeham')=="true"){$('#goeham').attr('checked','true')}
+if(localStorage.getItem('dalbit')=="true"){$('#dalbit').attr('checked','true')}
+if(localStorage.getItem('seungja')=="true"){$('#seungja').attr('checked','true')}
+if(localStorage.getItem('sinbang')=="true"){$('#sinbang').attr('checked','true')}
+if(localStorage.getItem('yakgan')=="true"){$('#yakgan').attr('checked','true')}
+if(localStorage.getItem('combo')=="true"){$('#combo').attr('checked','true')}
+if(localStorage.getItem('holyLight')=="true"){$('#holyLight').attr('checked','true')}
+if(localStorage.getItem('overPace')=="true"){$('#overPace').attr('checked','true')}
+if(localStorage.getItem('fairyLight')=="true"){$('#fairyLight').attr('checked','true')}
+if(localStorage.getItem('poisonNova')=="true"){$('#poisonNova').attr('checked','true')}
+if(localStorage.getItem('dobal')=="true"){$('#dobal').attr('checked','true')}
+
 });
 
 
@@ -259,7 +311,8 @@ for(var i=0; i<monData.length; i++){
 $('#monName').append("<option value="+i+">"+monData[i].이름+"</option>")}
 
 //몬스터 이름을 선택하면 해당 데이터를 표시한다
-$(':input#monName').on('change', function(){
+
+$(':input#monName').on('change input', function(){
 
 $monMulbang1 = Number(monData[$(this).val()].DEF*3);
 $monMulbang2 = Number(monData[$(this).val()].물리방어력*3);
@@ -270,7 +323,8 @@ $monMabang2 = Number(monData[$(this).val()].마법방어력*3);
 $(':input#monMabang').val($monMabang1+$monMabang2);
 
 var $monSokseong=Number(monData[$(this).val()].속성);
-$(':input#monSokseong').val($monSokseong);});
+$(':input#monSokseong').val($monSokseong);})
+
 
 //몬스터 방어력 디버프류
 $('#monDebuff input').on('change', function(){
@@ -297,7 +351,7 @@ if (td) {if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";} else {
         tr[i].style.display = "none";}}}});
 
-//페이지가 준비되면 대미지계산함수 실행
+//페이지가 준비되면 대미지계산함수, 몬스터요인 함수 실행
 $(document).ready(calDamage);
 
 //입력칸에 값이 바뀌면 대미지계산함수 실행
