@@ -9,7 +9,6 @@
     table{width:100%;margin: 0px}
     input{padding:0px;}
   </style>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -52,7 +51,7 @@
 <b>피격 몬스터 정보</b></td></tr><tr><td>
 <div style="float:left;">
 <table>
-  <tr><td><label>각성회차</label></td>
+  <tr><td><label for="gakseong">각성회차</label></td>
       <td><select id="gakseong"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></td>
   </tr>
   <tr><td><label for="geukhan">극한</label></td>
@@ -71,19 +70,19 @@
       <td><input type="checkbox" id="bocom"></td></tr></table>
 </div><div style="float:left;">
 <table id="status">
-  <tr><td><label>STAB</label></td>
+  <tr><td><label for="stab">STAB</label></td>
       <td><input type="number" min=0 max=999 id="stab"></td>
   </tr>
-  <tr><td><label>HACK</label></td>
+  <tr><td><label for="hack">HACK</label></td>
       <td><input type="number" min=0 max=999 id="hack"></td>
   </tr>
-  <tr><td><label>INT</label></td>
+  <tr><td><label for="int">INT</label></td>
       <td><input type="number" min=0 max=999 id="int"></td>
   </tr>
-  <tr><td><label>MR</label></td>
+  <tr><td><label for="mr">MR</label></td>
       <td><input type="number" min=0 max=999 id="mr"></td>
   </tr>
-  <tr><td><label>DEX</label></td>
+  <tr><td><label for="dex">DEX</label></td>
       <td><input type="number" min=0 max=999 id="dex"></td></tr>
   <tr><td><label for="benyamastery">벤야 마스터리</label></td>
       <td><select id="benyamastery">
@@ -95,22 +94,22 @@
 
 
 <table>
-  <tr><td><label>찌르기</label></td>
+  <tr><td><label for="jjil">찌르기</label></td>
       <td><input type="number" min=0 max=999 id="jjil"></td>
   </tr>
-  <tr><td><label>베기</label></td>
+  <tr><td><label for="begi">베기</label></td>
       <td><input type="number" min=0 max=999 id="begi"></td>
   </tr>
-  <tr><td><label>마공</label></td>
+  <tr><td><label for="magong">마공</label></td>
       <td><input type="number" min=0 max=999 id="magong"></td>
   </tr>
-  <tr><td><label>마방</label></td>
+  <tr><td><label for="mabang">마방</label></td>
       <td><input type="number" min=0 max=999 id="mabang"></td>
   </tr>
-  <tr><td><label>룬 레벨<i class="help circle icon" data-content="룬 스킬 '정의의 심판' 레벨에 해당합니다"></i></label></td>
+  <tr><td><label for="rune">룬 레벨</label><i class="help circle icon" data-content="룬 스킬 '정의의 심판' 레벨에 해당합니다"></i></td>
       <td><input type="number" min=1 max=30 id="rune"></td>
   </tr>
-  <tr><td><label>속성합</label></td>
+  <tr><td><label for="sokseong">속성합</label></td>
       <td><input type="number" min=0 max=999 id="sokseong"></td>
   </tr></table>
 
@@ -120,24 +119,24 @@
   <tr><td><label for="tugu">투구어빌(극한이전)</label></td>
       <td><input type="checkbox" id="tugu"></td>
   </tr>
-  <tr><td><label>투구어빌(시드)</label></td>
+  <tr><td><label for="tuguseed">투구어빌(시드)</label></td>
       <td><select id="tuguseed"><option value="0">0</option><option value="1">1</option><option value="5">5</option><option value="10">10</option></select></td>
   </tr>
-  <tr><td><label>아펙,랜옵(계열한정)<i class="help circle icon" data-content="아티펙트(스킬사용시 특정스킬계열 증가류) 사용 시 15 // 손목 랜덤옵션 '공격력(특정 스킬계열 증가류)' 합산"></i></label></td>
+  <tr><td><label for="arti">아펙,랜옵(계열한정)</label><i class="help circle icon" data-content="아티펙트(스킬사용시 특정스킬계열 증가류) 사용 시 15 // 손목 랜덤옵션 '공격력(특정 스킬계열 증가류)' 합산"></i></td>
       <td><input type="number" min=0 max=99 id="arti"></td>
   </tr>
-  <tr><td><label for="ttang">아펙,랜옵(모든댐증)<i class="help circle icon" data-content="땅의문장, 眞암페르카의 무혼 사용 시 15 // 손목 랜덤옵션 '공격력(받는피해 증가류)' 합산"></i></label></td>
+  <tr><td><label for="ttang">아펙,랜옵(모든댐증)</label><i class="help circle icon" data-content="땅의문장, 眞암페르카의 무혼 사용 시 15 // 손목 랜덤옵션 '공격력(받는피해 증가류)' 합산"></i></td>
       <td><input type="number" min=0 max=99 id="ttang"></td>
   </tr>
-  <tr><td><label for="damAbil">댐증어빌리티<i class="help circle icon" data-content="무기, 손 장비 어빌리티의 대미지증가 %값을 더해서 입력해주세요"></i></label></td>
+  <tr><td><label for="damAbil">댐증어빌리티</label><i class="help circle icon" data-content="무기, 손 장비 어빌리티의 대미지증가 %값을 더해서 입력해주세요"></i></td>
       <td><input type="number" id="damAbil" min=0 max=99></td>
   </tr>
-  <tr><td><label>기타 댐증 요소<i class="help circle icon" data-html="<b>ex)</b>트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></label></td>
+  <tr><td><label for="etcSum">기타 댐증 요소</label><i class="help circle icon" data-html="<b>ex)</b>트랜스스피릿 사용시 100 입력, 고르고니아 천년빙아 사용시 10 입력 등등"></i></td>
       <td><input type="number" min=0 max=999 id="etcSum"></td></tr></table>
 
 </div><div style="float: left;">
 <table>
-  <tr><td><label for="gakbi">각성의비약<i class="help circle icon" data-content="밀라, 시벨린, 조슈아 사용 불가"></i></label></td>
+  <tr><td><label for="gakbi">각성의비약</label><i class="help circle icon" data-content="밀라, 시벨린, 조슈아 사용 불가"></i></td>
       <td><input type="checkbox" id="gakbi"></td>
   </tr>
   <tr><td><label for="ssang">쌍둥이경단</label></td>
@@ -149,7 +148,7 @@
   <tr><td><label for="goeham">괴력의햄/이공간</label></td>
       <td><input type="checkbox" id="goeham"></td>
   </tr>
-  <tr><td><label for="dalbit">달빛의축복<i class="help circle icon" data-content="극한 이후 사용 불가"></i></label></td>
+  <tr><td><label for="dalbit">달빛의축복</label><i class="help circle icon" data-content="극한 이후 사용 불가"></i></td>
       <td><input type="checkbox" id="dalbit"></td>
   </tr>
   <tr><td><label for="seungja">승자의증표 소지</label></td>
@@ -168,17 +167,17 @@
   <tr><td><label for="combo">콤보사용</label></td>
       <td><input type="checkbox" id="combo"></td>
   </tr>
-  <tr><td><label>포이즌 노바<i class="help circle icon" data-content="포이즌 노바(장판)을 시전하는 로아미니(본인 또는 팀원)의 극한 여부와, ⓟ포이즌마스터의 습득 여부를 선택해주세요"></i></label></td>
+  <tr><td><label for="loaLimit">포이즌 노바</label><i class="help circle icon" data-content="포이즌 노바(장판)을 시전하는 로아미니(본인 또는 팀원)의 극한 여부와, ⓟ포이즌마스터의 습득 여부를 선택해주세요"></i></td>
       <td><select id="loaLimit">
           <option value="1">해당없음</option>
           <option value="2">극한O</option>
           <option value="3">극한X,마스터O</option>
           <option value="4">극한X,마스터X</option></select></td>
   </tr>
-  <tr><td><label for="freshAir">비호버프효율<i class="help circle icon" data-html="<b>프레쉬에어, 하드웨폰</b><br>(시전자의 순수MR+마방합)/50<br>최대 25"></i></label></td>
+  <tr><td><label for="freshAir">비호버프효율</label><i class="help circle icon" data-html="<b>프레쉬에어, 하드웨폰</b><br>(시전자의 순수MR+마방합)/50<br>최대 25"></i></td>
       <td><input type="number" min=0 max=25 id="freshAir"></td>
   </tr>
-  <tr><td><label for="holyLight">홀리 라이트<i class="help circle icon" data-content="이솔렛 찬트1"></i></label></td>
+  <tr><td><label for="holyLight">홀리 라이트</label><i class="help circle icon" data-content="이솔렛 찬트1"></i></td>
       <td><input type="checkbox" id="holyLight"></td></tr></table>
 
 </div>
@@ -202,18 +201,18 @@
 
 <table>
 <tr>
-<td><label for="holyShout">홀리 샤우팅<i class="help circle icon" data-content="이솔렛 찬트3"></i></label></td>
+<td><label for="holyShout">홀리 샤우팅</label><i class="help circle icon" data-content="이솔렛 찬트3"></i></td>
 <td><input type="checkbox" id="holyShout"></td>
 </tr><tr>
-<td><label for="overPace">오버 페이스<i class="help circle icon" data-content="비호 초록장판"></i></label></td>
+<td><label for="overPace">오버 페이스</label><i class="help circle icon" data-content="비호 초록장판"></i></td>
 <td><input type="checkbox" id="overPace"></td>
 </tr><tr>
 
-<td><label for="fairyLight">페어리 라이트<i class="help circle icon" data-content="아나이스 평타"></i></label></td>
+<td><label for="fairyLight">페어리 라이트</label><i class="help circle icon" data-content="아나이스 평타"></i></td>
 <td><input type="checkbox" id="fairyLight"></td>
 </tr><tr>
 
-<td><label for="poisonNova">포이즌 노바<i class="help circle icon" data-content="로아미니 장판"></i></label></td>
+<td><label for="poisonNova">포이즌 노바</label><i class="help circle icon" data-content="로아미니 장판"></i></td>
 <td><input type="checkbox" id="poisonNova"></td>
 </tr><tr>
 <td><label for="dobal">도발</label></td>
