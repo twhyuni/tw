@@ -25,7 +25,7 @@
 
  var setting = new Array();
 
- var setting=[JSON.parse(localStorage.setting)];
+ var setting=JSON.parse(localStorage.setting);
 
  $("#save").on('click', function(){
   var newText = $('#settingId').val();
