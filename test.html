@@ -23,7 +23,7 @@
 <script type="text/javascript">
 
 
- var setting = []
+ var setting = new Array();
  var setting=JSON.parse(localStorage.setting);
 
  $("#save").on('click', function(){
@@ -39,8 +39,6 @@
     localStorage.setting=JSON.stringify(setting);
   }else{
     alert('중복')}
-  $('#settingId').val('');
-  $('#settingVal').val('');
  });
 
  $("#list").on('change', function(){
@@ -59,9 +57,11 @@
   var xx = setting.indexOf(x);
   setting.splice(xx,1);
   localStorage.setting=JSON.stringify(setting);
+  $('#settingId').val('');
+  $('#settingVal').val('');
 })
 
- 
+
  setting.forEach(function (list) {
   $('#list').prepend('<option>' + list.이름 + '</option>');
  });
