@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+      <h1 id="header">List</h1>
+
+      <select id="list">
+      </select>
+        <input type="text" id="settingId" placeholder="저장할 이름" />
+        <input type="text" id="settingVal" placeholder="저장할 점수" />
+        <input type="submit" id="save" value="추가" />
+        <input type="button" id="delete" value="삭제" />
+
+
+      
+<script src="jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+
+  if(localStorage.setting==undefined) { localStorage.setting="{}"}
+  var setting = []
+  var setting=JSON.parse(localStorage.setting);
+
+setting.forEach(function (n) {
+    $('#list').prepend('<option>' + n.이름 + '</option>');
+    });
+
+
+  $("#save").on('click', function(){
+    var newText = $('#settingId').val();
+    var newVal = $('#settingVal').val();
+    $('#list').prepend('<option>' + newText + '</option>');
+    setting.push({"이름":newText,"점수":newVal});
+    localStorage.setting=JSON.stringify(setting);
+    $('#settingId').val('');
+    $('#settingVal').val('');
+  });
+
+
+
+
+
+  $("#list").on('change', function(){
+
+    var selectedId = $(this).val();
+    var savedValue = setting.find(function (n) {
+    return n.이름 == selectedId;
+
+  });
+  $('#settingId').val(savedValue.이름);
+  $('#settingVal').val(savedValue.점수);
+
+  })
+
+});
+
+</script>
+
+</body>
+</html>
