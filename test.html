@@ -23,13 +23,12 @@
 <script type="text/javascript">
 $(function() {
 
-  if(localStorage.setting==undefined) { localStorage.setting="{}"}
   var setting = []
   var setting=JSON.parse(localStorage.setting);
 
-setting.forEach(function (n) {
-    $('#list').prepend('<option>' + n.이름 + '</option>');
-    });
+  setting.forEach(function (n) {
+  $('#list').prepend('<option>' + n.이름 + '</option>');
+  });
 
 
   $("#save").on('click', function(){
@@ -58,6 +57,15 @@ setting.forEach(function (n) {
 
   })
 
+/*
+  $("#delete").on('click', function(){
+    var delId = $('#list:selected').val();
+
+    $('#list').prepend('<option>' + newText + '</option>');
+    setting.push({"이름":newText,"점수":newVal});
+    localStorage.setting=JSON.stringify(setting);
+  });
+*/
 });
 
 </script>
