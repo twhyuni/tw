@@ -22,10 +22,16 @@
 
 <script type="text/javascript">
 
-if(localStorage.setting===undefined){localStorage.setting=[]}
- var setting = new Array();
 
- var setting=JSON.parse(localStorage.setting);
+ var setting = []
+
+if(localStorage.setting==undefined){localStorage.setting="{}"}
+  else{
+ var setting=JSON.parse(localStorage.setting);}
+
+ setting.forEach(function (list) {
+  $('#list').prepend('<option>' + list.이름 + '</option>');
+ });
 
  $("#save").on('click', function(){
   var newText = $('#settingId').val();
@@ -62,10 +68,6 @@ if(localStorage.setting===undefined){localStorage.setting=[]}
   $('#settingVal').val('');
 })
 
-
- setting.forEach(function (list) {
-  $('#list').prepend('<option>' + list.이름 + '</option>');
- });
 
 </script>
 </body>
