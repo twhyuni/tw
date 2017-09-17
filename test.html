@@ -26,10 +26,6 @@
  var setting = []
  var setting=JSON.parse(localStorage.setting);
 
- setting.forEach(function (list) {
-  $('#list').prepend('<option>' + list.이름 + '</option>');
- });
-
  $("#save").on('click', function(){
   var newText = $('#settingId').val();
   var newVal = $('#settingVal').val();
@@ -64,6 +60,12 @@
   setting.splice(xx,1);
   localStorage.setting=JSON.stringify(setting);
 })
+
+ 
+ setting.forEach(function (list) {
+  $('#list').prepend('<option>' + list.이름 + '</option>');
+ });
+
 </script>
 </body>
 </html>
