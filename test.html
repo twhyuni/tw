@@ -21,54 +21,49 @@
 <script src="jquery-3.2.1.min.js"></script>
 
 <script type="text/javascript">
-$(function() {
-
-  var setting = []
-  var setting=JSON.parse(localStorage.setting);
-
-  setting.forEach(function (n) {
-  $('#list').prepend('<option>' + n.이름 + '</option>');
-  });
 
 
-  $("#save").on('click', function(){
-    var newText = $('#settingId').val();
-    var newVal = $('#settingVal').val();
+ var setting = []
+ var setting=JSON.parse(localStorage.setting);
+
+ setting.forEach(function (list) {
+  $('#list').prepend('<option>' + list.이름 + '</option>');
+ });
+
+ $("#save").on('click', function(){
+  var newText = $('#settingId').val();
+  var newVal = $('#settingVal').val();
+
+  var x = setting.find(function (list) {
+   return list.이름 == $('#settingId').val()})
+
+  if(x == undefined){
     $('#list').prepend('<option>' + newText + '</option>');
     setting.push({"이름":newText,"점수":newVal});
     localStorage.setting=JSON.stringify(setting);
-    $('#settingId').val('');
-    $('#settingVal').val('');
+  }else{
+    alert('중복')}
+  $('#settingId').val('');
+  $('#settingVal').val('');
+ });
+
+ $("#list").on('change', function(){
+  var selectedId = $(this).val();
+  var savedValue = setting.find(function (list) {
+   return list.이름 == selectedId;
   });
 
-
-
-
-
-  $("#list").on('change', function(){
-
-    var selectedId = $(this).val();
-    var savedValue = setting.find(function (n) {
-    return n.이름 == selectedId;
-
-  });
   $('#settingId').val(savedValue.이름);
   $('#settingVal').val(savedValue.점수);
+ })
 
-  })
-
-/*
-  $("#delete").on('click', function(){
-    var delId = $('#list:selected').val();
-
-    $('#list').prepend('<option>' + newText + '</option>');
-    setting.push({"이름":newText,"점수":newVal});
-    localStorage.setting=JSON.stringify(setting);
-  });
-*/
-});
-
+ $("#delete").on('click', function(){
+  var x = setting.find(function (list) {
+   return list.이름 == $('#settingId').val()})
+  var xx = setting.indexOf(x);
+  setting.splice(xx,1);
+  localStorage.setting=JSON.stringify(setting);
+})
 </script>
-
 </body>
 </html>
